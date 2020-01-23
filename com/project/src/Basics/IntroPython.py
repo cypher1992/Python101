@@ -64,3 +64,26 @@ hello = "Hello " + nbk
 hello2 = "Hello %s" % nbk
 print(hello)
 print(hello2)
+
+# -------------------
+
+""" SubString String """
+
+word = "String" + 'A'
+word1 = "String"[3] #returns i
+word2 = "String"[3:5] #returns in
+word3 = "String"[3:] #returns ing
+word4 = "String"[:3] #returns str
+word = word5 = "String2"
+wordI = word[:3] + "I" + word[4:] # challenge change i to I
+
+print(word)
+print(word1)
+print(word2)
+print(word3)
+print(word4)
+print(wordI)
+
+
+
+
