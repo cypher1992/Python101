@@ -76,6 +76,9 @@ word3 = "String"[3:] #returns ing
 word4 = "String"[:3] #returns str
 word = word5 = "String2"
 wordI = word[:3] + "I" + word[4:] # challenge change i to I
+numStr = '0123456789'
+evenDigits = numStr[::2]
+lengthEvenDigits = len(evenDigits)
 
 print(word)
 print(word1)
@@ -83,6 +86,21 @@ print(word2)
 print(word3)
 print(word4)
 print(wordI)
+print(evenDigits)
+print(lengthEvenDigits)
+
+# -------------------
+
+""" List """
+
+
+list = ['A','B','C']
+
+
+print(list)
+
+for a in list:
+    print(a)
 
 
 
