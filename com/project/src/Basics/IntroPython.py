@@ -89,18 +89,7 @@ print(wordI)
 print(evenDigits)
 print(lengthEvenDigits)
 
-# -------------------
 
-""" List """
-
-
-list = ['A','B','C']
-
-
-print(list)
-
-for a in list:
-    print(a)
 
 
 
