@@ -56,7 +56,7 @@ print("Value should equal 2 =",value2)
 
 print("-------------------------------------")
 
-print(list)
+print(list, type(list))
 print(listAB)
 print(list3Times)
 
