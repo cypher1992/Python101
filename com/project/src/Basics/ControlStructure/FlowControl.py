@@ -20,6 +20,7 @@ if input[0] == 'automobile':
         output = [ford]
     else:
         output = [pontiac]
-
+else:
+    output = "Toss an error"
 
 print(output)
