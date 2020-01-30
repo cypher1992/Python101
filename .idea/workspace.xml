@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/Basics/ControlStructure/FlowControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/Basics/ControlStructure/FlowControl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/Basics/ControlStructure/WhileLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/Basics/ControlStructure/WhileLoop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/Basics/ControlStructure/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/Basics/ControlStructure/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/Basics/IntroPython.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/Basics/IntroPython.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/Basics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/Basics/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/DataStructure/ListCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/DataStructure/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/project/src/PythonStuc/Basics/ControlStructure/BreakAndContinueControl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -62,6 +64,7 @@
         <option value="$PROJECT_DIR$/com/project/src/Basics/ControlStructure/WhileLoop.py" />
         <option value="$PROJECT_DIR$/com/project/src/PythonStuc/Basics/ControlStructure/ForLoop.py" />
         <option value="$PROJECT_DIR$/com/project/src/PythonStuc/Basics/ControlStructure/BreakAndContinueControl.py" />
+        <option value="$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py" />
       </list>
     </option>
   </component>
@@ -125,8 +128,7 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="PythonStuc" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="ControlStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python101" type="b2602c69:ProjectViewProjectNode" />
@@ -160,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BreakAndContinueControl">
+  <component name="RunManager" selected="Python.ListCollection (1)">
     <configuration name="BreakAndContinueControl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ListCollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ListCollection (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +234,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/project/src/DataStructure/ListCollection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ListCollection (1)" />
         <item itemvalue="Python.BreakAndContinueControl" />
         <item itemvalue="Python.ForLoop" />
         <item itemvalue="Python.WhileLoop" />
         <item itemvalue="Python.FlowControl" />
-        <item itemvalue="Python.ListCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -334,13 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/project/src/PythonStuc/Basics/IntroPython.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -357,8 +352,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/project/src/PythonStuc/Basics/ControlStructure/BreakAndContinueControl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/project/src/PythonStuc/DataStructure/ListCollection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -50,6 +50,18 @@ print("Nested List: ",list2)
 list2[1].append(4)
 print("Nested List ",list2)
 
+#insert(position,indexItem)
+list = [1,2,4,5]
+insertList = list.insert(1,200)
+print(insertList)
+
+#remove(firstInstanceOfValue)
+list = [1,2,3,4,5,6,5]
+rm = list.remove(5)
+print(rm)
+
+
+
 #Get index 1 of the nested list
 value2 = list2[1][1]
 print("Value should equal 2 =",value2)
