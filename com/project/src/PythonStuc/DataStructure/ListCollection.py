@@ -60,6 +60,19 @@ list = [1,2,3,4,5,6,5]
 rm = list.remove(5)
 print(rm)
 
+#pop()
+# pop list.pop(num) => return list with the position removed
+# pop list.pop() => last element is removed and return the previous
+
+list = ['A','B','C','D']
+
+list.pop(0)
+list.pop()
+print("ListPop", list)
+
+#clear() => clears all Elements in the list
+clearList = list.clear()
+print(clearList)
 
 
 #Get index 1 of the nested list
