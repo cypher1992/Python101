@@ -64,8 +64,6 @@ print(rm)
 # pop list.pop(num) => return list with the position removed
 # pop list.pop() => last element is removed and return the previous
 
-list = ['A','B','C','D']
-
 list.pop(0)
 list.pop()
 print("ListPop", list)
@@ -74,6 +72,17 @@ print("ListPop", list)
 clearList = list.clear()
 print(clearList)
 
+#index('searchValue',Start,End)
+# searchValue -> looking for specified value
+# start -> startOfSubList
+# end ->  endOfSubList
+list = ["Alpha","Beta","Charlie","Delta","Alpha","Echo"]
+
+
+alphasubSearch = list.index("Alpha",4,5)
+print("AlphaSub:", alphasubSearch)
+betaSearch = list.index("Beta",)
+print("Beta:", betaSearch)
 
 #Get index 1 of the nested list
 value2 = list2[1][1]
