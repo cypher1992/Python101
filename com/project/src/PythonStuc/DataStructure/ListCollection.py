@@ -50,10 +50,10 @@ print("Nested List: ",list2)
 list2[1].append(4)
 print("Nested List ",list2)
 
-#insert(position,indexItem)
+#insert(position,indexItem) | NOTE: returns None Only modify Mutable data strucuture
 list = [1,2,4,5]
-insertList = list.insert(1,200)
-print(insertList)
+list.insert(1,200)
+print("Insert List Func ",list)
 
 #remove(firstInstanceOfValue)
 list = [1,2,3,4,5,6,5]
@@ -88,7 +88,7 @@ print("Beta:", betaSearch)
 alphaCount = list.count("Alpha")
 print("Number of instance for Alpha: ",alphaCount)
 
-#sort(key=none,reverse=false) => sort list
+#sort(key=none,reverse=false) => sort list | NOTE: returns None Only modify Mutable data strucuture
 list.sort(key=len)
 print("Sort List with Len Key: ", list)
 
@@ -99,9 +99,13 @@ print("Sorted List: ", sortedList)
 sortedWithKey = sorted(list,key=len)
 print("Sorted List with Key",sortedWithKey)
 
-#reverse() => reverse a list
+#reverse() => reverse a list | NOTE: returns None Only modify Mutable data strucuture
 sortedWithKey.reverse()
 print("Reverse Sorted List with Key", sortedWithKey)
+
+#copy() => copy a list
+listCopy = list.copy()
+print("Copy List", listCopy)
 
 #Get index 1 of the nested list
 value2 = list2[1][1]
