@@ -84,6 +84,25 @@ print("AlphaSub:", alphasubSearch)
 betaSearch = list.index("Beta",)
 print("Beta:", betaSearch)
 
+#COUNT => number of time a object appears in the list
+alphaCount = list.count("Alpha")
+print("Number of instance for Alpha: ",alphaCount)
+
+#sort(key=none,reverse=false) => sort list
+list.sort(key=len)
+print("Sort List with Len Key: ", list)
+
+#sorted(list,key=none) => sortlist
+alphaBet = ['A','Z','E']
+sortedList = sorted(alphaBet)
+print("Sorted List: ", sortedList)
+sortedWithKey = sorted(list,key=len)
+print("Sorted List with Key",sortedWithKey)
+
+#reverse() => reverse a list
+sortedWithKey.reverse()
+print("Reverse Sorted List with Key", sortedWithKey)
+
 #Get index 1 of the nested list
 value2 = list2[1][1]
 print("Value should equal 2 =",value2)
