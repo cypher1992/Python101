@@ -45,4 +45,13 @@ print(filterVec)
 
 # create a function that double an integer
 def square(x):
-    x ** 2
+    return x ** 2
+
+applyFunc = []
+for x in vec:
+    applyFunc.append(square(x))
+
+print(applyFunc)
+
+applyFunc = [square(x) for x in vec]
+print(applyFunc)
