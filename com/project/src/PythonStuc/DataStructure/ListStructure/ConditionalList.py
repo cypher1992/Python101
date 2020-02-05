@@ -55,3 +55,14 @@ print(applyFunc)
 
 applyFunc = [square(x) for x in vec]
 print(applyFunc)
+
+# call a function that creates a tuples list
+
+tupleList = []
+for x in range(1,10):
+    tupleList.append((x,x**2))
+
+print("TupleList ", tupleList)
+
+tupleList2 = [(x,x**2) for x in range(1,10)]
+print("TupleList 2", tupleList2)
