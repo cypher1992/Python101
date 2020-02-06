@@ -79,3 +79,20 @@ transcribeRows = [[row[i] for row in matrix] for i in range(4)]
 print("Tanscribe",transcribeRows)
 matrixList = [tuple(zip(*matrix))]
 print("List: ", matrixList)
+
+# Del Statement
+# remove an item based on index
+# remove items from a list using slice or the entire list
+
+list = [1,2,3,4,5,6,6]
+length = len(list) - 1
+del list[length]
+print("6 removes", list)
+
+del list[:3]
+print("List index remove 0 to 2",list)
+
+del list[:]
+print("Empty List", list)
+
+
