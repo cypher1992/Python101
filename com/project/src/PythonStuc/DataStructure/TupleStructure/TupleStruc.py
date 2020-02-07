@@ -15,4 +15,10 @@ tupleWithout = 1,
 
 print("Have the same length ",len(tupleWith), len(tupleWithout))
 
+# Unpacking Tuple and packing tuples
 
+tup3 = (1,2,4)
+x,y,z = tup3
+
+print("Tup3", tup3)
+print("XYZ",x,y,z)
