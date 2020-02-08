@@ -10,7 +10,7 @@ print(dic)
 # del Blackstone
 del dic['BlackStone']
 print(dic)
-# keys and values 
+# keys and values
 keys = dic.keys()
 values = dic.values()
 

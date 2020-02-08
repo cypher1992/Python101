@@ -32,6 +32,7 @@ def ma_crossover_handling(context, data):
     log.info(hist.head())
     sma_200 = hist.mean()
     sma_50 = hist[-50:].mean()
+    sma_7 = hist[-7:].mean()
 
 #Returns all open orders.
     open_orders = get_open_orders()
@@ -44,7 +45,7 @@ def ma_crossover_handling(context, data):
 
 #If no open orders, short sell 100% of portfolio of AAPL &
 #execute scheduled market order if SMA 50 is greater than SMA 15.
-    elif sma_200 > sma_50:
+    elif sma_200 > sma_7:
         if context.aapl not in open_orders:
             order_target_percent(context.aapl, -1.0)
 
