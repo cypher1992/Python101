@@ -29,5 +29,6 @@ tup4 = ("Bank of America", "BAC")
 StockList = [tup1,tup2,tup3,tup4]
 dicStockTup = dict(StockList)
 
+# Select Stock BAC from Dictionary
 print("Dic StockList Conversion: ", dicStockTup)
 print(dicStockTup['Bank of America'])
