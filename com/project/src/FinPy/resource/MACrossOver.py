@@ -45,7 +45,7 @@ def ma_crossover_handling(context, data):
         frequency='1d'
     )
     
- #Generating log of average of last 50 daily price data points.
+ #Generating log of average of last 200 daily price data points.
     log.info(applHist.head())
     sma_200 = applHist.mean()
     sma_50 = applHist[-50:].mean()
