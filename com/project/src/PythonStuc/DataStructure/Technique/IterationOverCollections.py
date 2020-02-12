@@ -17,3 +17,10 @@ corp = ["Blackstone","Apple","JP Morgan"]
 for s,c in zip(stocks, corp):
     print("Stock: ", s , "\nCorp: ", c)
 
+# Looping Backward
+for n in range(0,100,5):
+    print(n, end=' ')
+
+print()
+for i in reversed(range(0,100,5)):
+    print(i, end =" ")
