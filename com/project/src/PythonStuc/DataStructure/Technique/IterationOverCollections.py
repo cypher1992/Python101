@@ -24,3 +24,8 @@ for n in range(0,100,5):
 print()
 for i in reversed(range(0,100,5)):
     print(i, end =" ")
+print()
+
+# Looping over sorted index
+for i in sorted(set(stocks)):
+    print(i)
