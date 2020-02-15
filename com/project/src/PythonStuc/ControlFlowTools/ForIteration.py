@@ -8,3 +8,7 @@ for w in words:
 
 list = list(range(0,10,2))
 print(list)
+
+# range with step argument
+for i in range(0,100, 10):
+    print(i)
