@@ -12,3 +12,9 @@ print(list)
 # range with step argument
 for i in range(0,100, 10):
     print(i)
+
+# iterate over indices use range() or len()
+
+sentence = ["Mary", "Had","a","little", "Lamb"]
+for i in range(len(sentence)):
+    print(i , sentence[i])
