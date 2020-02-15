@@ -6,8 +6,8 @@ for w in words:
 
 # generate list with range
 
-list = list(range(0,10,2))
-print(list)
+list2 = list(range(0,10,2))
+print(list2)
 
 # range with step argument
 for i in range(0,100, 10):
@@ -18,3 +18,12 @@ for i in range(0,100, 10):
 sentence = ["Mary", "Had","a","little", "Lamb"]
 for i in range(len(sentence)):
     print(i , sentence[i])
+
+# Using Enumerate for looping technique
+#Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object. This enumerate object can then be used directly in for loops or be converted into a list of tuples using list() method.
+list1 = ["Hi","Ho","Hi","Ho","Hi","Ho"]
+obj1 = enumerate(list1)
+print("Type of obj1", type(obj1))
+print(list(obj1))
+
+print(range(0,5))
