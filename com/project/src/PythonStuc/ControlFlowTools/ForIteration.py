@@ -47,3 +47,20 @@ for n in range(2,10):
             break
     else:
         print("Is a prime num: ", n)
+
+# continue statement continues iteration:
+
+for i in range(0,10,1):
+    if(i%2 == 0):
+        print("Is even: ", i)
+        continue
+    else:
+        print("Num: ", i)
+
+# Pass statement - used as satifies condition
+# Pass as a placeholder: used as a filler for conditional or functions
+class Something:
+    pass
+
+
+
