@@ -24,6 +24,26 @@ for i in range(len(sentence)):
 list1 = ["Hi","Ho","Hi","Ho","Hi","Ho"]
 obj1 = enumerate(list1)
 print("Type of obj1", type(obj1))
+print(obj1)
 print(list(obj1))
 
 print(range(0,5))
+
+# range act as a list but it isnt. It is an iterable object.
+# Assignment create a list between 150 to 200 with intervals of 10
+
+assignmentList = list(range(150,201,10))
+print(assignmentList)
+
+#Break and Continue Statement with Else clause on loops
+# Break - breaks out of the innermost loop
+# continue - continues to the next iteration of loop
+# prime number sceanrio
+
+for n in range(2,10):
+    for i in range(2,n):
+        if(n%i == 0):
+            print("Num: ", n)
+            break
+    else:
+        print("Is a prime num: ", n)
