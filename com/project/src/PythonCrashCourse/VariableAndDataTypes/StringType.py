@@ -28,5 +28,8 @@ print("'"+stringwithwhitespace.lstrip()+"'")
 # strObject.lstrip formats string to remove white spaces
 print("'"+stringwithwhitespace.strip()+"'")
 
+#Using object.str() wraps a number into a string
+age = 100
+print(name.title() + " is " + str(age))
 
 
