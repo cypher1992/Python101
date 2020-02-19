@@ -66,6 +66,16 @@ print(tempStock.reverse())
 size = len(stocks)
 print(size)
 
+#Loop with for by index
+for stock in stocks:
+    print(stock)
 
+# range function range(start,end-1,increament)
+# end parameter will stop the loop at size - 1 e.g. size 5 ; end at 4
+print("--------")
+for i in range(0,len(stocks)):
+    print(stocks[i])
+
+listNums = list(range(0,3))
 
 
