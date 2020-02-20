@@ -76,6 +76,23 @@ print("--------")
 for i in range(0,len(stocks)):
     print(stocks[i])
 
-listNums = list(range(0,3))
+listNums = list(range(0,3,1))
 
+#Stats for List
+#Max
+print(max(listNums))
+#Min
+print(min(listNums))
+#sum
+print(sum(listNums))
+
+#Slicing List
+# show me up everything between start to end
+# expected 0 - 2
+print(listNums[:])
+#range between to selected indices not including ending index
+# expected 1
+print(listNums[1:2])
+# slicing can also take negative slice
+print(listNums[-102:])
 
