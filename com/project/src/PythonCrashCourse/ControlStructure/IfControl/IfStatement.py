@@ -1,6 +1,6 @@
 # If Statement
 
-stocks = ["BX","JPM","C","BAC","SG","GS","WFC"]
+stocks = ["BX","JPM","C","BAC","SG","GS","WFC","MTTX","AIG","RBS"]
 stocks2 = ["MTTX","LHHMQ","AIG","RBS"]
 stock3 = []
 # if elif else -> chaining
@@ -19,6 +19,14 @@ for stock in stocks:
         print("Investment Bank")
     elif (stock == "BX"):
         print("Private Equity")
+
+#Checking if List1 is in List2
+
+for stock in stocks2:
+    if stock in stocks:
+        print("%s Survived outcome of 2007",stock)
+    else:
+        print("%s Bankrupted",stock)
 
 # check if list is empty
 if stock3:
