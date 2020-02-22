@@ -1,7 +1,7 @@
 # If Statement
 
 stocks = ["BX","JPM","C","BAC","SG","GS","WFC"]
-
+# if elif else -> chaining
 for stock in stocks:
     if(stock == "BAC"):
         print("%s: RESTRICTED TRADE" % stock)
@@ -9,6 +9,14 @@ for stock in stocks:
         print("%s: Competitor Stock; COMPLIANCE APPROVAL REQUIRED" % stock)
     else:
         print("%s: APPROVED TRADEABLE" % stock)
+        
+# can run an if elif with the else
+    if(stock == "BAC" or stock == "JPM" or stock == "WFC" or stock == "C"):
+        print("Big Four Banks")
+    elif(stock == "GS"):
+        print("Investment Bank")
+    elif (stock == "BX"):
+        print("Private Equity")
 
 #Logical Operators
 # C stands for condition
