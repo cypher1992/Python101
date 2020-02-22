@@ -1,6 +1,8 @@
 # If Statement
 
 stocks = ["BX","JPM","C","BAC","SG","GS","WFC"]
+stocks2 = ["MTTX","LHHMQ","AIG","RBS"]
+stock3 = []
 # if elif else -> chaining
 for stock in stocks:
     if(stock == "BAC"):
@@ -9,7 +11,7 @@ for stock in stocks:
         print("%s: Competitor Stock; COMPLIANCE APPROVAL REQUIRED" % stock)
     else:
         print("%s: APPROVED TRADEABLE" % stock)
-        
+
 # can run an if elif with the else
     if(stock == "BAC" or stock == "JPM" or stock == "WFC" or stock == "C"):
         print("Big Four Banks")
@@ -17,6 +19,13 @@ for stock in stocks:
         print("Investment Bank")
     elif (stock == "BX"):
         print("Private Equity")
+
+# check if list is empty
+if stock3:
+    for stock in stocks:
+        print(stock)
+else:
+    print("Empty List")
 
 #Logical Operators
 # C stands for condition
