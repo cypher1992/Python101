@@ -9,3 +9,8 @@ print("SUB-INDUSTRY: %s" % bxStock['SUB-INDUSTRY'])
 # Adding Values to dictionary
 bxStock["SANCTION"] = "NON-SANCTION"
 print(bxStock)
+
+#Emtpy Dictionary
+gsStock ={}
+
+print("Goldman Sacs Stocks: %s" % gsStock)
