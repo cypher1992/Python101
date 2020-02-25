@@ -40,4 +40,16 @@ while(counter < size):
         counter += 1
         print(stock[counter])
 
+#Looping through a List using While Loop
+stock2 = []
 
+while stock:
+    stockIndex = stock.pop()
+    stock2.append(stockIndex)
+
+print(stock2)
+
+while "BX" in stock2:
+    stock2.remove('BX')
+
+print(stock2)
