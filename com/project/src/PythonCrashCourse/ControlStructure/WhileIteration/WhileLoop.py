@@ -40,6 +40,18 @@ while(counter < size):
         counter += 1
         print(stock[counter])
 
+
+#Looping using a dictionary
+bx = {}
+flag = "N"
+answer = input("Appending New Attrbute to Stock? Y/N ")
+while (answer != flag):
+    attribute = input("Name Of Attribute: ")
+    bx[attribute] = input("Value of Attribute: ")
+    answer = input("Appending New Attrbute to Stock? Y/N ")
+
+print(bx)
+
 #Looping through a List using While Loop
 stock2 = []
 
