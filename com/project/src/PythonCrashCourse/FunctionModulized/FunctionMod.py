@@ -21,6 +21,9 @@ def add(num,num2):
 def addKey(num,num2):
     return  num2+num
 
+#default values in a function and overloading
+def add(num,num2,defaultValue=1):
+    return defaultValue+num2+num
 
 
 def main():
@@ -29,6 +32,7 @@ def main():
     printAdd(2,2)
     print(str(add(2+2,2)))
     print(addKey(num=2,num2=2))
+    print(add(2,2,defaultValue=1))
 
 """----------------------------------------------"""
 
