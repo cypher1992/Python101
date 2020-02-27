@@ -13,8 +13,13 @@ def hw():
 def printAdd(num,num2):
     print(str(num+num2))
 
+# function that returns a value
 def add(num,num2):
     return num+num2
+
+#using keyvalues to assign values in a function
+def addKey(num,num2):
+    return  num2+num
 
 
 
@@ -23,6 +28,7 @@ def main():
     hw()
     printAdd(2,2)
     print(str(add(2+2,2)))
+    print(addKey(num=2,num2=2))
 
 """----------------------------------------------"""
 
