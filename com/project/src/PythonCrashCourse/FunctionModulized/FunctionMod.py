@@ -25,6 +25,13 @@ def addKey(num,num2):
 def add(num,num2,defaultValue=1):
     return defaultValue+num2+num
 
+#making a argument optional
+def add(num,num2,defaultValue=0):
+    if(defaultValue != 0):
+        return defaultValue+num2+num
+    else:
+        return num + num2
+
 
 def main():
     #call a function
@@ -32,7 +39,8 @@ def main():
     printAdd(2,2)
     print(str(add(2+2,2)))
     print(addKey(num=2,num2=2))
-    print(add(2,2,defaultValue=1))
+    print(add(2,3))
+    print(add(2,2,3))
 
 """----------------------------------------------"""
 
