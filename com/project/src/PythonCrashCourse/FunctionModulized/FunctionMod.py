@@ -43,6 +43,22 @@ def printStockKeys(stock):
             print(stock[counter])
             counter+=1
 
+def rmKeyFromList(index,list):
+    head,*tail = list
+    def rmAppend(i=index,lst=list,appendList=[]):
+        print(len(lst))
+        print(i, lst, appendList)
+        if(len(lst) >0):
+            h, *t = lst
+        if(len(lst) == 0):
+            return appendList
+        elif(i == h):
+            rmAppend(i,t,appendList)
+        else:
+            appendList = appendList.append(h)
+            rmAppend(i,t,)
+    return rmAppend()
+
 
 def main():
     #call a function
@@ -59,6 +75,8 @@ def main():
         keyList.append(k)
 
     printStockKeys(keyList)
+    rmKeyFromList("TICKER",keyList)
+
 """----------------------------------------------"""
 
 main()
