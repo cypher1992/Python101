@@ -32,6 +32,10 @@ def add(num,num2,defaultValue=0):
     else:
         return num + num2
 
+def stockModel(ticker,dailyPrice,company,outstandingShares):
+    stock = {"TICKER":ticker,"DAILY_PRICE":dailyPrice,"COMPANY":company,"OUTSTANDING_SHARES":outstandingShares}
+    return stock
+
 
 def main():
     #call a function
@@ -41,6 +45,9 @@ def main():
     print(addKey(num=2,num2=2))
     print(add(2,3))
     print(add(2,2,3))
+    bxStock = stockModel("BX",26.13,"BLACKSTONE",15241)
+    for k,v in bxStock.items():
+        print("%s : %s" % (k,v))
 
 """----------------------------------------------"""
 
