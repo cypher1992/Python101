@@ -60,6 +60,11 @@ def rmKeyFromList(index,list):
     rmlist = rmAppend()
     return rmlist
 
+# var args
+def printItems(*args):
+    for i in args:
+        print(i)
+
 
 def main():
     #call a function
@@ -78,6 +83,7 @@ def main():
     printStockKeys(keyList)
     newlist = rmKeyFromList("TICKER",keyList)
     print(newlist)
+    printItems(newlist,"BXSTOCK")
 """----------------------------------------------"""
 
 main()
