@@ -43,21 +43,22 @@ def printStockKeys(stock):
             print(stock[counter])
             counter+=1
 
+# need to return every sequence in block for python to avoid none values
 def rmKeyFromList(index,list):
     head,*tail = list
     def rmAppend(i=index,lst=list,appendList=[]):
-        print(len(lst))
-        print(i, lst, appendList)
         if(len(lst) >0):
             h, *t = lst
         if(len(lst) == 0):
-            return appendList
+            return appendList # <- here
         elif(i == h):
-            rmAppend(i,t,appendList)
+            return rmAppend(i,t,appendList) # <- here
         else:
-            appendList = appendList.append(h)
-            rmAppend(i,t,)
-    return rmAppend()
+            appendList = appendList.append(h) # <- here
+            return rmAppend(i,t,)
+
+    rmlist = rmAppend()
+    return rmlist
 
 
 def main():
@@ -75,8 +76,8 @@ def main():
         keyList.append(k)
 
     printStockKeys(keyList)
-    rmKeyFromList("TICKER",keyList)
-
+    newlist = rmKeyFromList("TICKER",keyList)
+    print(newlist)
 """----------------------------------------------"""
 
 main()
