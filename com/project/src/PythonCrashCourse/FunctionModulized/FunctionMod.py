@@ -36,6 +36,13 @@ def stockModel(ticker,dailyPrice,company,outstandingShares):
     stock = {"TICKER":ticker,"DAILY_PRICE":dailyPrice,"COMPANY":company,"OUTSTANDING_SHARES":outstandingShares}
     return stock
 
+def printStockKeys(stock):
+        length = len(stock)
+        counter = 0
+        while(counter < length):
+            print(stock[counter])
+            counter+=1
+
 
 def main():
     #call a function
@@ -46,9 +53,12 @@ def main():
     print(add(2,3))
     print(add(2,2,3))
     bxStock = stockModel("BX",26.13,"BLACKSTONE",15241)
+    keyList = []
     for k,v in bxStock.items():
         print("%s : %s" % (k,v))
+        keyList.append(k)
 
+    printStockKeys(keyList)
 """----------------------------------------------"""
 
 main()
