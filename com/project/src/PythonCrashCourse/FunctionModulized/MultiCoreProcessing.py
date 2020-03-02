@@ -28,15 +28,20 @@ def filterList(lst,mod=2):
 
     return newLst
 
-def main():
 
-        starttime = time.time()
-        emptylist = createList()
-        print(emptylist)
-        lst = getData(emptylist)
-        print(lst)
-        filter = filterList(lst)
-        print(filter)
-        print(time.time() - starttime)
+if(__name__ == "__main__"):
+    starttime = time.time()
+    manager = multiprocessing.Manager()
+    return_list = manager.list()
+    process =multiprocessing.Process(target=createList)
+    process.start()
+    process.join()
+    # emptylist = createList()
+    print(return_list)
+    lst = getData(return_list)
+    print(lst)
+    filter = filterList(lst)
+    print(filter)
+    print(time.time() - starttime)
 
-main()
+#main()
