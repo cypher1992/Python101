@@ -35,7 +35,7 @@ if(__name__ == "__main__"):
     starttime = time.time()
     manager = multiprocessing.Manager()
     return_list = manager.list()
-    process =multiprocessing.Process(target=createList)
+    process = multiprocessing.Process(target=createList,args=(return_list))
     process2 = multiprocessing.Process(target=createList)
     process3 = multiprocessing.Process(target=createList)
     process4 = multiprocessing.Process(target=createList)
@@ -45,6 +45,12 @@ if(__name__ == "__main__"):
 
     for proc in processlist:
         proc.join()
-    print(time.time() - starttime)
 
+    append_list = manager.list()
+    processAppend = multiprocessing.Process(target=getData, args=(return_list,append_list))
+    processAppend.start()
+    processAppend.join()
+    print(return_list)
+    print(append_list)
+    print(time.time() - starttime)
 #main()
