@@ -28,20 +28,23 @@ def filterList(lst,mod=2):
 
     return newLst
 
+def processStartJoin(p):
+    p.start()
 
 if(__name__ == "__main__"):
     starttime = time.time()
     manager = multiprocessing.Manager()
     return_list = manager.list()
     process =multiprocessing.Process(target=createList)
-    process.start()
-    process.join()
-    # emptylist = createList()
-    print(return_list)
-    lst = getData(return_list)
-    print(lst)
-    filter = filterList(lst)
-    print(filter)
+    process2 = multiprocessing.Process(target=createList)
+    process3 = multiprocessing.Process(target=createList)
+    process4 = multiprocessing.Process(target=createList)
+    processlist = [process,process2,process3,process4]
+    for proc in processlist:
+        processStartJoin(proc)
+
+    for proc in processlist:
+        proc.join()
     print(time.time() - starttime)
 
 #main()
