@@ -4,6 +4,11 @@
 # return a type
 # create module files for functions
 
+#import all functions from another modulus
+from MultiCoreProcessing import *
+
+from com.project.src.PythonCrashCourse.FunctionModulized.MultiCoreProcessing import *
+
 # simple function: starts with a def name():
 def hw():
     print("Hello you SOB")
@@ -84,6 +89,12 @@ def main():
     newlist = rmKeyFromList("TICKER",keyList)
     print(newlist)
     printItems(newlist,"BXSTOCK")
+    for i in range(1,11,1):
+        print("%s second" % i)
+        sleepByFunc()
+
+
+
 """----------------------------------------------"""
 
 main()
