@@ -17,7 +17,7 @@ class Stock():
         self.date = date
 
     #behavior of a stock
-    def updatePriceWithDate(newPrice,newDate):
+    def updatePriceWithDate(self, newPrice,newDate):
         price = newPrice
         date = newDate
 
@@ -25,4 +25,5 @@ class Stock():
 
     def toString(self):
 
-        return "Stock Class: %s, %s, %s, %s" % self.company,self.ticker,self.price,self.date
+        return "Stock Class: {0}, {1}, {2}, {3}".format(self.company,self.ticker,self.price,self.date)
+
