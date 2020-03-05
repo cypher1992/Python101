@@ -17,4 +17,8 @@ class Stock():
         self.date = date
 
     #behavior of a stock
-    
+    def updatePriceWithDate(newPrice,newDate):
+        price = newPrice
+        date = newDate
+
+        return price,date
