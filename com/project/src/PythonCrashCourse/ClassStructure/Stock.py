@@ -22,3 +22,7 @@ class Stock():
         date = newDate
 
         return price,date
+
+    def toString(self):
+
+        return "Stock Class: %s, %s, %s, %s" % self.company,self.ticker,self.price,self.date
