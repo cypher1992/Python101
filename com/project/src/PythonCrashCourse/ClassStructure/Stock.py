@@ -18,10 +18,10 @@ class Stock():
 
     #behavior of a stock
     def updatePriceWithDate(self, newPrice,newDate):
-        price = newPrice
-        date = newDate
+        self.price = newPrice
+        self.date  = newDate
 
-        return price,date
+        return self
 
     def toString(self):
 
