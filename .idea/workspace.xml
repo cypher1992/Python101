@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ClassStructure/Stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ClassStructure/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/FunctionModulized/FunctionMod.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/FunctionModulized/FunctionMod.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,10 +198,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="760" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581477792841" />
-    <state x="464" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1582255355838">
+    <state x="156" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1583373390302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582255355837" />
+    <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583373390302" />
     <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1582346693913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
