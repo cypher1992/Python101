@@ -17,6 +17,31 @@ class Stock():
         self.date = date
 
     #behavior of a stock
+    def setCompany(self,newCompany):
+        self.company = newCompany
+
+    def setTicker(self,newTicker):
+        self.ticker = newTicker
+
+    def setPrice(self,newPrice):
+        self.price = newPrice
+
+    def setDate(self,newDate):
+        self.date = newDate
+
+    def getCompany(self):
+        return self.company
+
+    def getTicker(self):
+        return self.ticker
+
+    def getPrice(self):
+        return self.price
+
+    def getDate(self):
+        return self.date
+
+
     def updatePriceWithDate(self, newPrice,newDate):
         self.price = newPrice
         self.date  = newDate

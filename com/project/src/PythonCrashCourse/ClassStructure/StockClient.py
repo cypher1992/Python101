@@ -13,5 +13,10 @@ def main():
     #blackstone ticket was updated by the sec
     bx.ticker = "BXX"
     print(bx.toString())
+    bx.setCompany("BlackStone")
+    bx.setDate("3-6-20")
+    bx.setPrice(29.64)
+    bx.setTicker("BX")
+    print(bx.getCompany(),bx.getDate(),bx.getTicker(),bx.getPrice())
 
 main()
