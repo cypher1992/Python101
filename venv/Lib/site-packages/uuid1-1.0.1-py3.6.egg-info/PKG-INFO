@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: uuid1
+Version: 1.0.1
+Summary: Library that generates time sortable UUIDs
+Home-page: https://github.com/touchvie/python-uuid1
+Author: David Fierro
+Author-email: fierro85@gmail.com
+License: MIT
+Download-URL: https://github.com/touchvie/python-uuid1/tarball/1.0.1
+Description: UNKNOWN
+Keywords: uuid,uuid1,TimeUUID
+Platform: UNKNOWN

@@ -1,9 +1,13 @@
 # Inheritence
 
+import uuid
+
 class Security():
     def __init__(self,price,date):
         self.date = date
         self.price = price
+        self.id = uuid.uuid1().version
+
 
     def setPrice(self, newPrice):
         self.price = newPrice
@@ -16,3 +20,6 @@ class Security():
 
     def getDate(self):
         return self.date
+
+    def getID(self):
+        return self.id

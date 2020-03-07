@@ -17,6 +17,6 @@ def main():
     bx.setDate("3-6-20")
     bx.setPrice(29.64)
     bx.setTicker("BX")
-    print(bx.getCompany(),bx.getDate(),bx.getTicker(),bx.getPrice())
+    print(bx.getCompany(),bx.getDate(),bx.getTicker(),bx.getPrice(),bx.getID())
 
 main()
