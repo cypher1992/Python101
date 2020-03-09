@@ -18,6 +18,13 @@ class StockTest(unittest.TestCase):
             expected = "BX"
             self.assertEqual(tickerName,expected)
 
+        def test_getCompany_returns_Blackstone(self):
+            """bx.getCompany() excepted Blackstone"""
+            bx = Stock("BlackStone", "BX", 36.44, "3/7/20")
+            actual = bx.getCompany()
+            expected = "BlackStone"
+            self.assertEqual(actual,expected)
+
 
 
 def main():
