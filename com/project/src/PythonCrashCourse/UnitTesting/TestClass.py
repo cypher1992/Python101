@@ -25,6 +25,12 @@ class StockTest(unittest.TestCase):
             expected = "BlackStone"
             self.assertEqual(actual,expected)
 
+        def test_getPrice_return_36dot44(self):
+            "bx.getPrice() expected 36.44"
+            bx = Stock("BlackStone", "BX", 36.44, "3/7/20")
+            actual = bx.getPrice()
+            expected = 36.44
+            self.assertEqual(actual,expected)
 
 
 def main():
