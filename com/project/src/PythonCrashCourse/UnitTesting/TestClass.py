@@ -32,12 +32,28 @@ class StockTest(unittest.TestCase):
             expected = 36.44
             self.assertEqual(actual,expected)
 
-        def test_getDate_reture_3720(self):
+        def test_getDate_return_3720(self):
             "bx.getDate() expected 3/7/20"
             bx = Stock("BlackStone","BX",36.44,"3/7/20")
             actual = bx.getDate()
             expected = "3/7/20"
             self.assertEqual(actual,expected)
+
+        def test_getId_return_1(self):
+            "bx.getID() expected 1"
+            bx = Stock("BlackStone","BX",36.44,"3/7/20")
+            actual =bx.getID()
+            expected = 1
+            self.assertEqual(actual,expected)
+
+        def test_setCompany_return_Citi_Corp(self):
+            "c.setCompany() expected 'Citi Corp'"
+            c = Stock("Citi", "C", 22.44, "3/7/20")
+            c.setCompany("Citi Corp")
+            actual = c.getCompany()
+            expected = "Citi Corp"
+            self.assertEqual(actual, expected)
+
 
 def main():
     if __name__ == '__main__':
