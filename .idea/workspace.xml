@@ -39,21 +39,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonStuc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TestClass.StockTest.test_setCompany_return_Citi_Corp">
-    <configuration name="Unittests for TestClass.StockTest.test_getCompany_returns_Blackstone" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestClass.StockTest.test_getCompany_returns_Blackstone&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in TestClass.py">
     <configuration name="Unittests for TestClass.StockTest.test_getId_return_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +82,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for TestClass.StockTest.test_setTicker_return_CT" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestClass.StockTest.test_setTicker_return_CT&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in TestClass.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_setCompany_return_Citi_Corp" />
         <item itemvalue="Python tests.Unittests in TestClass.py" />
+        <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_setTicker_return_CT" />
+        <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_setCompany_return_Citi_Corp" />
         <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_getId_return_2" />
         <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_getId_return_1" />
-        <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_getCompany_returns_Blackstone" />
       </list>
     </recent_temporary>
   </component>
@@ -138,22 +138,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="735" height="291" key="GridCell.Tab.0.bottom" timestamp="1583718907653">
+    <state width="735" height="291" key="GridCell.Tab.0.bottom" timestamp="1583720095865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583718907653" />
-    <state width="735" height="291" key="GridCell.Tab.0.center" timestamp="1583718907652">
+    <state width="735" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583720095865" />
+    <state width="735" height="291" key="GridCell.Tab.0.center" timestamp="1583720095865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583718907652" />
-    <state width="735" height="291" key="GridCell.Tab.0.left" timestamp="1583718907652">
+    <state width="735" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583720095865" />
+    <state width="735" height="291" key="GridCell.Tab.0.left" timestamp="1583720095865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583718907652" />
-    <state width="735" height="291" key="GridCell.Tab.0.right" timestamp="1583718907653">
+    <state width="735" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583720095865" />
+    <state width="735" height="291" key="GridCell.Tab.0.right" timestamp="1583720095865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583718907653" />
+    <state width="735" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583720095865" />
     <state x="0" y="150" key="SettingsEditor" timestamp="1580707917418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

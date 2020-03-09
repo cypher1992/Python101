@@ -54,6 +54,15 @@ class StockTest(unittest.TestCase):
             expected = "Citi Corp"
             self.assertEqual(actual, expected)
 
+        def test_setTicker_return_CT(self):
+            "c.setTicker() expected 'CT'"
+            c = Stock("Citi", "C", 22.44, "3/7/20")
+            c.setTicker("CT")
+            actual = c.getTicker()
+            expected = "CT"
+            self.assertEqual(actual, expected)
+
+        
 
 def main():
     if __name__ == '__main__':
