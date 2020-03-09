@@ -32,6 +32,12 @@ class StockTest(unittest.TestCase):
             expected = 36.44
             self.assertEqual(actual,expected)
 
+        def test_getDate_reture_3720(self):
+            "bx.getDate() expected 3/7/20"
+            bx = Stock("BlackStone","BX",36.44,"3/7/20")
+            actual = bx.getDate()
+            expected = "3/7/20"
+            self.assertEqual(actual,expected)
 
 def main():
     if __name__ == '__main__':
