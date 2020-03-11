@@ -62,7 +62,13 @@ class StockTest(unittest.TestCase):
             expected = "CT"
             self.assertEqual(actual, expected)
 
-        
+        def test_toString_return_str(self):
+            "c.toString() expected 'Stock Class: Citi, C, 22.44, 3/7/20"
+            c = Stock("Citi", "C", 22.44, "3/7/20")
+            actual = c.toString()
+            expected = "Stock Class: Citi, C, 22.44, 3/7/20"
+            self.assertEqual(actual, expected)
+
 
 def main():
     if __name__ == '__main__':
