@@ -62,6 +62,17 @@ class StockTest(unittest.TestCase):
             expected = "CT"
             self.assertEqual(actual, expected)
 
+        def test_updatePriceWithDate_return_priceDate(self):
+            "c.updatePriceWithDate() expected '25.66, 3/10/20"
+            c = Stock("Citi", "C", 22.44, "3/7/20")
+            c.updatePriceWithDate(25.66,"3/10/20")
+            actualPrice = c.getPrice()
+            expectedPrice = 25.66
+            actualDate = c.getDate()
+            expectedDate = "3/10/20"
+            self.assertEqual(actualPrice, expectedPrice)
+            self.assertEqual(actualDate, expectedDate)
+
         def test_toString_return_str(self):
             "c.toString() expected 'Stock Class: Citi, C, 22.44, 3/7/20"
             c = Stock("Citi", "C", 22.44, "3/7/20")
