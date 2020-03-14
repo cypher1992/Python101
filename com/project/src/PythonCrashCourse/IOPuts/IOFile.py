@@ -3,10 +3,10 @@ class IOFile:
     def __init__(self):
         pass
 
-    def readFile(path):
+    def readFileByLine(path):
         listContent = []
         with open(path) as file_object:
-            content = file_object.read()
-            listContent.append(content)
+            for line in file_object:
+                listContent.append(line.strip())
 
         return listContent

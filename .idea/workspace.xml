@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/textfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOConsole.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOConsole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonStuc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.IOFile">
+  <component name="RunManager" selected="Python tests.Unittests for TestIOFile.IOFileTest.test_readFileByLine_returns_ListOfLines">
     <configuration name="IOFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,20 +61,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TestClass.StockTest.test_toString_return_str" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestClass.StockTest.test_toString_return_str&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for TestClass.StockTest.test_updatePriceWithDate_return_priceDate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -104,7 +91,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestClass.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestIOFile.IOFileTest.test_readFileByLine_returns_ListOfLines" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,17 +101,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestClass.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;TestIOFile.IOFileTest.test_readFileByLine_returns_ListOfLines&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestIOFile.IOFileTest.test_readFile_returns_ListOfContents" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestIOFile.IOFileTest.test_readFile_returns_ListOfContents&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest.test_readFileByLine_returns_ListOfLines" />
+        <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest.test_readFile_returns_ListOfContents" />
         <item itemvalue="Python.IOFile" />
         <item itemvalue="Python tests.Unittests for TestIOConsole.IOConsoleTest.test_takeInput_returns_Zero_Mustafa" />
         <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_updatePriceWithDate_return_priceDate" />
-        <item itemvalue="Python tests.Unittests for TestClass.StockTest.test_toString_return_str" />
-        <item itemvalue="Python tests.Unittests in TestClass.py" />
       </list>
     </recent_temporary>
   </component>
@@ -154,22 +155,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="734" height="291" key="GridCell.Tab.0.bottom" timestamp="1584148717412">
+    <state width="734" height="291" key="GridCell.Tab.0.bottom" timestamp="1584150030047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584148717412" />
-    <state width="734" height="291" key="GridCell.Tab.0.center" timestamp="1584148717410">
+    <state width="734" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030047" />
+    <state width="734" height="291" key="GridCell.Tab.0.center" timestamp="1584150030047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584148717410" />
-    <state width="734" height="291" key="GridCell.Tab.0.left" timestamp="1584148717410">
+    <state width="734" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030047" />
+    <state width="734" height="291" key="GridCell.Tab.0.left" timestamp="1584150030046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584148717410" />
-    <state width="734" height="291" key="GridCell.Tab.0.right" timestamp="1584148717412">
+    <state width="734" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030046" />
+    <state width="734" height="291" key="GridCell.Tab.0.right" timestamp="1584150030047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584148717412" />
+    <state width="734" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030047" />
     <state x="0" y="150" key="SettingsEditor" timestamp="1580707917418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,6 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="6" width="861" height="680" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584148287572" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584149283005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584149283005" />
     <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1582346693913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

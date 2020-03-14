@@ -1,6 +1,4 @@
 import unittest
-from unittest.mock import Mock
-
 from com.project.src.PythonCrashCourse.IOPuts.IOConsole import IOConsole
 
 
