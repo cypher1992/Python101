@@ -10,3 +10,14 @@ class IOFile:
                 listContent.append(line.strip())
 
         return listContent
+
+    def readDelimterByLine(self,path,delimiter):
+        listLine = self.readFileByLine(path)
+        map = {}
+        for line in listLine:
+            locationDelimiter = line.find(delimiter)
+            key,value = line[:locationDelimiter] , line[locationDelimiter+1:]
+            map[key] = value
+        print(map)
+
+        return map

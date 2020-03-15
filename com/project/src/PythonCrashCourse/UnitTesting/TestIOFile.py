@@ -13,3 +13,12 @@ class IOFileTest(unittest.TestCase):
         actual= len(actual)
         expected = 3
         self.assertEqual(actual, expected)
+
+    def test_readDelimterByLine_returns_ListOfLines(self, path=path):
+        """io.readDelimterByLine() expected 'ListOfLine'"""
+        iof = IOFile
+        path += 'delimit.txt'
+        actual = iof.readDelimterByLine(iof,path,',')
+        actual = len(actual)
+        expected = 5
+        self.assertEqual(actual, expected)
