@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOConsole.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOConsole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/textfile" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/textfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +22,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XHSIq2uMV1mvaAMlMqRuwIMzv9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -142,11 +144,14 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="247" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584148069254">
+    <state x="247" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584232350153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="247" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584148069254" />
+    <state x="247" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584232350153" />
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583899004574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -155,22 +160,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="734" height="291" key="GridCell.Tab.0.bottom" timestamp="1584150030047">
+    <state width="733" height="291" key="GridCell.Tab.0.bottom" timestamp="1584232835004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030047" />
-    <state width="734" height="291" key="GridCell.Tab.0.center" timestamp="1584150030047">
+    <state width="733" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584232835004" />
+    <state width="733" height="291" key="GridCell.Tab.0.center" timestamp="1584232835003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030047" />
-    <state width="734" height="291" key="GridCell.Tab.0.left" timestamp="1584150030046">
+    <state width="733" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584232835003" />
+    <state width="733" height="291" key="GridCell.Tab.0.left" timestamp="1584232835003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030046" />
-    <state width="734" height="291" key="GridCell.Tab.0.right" timestamp="1584150030047">
+    <state width="733" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584232835003" />
+    <state width="733" height="291" key="GridCell.Tab.0.right" timestamp="1584232835004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="734" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584150030047" />
+    <state width="733" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584232835004" />
     <state x="0" y="150" key="SettingsEditor" timestamp="1580707917418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,18 +184,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="760" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581477792841" />
-    <state x="156" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1583899328159">
+    <state x="156" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1584163927503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583899328159" />
+    <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584163927503" />
     <state x="828" y="6" width="861" height="680" key="dock-window-1" timestamp="1584148287572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="6" width="861" height="680" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584148287572" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584149283005">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584163942015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584149283005" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584163942015" />
     <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1582346693913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
