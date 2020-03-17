@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimitWrite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimitRead.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimitRead.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimitWrite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
