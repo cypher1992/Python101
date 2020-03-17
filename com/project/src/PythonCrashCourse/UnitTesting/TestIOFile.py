@@ -18,7 +18,9 @@ class IOFileTest(unittest.TestCase):
         """io.readDelimterByLine() expected 'ListOfLine'"""
         iof = IOFile
         path += 'delimit.txt'
-        actual = iof.readDelimterByLine(iof,path,',')
+        for i in range(0, 5):
+            iof.writeToFileDelimiter(iof, path, 'Goldman Sacs', 'GS', ',')
+        actual = iof.readDelimterByLine(iof, path, ',')
         actual = len(actual)
         expected = 5
         self.assertEqual(actual, expected)
