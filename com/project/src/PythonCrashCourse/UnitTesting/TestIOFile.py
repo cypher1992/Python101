@@ -23,3 +23,12 @@ class IOFileTest(unittest.TestCase):
         expected = 5
         self.assertEqual(actual, expected)
 
+    def test_writeToFileDelimter_returns_LengthOf1(self, path=path):
+        iof = IOFile
+        path += 'delimitWrite.txt'
+        iof.writeToFileDelimiter(iof, path, 'Goldman Sacs', 'GS', ',')
+        actual = iof.readDelimterByLine(iof, path, ',')
+        actual = len(actual)
+        expected = 1
+        self.assertEqual(actual, expected)
+
