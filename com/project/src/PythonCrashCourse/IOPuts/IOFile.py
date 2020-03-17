@@ -25,3 +25,7 @@ class IOFile:
     def writeToFileDelimiter(self,path,value,key,delimiter):
         with open(path,'w') as file_object:
             file_object.write(value + delimiter + key)
+
+    def insertToFileDelimiter(self,path,value,key,delimiter):
+        with open(path,'a') as file_object:
+            file_object.write(value + delimiter + key)

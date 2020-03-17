@@ -33,3 +33,4 @@ class IOFileTest(unittest.TestCase):
         actual = len(actual)
         expected = 1
         self.assertEqual(actual, expected)
+
