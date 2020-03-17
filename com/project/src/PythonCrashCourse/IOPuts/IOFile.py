@@ -21,3 +21,7 @@ class IOFile:
         print(map)
 
         return map
+
+    def writeToFileDelimiter(self,path,value,key,delimiter):
+        with open(path,'w') as file_object:
+            file_object.write(value + delimiter + key)

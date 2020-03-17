@@ -1,5 +1,1 @@
-Blackstone,BX
-Citi Corp.,C
-Bank Of America,BAC
-JP Morgan, JPM
-Wells Fargo Corp., WFC
+Goldman Sacs,GS
