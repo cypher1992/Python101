@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimitRead.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimitAppend.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/Resource/delimitWrite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +48,29 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonStuc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in TestIOFile.py">
-    <configuration name="Unittests for TestIOFile.IOFileTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for TestIOFile.IOFileTest.test_appendToFileDelimter_returnsAddToExistingFile">
+    <configuration name="IOFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/IOPuts/IOFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestIOFile.IOFileTest.test_appendToFileDelimter_returnsAddToExistingFile" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +80,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestIOFile.IOFileTest&quot;" />
+      <option name="_new_target" value="&quot;TestIOFile.IOFileTest.test_appendToFileDelimter_returnsAddToExistingFile&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestIOFile.IOFileTest.test_readDelimterByLine_returns_LengthOf6" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestIOFile.IOFileTest.test_writeToFileDelimter_returnsAddToExistingFile" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,21 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestIOFile.IOFileTest.test_readDelimterByLine_returns_LengthOf6&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TestIOFile.IOFileTest.test_readFileByLine_returns_ListOfLines" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestIOFile.IOFileTest.test_readFileByLine_returns_ListOfLines&quot;" />
+      <option name="_new_target" value="&quot;TestIOFile.IOFileTest.test_writeToFileDelimter_returnsAddToExistingFile&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -122,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest.test_appendToFileDelimter_returnsAddToExistingFile" />
+        <item itemvalue="Python.IOFile" />
+        <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest.test_writeToFileDelimter_returnsAddToExistingFile" />
         <item itemvalue="Python tests.Unittests in TestIOFile.py" />
         <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest.test_writeToFileDelimter_returns_LengthOf1" />
-        <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest.test_readDelimterByLine_returns_LengthOf6" />
-        <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest.test_readFileByLine_returns_ListOfLines" />
-        <item itemvalue="Python tests.Unittests for TestIOFile.IOFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,22 +165,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1584411447909">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1584580367853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584411447909" />
-    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1584411447908">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584580367853" />
+    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1584580367852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584411447908" />
-    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1584411447908">
+    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584580367852" />
+    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1584580367852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584411447908" />
-    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1584411447908">
+    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584580367852" />
+    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1584580367853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584411447908" />
+    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584580367853" />
     <state x="0" y="150" key="SettingsEditor" timestamp="1580707917418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,10 +193,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584163927503" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1584409403421">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1584579637980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584409403421" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584579637980" />
     <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584163942015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

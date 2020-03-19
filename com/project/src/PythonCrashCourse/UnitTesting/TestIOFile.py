@@ -32,3 +32,16 @@ class IOFileTest(unittest.TestCase):
         expected = 1
         self.assertEqual(actual, expected)
 
+    def test_appendToFileDelimter_returnsAddToExistingFile(self,path = path):
+        iof = IOFile
+        path += 'delimitAppend.txt'
+        iof.writeToFileDelimiter(iof,path,'','','')
+        iof.appendToFileDelimiter(iof,path,'Goldman Sacs','GS',',')
+        iof.appendToFileDelimiter(iof, path, 'Blackstone', 'BX', ',')
+        actual = iof.readDelimterByLine(iof, path , ',')
+        actual = len(actual)
+        expected = 2
+        self.assertEqual(actual,expected)
+
+
+
