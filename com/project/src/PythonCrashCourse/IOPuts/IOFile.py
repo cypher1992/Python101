@@ -8,6 +8,7 @@ class IOFile:
         with open(path) as file_object:
             for line in file_object:
                 listContent.append(line.strip())
+        file_object.close()
 
         return listContent
 
@@ -25,10 +26,11 @@ class IOFile:
     def writeToFileDelimiter(self,path,value,key,delimiter):
         with open(path,'w') as file_object:
             file_object.write(value + delimiter + key)
+        file_object.close()
 
 
     # Next test
     def appendToFileDelimiter(self,path,value,key,delimiter):
         with open(path,'a') as file_object:
             file_object.write(value + delimiter + key +'\n')
-            file_object.close()
+        file_object.close()
