@@ -34,6 +34,7 @@ class IOFile:
         file_object.close()
 
     def deleteContentFile(self,path):
+        str=''
         with open(path,'w') as file_object:
-            file_object.write()
+            file_object.write(str)
         file_object.close()

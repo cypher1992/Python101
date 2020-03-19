@@ -43,5 +43,17 @@ class IOFileTest(unittest.TestCase):
         expected = 2
         self.assertEqual(actual,expected)
 
+    def test_deleteContentFile_returns0lines(self,path = path):
+        iof = IOFile
+        path += 'delimitDelete.txt'
+        iof.appendToFileDelimiter(iof, path, 'Goldman Sacs', 'GS', ',')
+        iof.appendToFileDelimiter(iof, path, 'Blackstone', 'BX', ',')
+        actual = iof.readDelimterByLine(iof,path,',')
+        actual = len(actual)
+        iof.deleteContentFile(iof,path)
+        expected = iof.readDelimterByLine(iof, path, ',')
+        expected = len(expected)
+        self.assertEqual(actual-2,expected)
+
 
 
