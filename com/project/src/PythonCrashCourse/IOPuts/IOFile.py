@@ -23,15 +23,21 @@ class IOFile:
 
         return map
 
-    def writeToFileDelimiter(self,path,value,key,delimiter):
+    def writeToFileDelimiter(self,path,key,value,delimiter):
         with open(path,'w') as file_object:
-            file_object.write(value + delimiter + key)
+            file_object.write( key + delimiter + value)
         file_object.close()
 
-    def appendToFileDelimiter(self,path,value,key,delimiter):
+    def appendToFileDelimiter(self,path,key,value,delimiter):
         with open(path,'a') as file_object:
-            file_object.write(value + delimiter + key +'\n')
+            file_object.write(key + delimiter + value +'\n')
         file_object.close()
+    #TESTING IN PROGRESS
+    def updateToFileDelimiter(self,path,key, value,delimiter):
+        map = self.readDelimterByLine(path,delimiter)
+        map.update(key, value)
+        for k,v in map.items():
+            self.appendToFileDelimiter(path,k,v,delimiter)
 
     def deleteContentFile(self,path):
         str=''
