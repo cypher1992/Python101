@@ -1,5 +1,6 @@
 class IOFile:
 
+    # IOFILE 
     def __init__(self):
         pass
 
@@ -32,6 +33,7 @@ class IOFile:
         with open(path,'a') as file_object:
             file_object.write(key + delimiter + value +'\n')
         file_object.close()
+
     #TESTING IN PROGRESS
     def updateToFileDelimiter(self,path,key, value,delimiter):
         map = self.readDelimterByLine(path,delimiter)
