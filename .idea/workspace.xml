@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ErrorHandling/TryAndCatchErrors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ErrorHandling/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest/ErrorHandingTestClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/IOTest/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOConsole.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/IOTest/TestIOConsole.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/TestIOFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/IOTest/TestIOFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ErrorHandling/TryAndCatchErrors.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ErrorHandling/TryAndCatchErrors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest/ErrorHandingTestClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest/ErrorHandingTestClass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,56 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_setList_returns_newList">
+  <component name="RunManager" selected="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_error">
+    <configuration name="TryAndCatchErrors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ErrorHandling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/ErrorHandling/TryAndCatchErrors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_value" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_value&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for ErrorHandingTestClass.TryAndCatchTest.test_getList_returns_List" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,20 +122,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;ErrorHandingTestClass.TryAndCatchTest.test_setList_returns_newList&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TestIOConsole.IOConsoleTest.test_takeInput_returns_Zero_Mustafa" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/IOTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestIOConsole.IOConsoleTest.test_takeInput_returns_Zero_Mustafa&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -151,41 +181,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in TestIOFile.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/IOTest/TestIOFile.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_error" />
+        <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_value" />
+        <item itemvalue="Python.TryAndCatchErrors" />
         <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_setList_returns_newList" />
         <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_getList_returns_List" />
-        <item itemvalue="Python tests.Unittests for TestIOConsole.IOConsoleTest.test_takeInput_returns_Zero_Mustafa" />
-        <item itemvalue="Python tests.Unittests in TestIOFile.py" />
-        <item itemvalue="Python tests.Unittests for com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,22 +220,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1584841320678">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1584934409632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584841320678" />
-    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1584841320677">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584934409632" />
+    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1584934409632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584841320677" />
-    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1584841320677">
+    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584934409632" />
+    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1584934409632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584841320677" />
-    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1584841320678">
+    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584934409632" />
+    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1584934409632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584841320678" />
+    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584934409632" />
     <state x="0" y="150" key="SettingsEditor" timestamp="1580707917418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -250,10 +252,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1584840723357" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584841418236">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584932283224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584841418236" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584932283224" />
+    <state x="0" y="0" width="960" height="1040" key="dock-window-3" timestamp="1584934528836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="960" height="1040" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1584934528836" />
     <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1582346693913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

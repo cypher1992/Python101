@@ -13,3 +13,9 @@ class ListClass(list):
     def setList(self,newList):
         self.list = newList
 
+    def findValue(self,value):
+        for index in self.list:
+             if(value == index):
+                 return value
+             else:
+                 return None
