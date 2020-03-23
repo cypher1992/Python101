@@ -20,14 +20,14 @@ class TryAndCatchTest(unittest.TestCase):
         self.assertEqual(actual,expected)
 
     def test_findValue_returns_value(self):
-        lst = [1,2,3,4,]
+        lst = [1,2,3,4]
         tace = ListClass(lst)
         actual = tace.findValue(2)
         expect = 2
         self.assertEqual(actual,expect)
 
     def test_findValue_returns_error(self):
-        lst = [1, 2, 3, 4, ]
+        lst = [1, 2, 3, 4 ]
         tace = ListClass(lst)
         actual = tace.findValue(1100)
         expect = None

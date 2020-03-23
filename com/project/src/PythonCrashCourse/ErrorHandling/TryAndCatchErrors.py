@@ -14,8 +14,11 @@ class ListClass(list):
         self.list = newList
 
     def findValue(self,value):
+        returnObj = None
         for index in self.list:
              if(value == index):
-                 return value
+                 returnObj = value
+                 break;
              else:
-                 return None
+                 returnObj = None
+        return returnObj
