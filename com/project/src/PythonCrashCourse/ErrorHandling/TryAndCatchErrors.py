@@ -15,10 +15,25 @@ class ListClass(list):
 
     def findValue(self,value):
         returnObj = None
-        for index in self.list:
+        for index in self.getList():
              if(value == index):
                  returnObj = value
                  break;
              else:
                  returnObj = None
+        return returnObj
+
+    def findValueTryCatch(self,value):
+        returnObj = None
+        try:
+            length = len(self.getList())
+            print(length)
+            for num in range(0,length):
+                if(value == self.list[num]):
+                    returnObj = list[num]
+                    print(returnObj)
+                    return returnObj
+        except:
+            returnObj = "Error"
+            return returnObj
         return returnObj

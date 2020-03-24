@@ -47,7 +47,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest">
+  <component name="RunManager" selected="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValueTryCatch_returns_error">
     <configuration name="TryAndCatchErrors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +83,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValueTryCatch_returns_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;ErrorHandingTestClass.TryAndCatchTest.test_findValueTryCatch_returns_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,20 +122,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_value&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for ErrorHandingTestClass.TryAndCatchTest.test_setList_returns_newList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/ErrorHandlingTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ErrorHandingTestClass.TryAndCatchTest.test_setList_returns_newList&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -183,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValueTryCatch_returns_error" />
         <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest" />
+        <item itemvalue="Python.TryAndCatchErrors" />
         <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_error" />
         <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_findValue_returns_value" />
-        <item itemvalue="Python.TryAndCatchErrors" />
-        <item itemvalue="Python tests.Unittests for ErrorHandingTestClass.TryAndCatchTest.test_setList_returns_newList" />
       </list>
     </recent_temporary>
   </component>
@@ -220,22 +220,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1584935383095">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1585019763039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584935383095" />
-    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1584935383094">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585019763039" />
+    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1585019763039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584935383094" />
-    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1584935383094">
+    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585019763039" />
+    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1585019763039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584935383094" />
-    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1584935383095">
+    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585019763039" />
+    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1585019763039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584935383095" />
+    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585019763039" />
     <state x="0" y="150" key="SettingsEditor" timestamp="1580707917418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
