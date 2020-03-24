@@ -33,4 +33,10 @@ class TryAndCatchTest(unittest.TestCase):
         expect = None
         self.assertEqual(actual,expect)
 
-    
+    def test_findValueTryCatch_returns_error(self):
+        with self.assertRaises(Exception) as context:
+            lst = [1, 2, 3, 4 ]
+            tace = ListClass(lst)
+            actual = tace.findValueTryCatch(4)
+            expect = "Error"
+        self.assertTrue(expect in context.exception)
