@@ -27,13 +27,10 @@ class ListClass(list):
         returnObj = None
         try:
             length = len(self.getList())
-            print(length)
             for num in range(0,length):
                 if(value == self.list[num]):
-                    returnObj = list[num]
-                    print(returnObj)
+                    returnObj = self.list[num]
                     return returnObj
-        except:
-            returnObj = "Error"
-            return returnObj
+        except Exception as e :
+            returnObj =e
         return returnObj
