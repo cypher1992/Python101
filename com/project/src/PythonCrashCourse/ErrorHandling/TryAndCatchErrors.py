@@ -28,9 +28,9 @@ class ListClass(list):
         try:
             length = len(self.getList())
             for num in range(0,length):
+                self.list[-99]
                 if(value == self.list[num]):
                     returnObj = self.list[num]
                     return returnObj
-        except Exception as e :
-            returnObj =e
-        return returnObj
+        except IndexError:
+            raise IndexError

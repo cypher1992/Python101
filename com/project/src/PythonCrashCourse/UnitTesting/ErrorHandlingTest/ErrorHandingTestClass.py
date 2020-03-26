@@ -36,4 +36,4 @@ class TryAndCatchTest(unittest.TestCase):
     def test_findValueTryCatch_returns_error(self):
         lst = [5, 6, 7, 100]
         tace = ListClass(lst)
-        self.assertRaises(Exception,tace.findValueTryCatch,70)
+        self.assertRaises(IndexError,tace.findValueTryCatch,7)
