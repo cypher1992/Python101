@@ -24,7 +24,6 @@ class ListClass(list):
         return returnObj
 
     def findValueTryCatch(self,value):
-        returnObj = None
         try:
             length = len(self.getList())
             for num in range(0,length):
