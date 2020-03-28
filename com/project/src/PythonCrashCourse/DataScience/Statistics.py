@@ -4,7 +4,7 @@ class Statistics():
     def __init__(self,listOfVals):
         self.listOfVals = listOfVals
 
-    def getListOfVals(self):
+    def getList(self):
         return self.listOfVals
 
     def setListOfVals(self,newList):
