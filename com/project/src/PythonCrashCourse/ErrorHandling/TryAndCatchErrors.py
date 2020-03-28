@@ -2,7 +2,7 @@
 List out of bound error try and catch and deal with it
 """
 
-class ListClass(list):
+class ListClass():
 
     def __init__(self,list):
         self.list = list
