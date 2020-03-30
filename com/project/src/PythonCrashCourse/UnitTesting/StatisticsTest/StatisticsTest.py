@@ -26,3 +26,4 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.arithmeticMean()
         expected = 3
         self.assertEqual(actual,expected)
+

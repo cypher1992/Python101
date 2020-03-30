@@ -11,8 +11,11 @@ class Statistics():
         self.listOfVals = newList
 
     def arithmeticMean(self):
-        total = 0
-        for elements in self.listOfVals:
-            total += elements
-        length = len(self.listOfVals)
-        return total/length
+        if (len(self.listOfVals) > 0):
+            total = 0
+            for elements in self.listOfVals:
+                total += elements
+            length = len(self.listOfVals)
+            return total/length
+        else:
+            return 0
