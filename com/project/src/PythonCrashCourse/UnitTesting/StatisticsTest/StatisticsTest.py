@@ -27,3 +27,9 @@ class StatisticsTest(unittest.TestCase):
         expected = 3
         self.assertEqual(actual,expected)
 
+    def test_arithmeticMean_return_(self):
+        list = []
+        stat = Statistics(list)
+        actual = stat.arithmeticMean()
+        expected = 0
+        self.assertEqual(actual,expected)
