@@ -1,4 +1,5 @@
 import pandas
+import math
 
 class Statistics():
     def __init__(self,listOfVals):
@@ -17,5 +18,15 @@ class Statistics():
                 total += elements
             length = len(self.listOfVals)
             return total/length
+        else:
+            return 0
+
+    def geometricMean(self):
+        length = len(self.listOfVals)
+        if(length >0):
+            total = 1
+            for index in self.listOfVals:
+                total *= index
+            return total**(1/length)
         else:
             return 0
