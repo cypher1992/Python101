@@ -46,7 +46,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest">
+  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.test_geometricMean_return_">
     <configuration name="Unittests for StatisticsTest.StatisticsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +89,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for StatisticsTest.StatisticsTest.test_getListOfVals_returns_List" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for StatisticsTest.StatisticsTest.test_geometricMean_return_" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,7 +99,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.test_getListOfVals_returns_List&quot;" />
+      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.test_geometricMean_return_&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -114,48 +114,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.test_setListOfVals_return_None&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TestIOFile.IOFileTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestIOFile.IOFileTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TestIOFile.IOFileTest.test_appendToFileDelimter_returnsAddToExistingFile" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestIOFile.IOFileTest.test_appendToFileDelimter_returnsAddToExistingFile&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -175,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_geometricMean_return_" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_arithmeticMean_return_" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_arthmeticMean_return_" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_setListOfVals_return_None" />
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_getListOfVals_returns_List" />
       </list>
     </recent_temporary>
   </component>
