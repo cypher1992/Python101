@@ -48,3 +48,9 @@ class StatisticsTest(unittest.TestCase):
         expected = 2.605171084697352
         self.assertEqual(actual,expected)
 
+    def test_harmonicMean_return_none(self):
+        emptyList = []
+        stat = Statistics(emptyList)
+        actual = stat.harmonicMean()
+        expected = None
+        self.assertEqual(actual,expected)
