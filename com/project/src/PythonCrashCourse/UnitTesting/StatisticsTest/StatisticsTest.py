@@ -54,3 +54,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.harmonicMean()
         expected = None
         self.assertEqual(actual,expected)
+
+    def test_harmonicMean_0value_return_None(self):
+        zerolist = [0,21,414]
+        stat = Statistics(zerolist)
+        actual = stat.harmonicMean()
+        expected = None
+        self.assertEqual(actual, expected)
