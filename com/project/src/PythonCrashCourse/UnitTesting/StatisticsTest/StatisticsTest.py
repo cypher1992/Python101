@@ -47,3 +47,4 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.geometricMean()
         expected = 2.605171084697352
         self.assertEqual(actual,expected)
+

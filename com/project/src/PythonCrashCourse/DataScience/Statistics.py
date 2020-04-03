@@ -30,3 +30,13 @@ class Statistics():
             return total**(1/length)
         else:
             return 0
+
+    def harmonicMean(self):
+        if(0 in self.listOfVals or len(self.listOfVals) == 0):
+            return None
+        else:
+            length = len(self.listOfVals)
+            total = 0
+            for index in self.listOfVals:
+                total += (1/index)
+            return length/total
