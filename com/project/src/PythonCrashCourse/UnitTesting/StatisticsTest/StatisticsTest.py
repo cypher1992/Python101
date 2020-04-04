@@ -20,6 +20,13 @@ class StatisticsTest(unittest.TestCase):
         expected = [1,3,5,7,9]
         self.assertEqual(actual,expected)
 
+    def test_rangeList_return_range(self):
+        listOfVal = [1,2,3,4,5]
+        stat = Statistics(listOfVal)
+        actual = stat.rangeList()
+        expected = 4
+        self.assertEqual(actual,expected)
+
     def test_arthmeticMean_return_3(self):
         list = [1,2,3,4,5]
         stat = Statistics(list)
