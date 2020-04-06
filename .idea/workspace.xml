@@ -45,7 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.test_harmonicMean_sameValue_return_2">
+  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.test_geometricMeanSameValue_return_2_60">
     <configuration name="Unittests for StatisticsTest.StatisticsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +57,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for StatisticsTest.StatisticsTest.test_geometricMeanSameValue_return_2_60" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.test_geometricMeanSameValue_return_2_60&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -102,20 +116,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for StatisticsTest.StatisticsTest.test_rangeList_return_range" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.test_rangeList_return_range&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_geometricMeanSameValue_return_2_60" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_harmonicMean_sameValue_return_2" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_negativeMinMax_rangeList_return_range" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_negativeMin_rangeList_return_range" />
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_rangeList_return_range" />
       </list>
     </recent_temporary>
   </component>
@@ -169,22 +169,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1586145285711">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1586145395026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586145285711" />
-    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1586145285711">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586145395026" />
+    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1586145395025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586145285711" />
-    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1586145285711">
+    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586145395025" />
+    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1586145395025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586145285711" />
-    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1586145285711">
+    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586145395025" />
+    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1586145395026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586145285711" />
+    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586145395025" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -69,6 +69,13 @@ class StatisticsTest(unittest.TestCase):
         expected = 2.605171084697352
         self.assertEqual(actual,expected)
 
+    def test_geometricMeanSameValue_return_2_60(self):
+        list = [1,1,1]
+        stat = Statistics(list)
+        actual = stat.geometricMean()
+        expected = 1
+        self.assertEqual(actual,expected)
+
     def test_harmonicMean_return_none(self):
         emptyList = []
         stat = Statistics(emptyList)
