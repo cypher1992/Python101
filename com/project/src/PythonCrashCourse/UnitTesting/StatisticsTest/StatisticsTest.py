@@ -20,6 +20,13 @@ class StatisticsTest(unittest.TestCase):
         expected = [1,3,5,7,9]
         self.assertEqual(actual,expected)
 
+    def test_rangeList_return_none(self):
+        emptyList = []
+        stat = Statistics(emptyList)
+        actual = stat.rangeList()
+        expected = None
+        self.assertEqual(actual,expected)
+
     def test_rangeList_return_range(self):
         listOfVal = [1,2,3,4,5]
         stat = Statistics(listOfVal)

@@ -12,9 +12,12 @@ class Statistics():
         self.listOfVals = newList
 
     def rangeList(self):
-        maxVal = max(self.listOfVals)
-        minVal = min(self.listOfVals)
-        return maxVal-minVal
+        if(len(self.getList()) >0):
+            maxVal = max(self.listOfVals)
+            minVal = min(self.listOfVals)
+            return maxVal-minVal
+        else:
+            return None
 
     def arithmeticMean(self):
         if (len(self.listOfVals) > 0):
