@@ -21,14 +21,17 @@ class Statistics():
 
     def median(self):
         length = len(self.getList())
-        if(length%2 == 0):
-            middleIndex = length/2
-            indexMed =  self.getList()[middleIndex]
-            indexMed2 = self.getList()[middleIndex+1]
-            return (indexMed+indexMed2)/2
+        if(length != 0):
+            if(length%2 == 0):
+                middleIndex = int((length/2)-1)
+                indexMed =  self.getList()[middleIndex]
+                indexMed2 = self.getList()[middleIndex+1]
+                return (indexMed+indexMed2)/2
+            else:
+                position = math.ceil(length/2)-1
+                return self.getList()[position]
         else:
-            position = math.ceil(length/2)-1
-            return self.getList()[position]
+            return None
 
     def arithmeticMean(self):
         if (len(self.listOfVals) > 0):

@@ -34,6 +34,19 @@ class StatisticsTest(unittest.TestCase):
         expected = 4
         self.assertEqual(actual,expected)
 
+    def test_medianOddList_return_3(self):
+        oddList = [1, 2, 3, 4, 5]
+        stat = Statistics(oddList)
+        actual = stat.median()
+        expected = 3
+        self.assertEqual(expected, actual)
+
+    def test_medianEvenList_return_2_5(self):
+        evenList = [1, 2, 3, 4]
+        stat = Statistics(evenList)
+        actual = stat.median()
+        expected = 2.5
+        self.assertEqual(expected, actual)
 
     def test_negativeMin_rangeList_return_range(self):
         listOfVal = [-1, 2, 3, 4, 5]
