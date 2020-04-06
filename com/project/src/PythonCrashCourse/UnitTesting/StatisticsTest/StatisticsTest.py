@@ -83,7 +83,7 @@ class StatisticsTest(unittest.TestCase):
         expected = 2.605171084697352
         self.assertEqual(actual,expected)
 
-    def test_geometricMeanSameValue_return_2_60(self):
+    def test_geometricMeanSameValue_return_1(self):
         list = [1,1,1]
         stat = Statistics(list)
         actual = stat.geometricMean()
