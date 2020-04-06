@@ -89,3 +89,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.harmonicMean()
         expected = 2
         self.assertEqual(actual, expected)
+
+    def test_harmonicMean_sameValue_return_2(self):
+        zerolist = [1, 1, 1]
+        stat = Statistics(zerolist)
+        actual = stat.harmonicMean()
+        expected =1
+        self.assertEqual(actual, expected)
