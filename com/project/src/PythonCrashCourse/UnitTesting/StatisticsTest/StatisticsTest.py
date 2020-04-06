@@ -41,7 +41,7 @@ class StatisticsTest(unittest.TestCase):
         expected = 4
         self.assertEqual(actual, expected)
 
-    def test__rangeList1_return_range(self):
+    def test__rangeListsameInterval_return_range(self):
         listOfVal = [1, 1, 1]
         stat = Statistics(listOfVal)
         actual = stat.rangeList()
