@@ -55,6 +55,13 @@ class StatisticsTest(unittest.TestCase):
         expected = 0
         self.assertEqual(actual,expected)
 
+    def test_arithmeticMean_return_1(self):
+        list = [1,1,1]
+        stat = Statistics(list)
+        actual = stat.arithmeticMean()
+        expected = 1
+        self.assertEqual(actual,expected)
+
     def test_geometricMean_return_0(self):
         list = []
         stat = Statistics(list)
