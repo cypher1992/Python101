@@ -34,6 +34,7 @@ class StatisticsTest(unittest.TestCase):
         expected = 4
         self.assertEqual(actual,expected)
 
+
     def test_negativeMin_rangeList_return_range(self):
         listOfVal = [-1, 2, 3, 4, 5]
         stat = Statistics(listOfVal)
