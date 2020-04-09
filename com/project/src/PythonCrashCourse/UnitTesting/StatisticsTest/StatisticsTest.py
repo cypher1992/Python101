@@ -34,6 +34,13 @@ class StatisticsTest(unittest.TestCase):
         expected = 4
         self.assertEqual(actual,expected)
 
+    def test_medianEmtpyList_return_none(self):
+        emptyList = []
+        stat = Statistics(emptyList)
+        actual = stat.median()
+        expected = None
+        self.assertEqual(expected,actual)
+
     def test_medianOddList_return_3(self):
         oddList = [1, 2, 3, 4, 5]
         stat = Statistics(oddList)
