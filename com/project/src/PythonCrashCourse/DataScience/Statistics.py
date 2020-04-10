@@ -19,6 +19,7 @@ class Statistics():
         else:
             return None
 
+
     def mode(self):
         statDict = {}
         modeValue = None
