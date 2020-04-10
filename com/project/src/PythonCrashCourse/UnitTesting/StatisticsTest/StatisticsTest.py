@@ -152,3 +152,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.mode()
         expected = 2
         self.assertEqual(expected,actual)
+
+    def test_mode_returns_none(self):
+        emptyList = []
+        stat = Statistics(emptyList)
+        actual = stat.mode()
+        expected = None
+        self.assertEqual(expected,actual)
