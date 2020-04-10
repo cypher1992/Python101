@@ -19,6 +19,23 @@ class Statistics():
         else:
             return None
 
+    def mode(self):
+        statDict = {}
+        modeValue = None
+        if len(self.getList()) != 0:
+            for index in self.getList():
+                if index in statDict:
+                    currentCount = statDict.get(index)
+                    statDict[index] = currentCount+1
+                else:
+                    statDict[index] = 1
+            statList = sorted(statDict.items(), key=  lambda kv:(kv[1],kv[0]))
+            modeValue = statList[len(statDict)-1][0]
+        return modeValue
+
+
+
+
     def median(self):
         length = len(self.getList())
         if(length != 0):
