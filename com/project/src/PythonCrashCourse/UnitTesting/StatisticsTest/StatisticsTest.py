@@ -145,3 +145,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.harmonicMean()
         expected =1
         self.assertEqual(actual, expected)
+
+    def test_mode_return_2(self):
+        statlist = [2,4,2,6,2,7,8,2,7,3,20,3]
+        stat = Statistics(statlist)
+        actual = stat.mode()
+        expected = 2
+        self.assertEqual(expected,actual)
