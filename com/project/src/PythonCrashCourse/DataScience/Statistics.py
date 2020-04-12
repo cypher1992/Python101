@@ -19,7 +19,6 @@ class Statistics():
         else:
             return None
 
-
     def mode(self):
         statDict = {}
         modeValue = None
@@ -33,9 +32,6 @@ class Statistics():
             statList = sorted(statDict.items(), key=  lambda kv:(kv[1],kv[0]))
             modeValue = statList[len(statDict)-1][0]
         return modeValue
-
-
-
 
     def median(self):
         length = len(self.getList())
@@ -80,3 +76,13 @@ class Statistics():
             for index in self.listOfVals:
                 total += (1/index)
             return length/total
+
+    def meanAbsoluteDeviation(self):
+        if(len(self.getList() != 0)):
+            mean = self.arithmeticMean()
+            total = 0
+            for index in self.getList():
+                total += abs(mean-index)
+            return  total/len(self.getList())
+        else:
+            None
