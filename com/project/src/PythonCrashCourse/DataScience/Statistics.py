@@ -78,7 +78,7 @@ class Statistics():
             return length/total
 
     def meanAbsoluteDeviation(self):
-        if(len(self.getList() != 0)):
+        if(len(self.getList())!= 0):
             mean = self.arithmeticMean()
             total = 0
             for index in self.getList():
