@@ -167,9 +167,18 @@ class StatisticsTest(unittest.TestCase):
         expected = None
         self.assertEqual(expected,actual)
 
+# need to test mad
+
     def testvariance_returns_none(self):
         emptyList=[]
         stat = Statistics(emptyList)
         actual = stat.variance()
         expected = None
         self.assertEqual(expected,actual)
+
+    def testvariance_returns_populationVariance(self):
+        popList = [1,2,3,4,5]
+        stat = Statistics(popList)
+        actual = stat.variance()
+        expected = 2
+        self.assertEqual(actual,expected)
