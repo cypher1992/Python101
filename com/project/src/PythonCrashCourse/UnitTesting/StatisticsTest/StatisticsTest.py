@@ -167,7 +167,12 @@ class StatisticsTest(unittest.TestCase):
         expected = None
         self.assertEqual(expected,actual)
 
-# need to test mad
+    def testMeanAbsoluteDeviation_returns_None(self):
+        list = [1,2,3,4,5]
+        stat = Statistics(list)
+        actual = stat.meanAbsoluteDeviation()
+        expected = 1.2
+        self.assertEqual(expected,actual)
 
     def testvariance_returns_none(self):
         emptyList=[]
@@ -182,3 +187,5 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.variance()
         expected = 2
         self.assertEqual(actual,expected)
+
+    
