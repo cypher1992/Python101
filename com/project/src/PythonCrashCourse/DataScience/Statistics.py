@@ -86,3 +86,17 @@ class Statistics():
             return  total/len(self.getList())
         else:
             None
+
+    def variance(self,population=True):
+        size = len(self.getList())
+        if(size != 0):
+            mean = self.arithmeticMean()
+            total = 0
+            for index in self.getList():
+                total+=(mean-index)**2
+            if(population):
+                return total/size
+            else:
+                return total/(size-1)
+        else:
+            return None
