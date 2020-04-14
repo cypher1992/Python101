@@ -100,3 +100,9 @@ class Statistics():
                 return total/(size-1)
         else:
             return None
+
+    def standardDeviation(self,population=True):
+        if(population):
+            return self.variance()**(0.5)
+        else:
+            return self.variance(population=False)**(0.5)
