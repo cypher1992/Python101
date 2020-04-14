@@ -46,7 +46,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.testMeanAbsoluteDeviation_returns_None">
+  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_return_sampleVariance">
     <configuration name="Unittests for StatisticsTest.StatisticsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +75,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for StatisticsTest.StatisticsTest.test_mode_returns_none" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for StatisticsTest.StatisticsTest.testvariance_return_sampleVariance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.test_mode_returns_none&quot;" />
+      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.testvariance_return_sampleVariance&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testMeanAbsoluteDeviation_returns_None" />
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_return_sampleVariance" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_returns_populationVariance" />
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testMeanAbsoluteDeviation_returns_None" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_returns_none" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest" />
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.test_mode_returns_none" />
       </list>
     </recent_temporary>
   </component>
@@ -170,22 +170,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1586822033326">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1586822665673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586822033326" />
-    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1586822033326">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586822665673" />
+    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1586822665672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586822033326" />
-    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1586822033325">
+    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586822665672" />
+    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1586822665672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586822033325" />
-    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1586822033326">
+    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586822665672" />
+    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1586822665672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586822033326" />
+    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586822665672" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

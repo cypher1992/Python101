@@ -160,14 +160,14 @@ class StatisticsTest(unittest.TestCase):
         expected = None
         self.assertEqual(expected,actual)
 
-    def testMeanAbsoluteDeviation_returns_None(self):
+    def testmeanabsolutedeviation_returns_None(self):
         emptylist = []
         stat = Statistics(emptylist)
         actual = stat.meanAbsoluteDeviation()
         expected = None
         self.assertEqual(expected,actual)
 
-    def testMeanAbsoluteDeviation_returns_None(self):
+    def testmeanabsolutedeviation_returns_None(self):
         list = [1,2,3,4,5]
         stat = Statistics(list)
         actual = stat.meanAbsoluteDeviation()
@@ -188,4 +188,9 @@ class StatisticsTest(unittest.TestCase):
         expected = 2
         self.assertEqual(actual,expected)
 
-    
+    def testvariance_return_sampleVariance(self):
+        list = [1,2,3,4,5]
+        stat = Statistics(list)
+        actual = stat.variance(population = False)
+        expected = 2.5
+        self.assertEqual(expected,actual)
