@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataScience/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataScience/Statistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest/StatisticsTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest/StatisticsTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest">
+  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.teststandarddeviation_returns_none">
     <configuration name="Unittests for StatisticsTest.StatisticsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +74,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for StatisticsTest.StatisticsTest.teststandarddeviation_returns_none" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.teststandarddeviation_returns_none&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for StatisticsTest.StatisticsTest.testvariance_return_sampleVariance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,20 +99,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.testvariance_return_sampleVariance&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for StatisticsTest.StatisticsTest.testvariance_returns_none" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.testvariance_returns_none&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.teststandarddeviation_returns_none" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_return_sampleVariance" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_returns_populationVariance" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testMeanAbsoluteDeviation_returns_None" />
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_returns_none" />
       </list>
     </recent_temporary>
   </component>
@@ -170,22 +169,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1586822809491">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1586908977198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586822809491" />
-    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1586822809491">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586908977198" />
+    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1586908977197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586822809491" />
-    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1586822809490">
+    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586908977197" />
+    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1586908977197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586822809490" />
-    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1586822809491">
+    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586908977197" />
+    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1586908977198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586822809491" />
+    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586908977198" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

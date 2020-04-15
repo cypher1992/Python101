@@ -194,3 +194,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.variance(population = False)
         expected = 2.5
         self.assertEqual(expected,actual)
+
+    def teststandarddeviation_returns_none(self):
+        emptylist = []
+        stat = Statistics(emptylist)
+        actual = stat.standardDeviation()
+        expected = None
+        self.assertEqual(expected,actual)
