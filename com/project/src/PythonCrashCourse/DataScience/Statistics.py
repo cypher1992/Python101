@@ -102,7 +102,10 @@ class Statistics():
             return None
 
     def standardDeviation(self,population=True):
-        if(population):
-            return self.variance()**(0.5)
+        if(len(self.getList()) != 0):
+            if(population):
+                return self.variance()**(0.5)
+            else:
+                return self.variance(population=False)**(0.5)
         else:
-            return self.variance(population=False)**(0.5)
+            return None
