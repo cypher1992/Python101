@@ -1,5 +1,6 @@
 import pandas
 import math
+import matplotlib.pyplot as plt
 
 class Statistics():
     def __init__(self,listOfVals):
@@ -10,6 +11,11 @@ class Statistics():
 
     def setListOfVals(self,newList):
         self.listOfVals = newList
+
+    def plotData(self,yaxisLabel = "Y-Axis"):
+        plt.plot(self.getList())
+        plt.ylabel(yaxisLabel)
+        plt.show()
 
     def rangeList(self):
         if(len(self.getList()) >0):
