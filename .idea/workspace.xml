@@ -47,7 +47,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.testsamplestandarddeviation_returns_std">
+  <component name="RunManager" selected="Python tests.Unittests in StatisticsTest.py">
     <configuration name="Unittests for StatisticsTest.StatisticsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,7 +62,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for StatisticsTest.StatisticsTest.testpopulationstandarddeviation_returns_none" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for StatisticsTest.StatisticsTest.testChebyshevInequalityreturnCI" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +72,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.testpopulationstandarddeviation_returns_none&quot;" />
+      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.testChebyshevInequalityreturnCI&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for StatisticsTest.StatisticsTest.testChebyshevInequalityreturnNone" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.testChebyshevInequalityreturnNone&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -90,7 +104,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for StatisticsTest.StatisticsTest.teststandarddeviation_returns_none" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in StatisticsTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,45 +114,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.teststandarddeviation_returns_none&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for StatisticsTest.StatisticsTest.testvariance_return_sampleVariance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;StatisticsTest.StatisticsTest.testvariance_return_sampleVariance&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;com.project.src.PythonCrashCourse.UnitTesting.IOTest.TestIOFile.IOFileTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest/StatisticsTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testsamplestandarddeviation_returns_std" />
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testpopulationstandarddeviation_returns_none" />
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.teststandarddeviation_returns_none" />
+        <item itemvalue="Python tests.Unittests in StatisticsTest.py" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest" />
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testvariance_return_sampleVariance" />
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testChebyshevInequalityreturnCI" />
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testChebyshevInequalityreturnNone" />
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testsamplestandarddeviation_returns_std" />
       </list>
     </recent_temporary>
   </component>
@@ -171,22 +157,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1586998624545">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom" timestamp="1587079794802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586998624545" />
-    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1586998624545">
+    <state width="922" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587079794802" />
+    <state width="922" height="291" key="GridCell.Tab.0.center" timestamp="1587079794801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586998624545" />
-    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1586998624545">
+    <state width="922" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587079794801" />
+    <state width="922" height="291" key="GridCell.Tab.0.left" timestamp="1587079794801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586998624545" />
-    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1586998624545">
+    <state width="922" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587079794801" />
+    <state width="922" height="291" key="GridCell.Tab.0.right" timestamp="1587079794801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586998624545" />
+    <state width="922" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587079794801" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="760" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581477792841" />
-    <state x="156" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1585629313886">
+    <state x="156" y="460" key="com.intellij.ide.util.TipDialog" timestamp="1587078850447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585629313886" />
+    <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587078850447" />
     <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1584840723357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -211,10 +197,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584932283224" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-3" timestamp="1587074330194">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-3" timestamp="1587079021953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1587074330194" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1587079021953" />
     <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1586738809338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

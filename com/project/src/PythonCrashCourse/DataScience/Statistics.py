@@ -122,6 +122,6 @@ class Statistics():
             if(std < 1):
                 return None
             else:
-                return 1.0/std**2
+                return 1- (1.0/std**2)
         else:
             return None
