@@ -109,3 +109,10 @@ class Statistics():
                 return self.variance(population=False)**(0.5)
         else:
             return None
+
+    def chebyshevInequality(self):
+        std = self.standardDeviation()
+        if(std < 1):
+            return None
+        else: 
+            return 1.0/std**2
