@@ -215,3 +215,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.standardDeviation(population=False)
         expected = 1.5811388300841898
         self.assertEqual(actual,expected)
+
+    def testChebyshevInequalityreturnNone(self):
+        emptyList = []
+        stat = Statistics(emptyList)
+        actual = stat.chebyshevInequality()
+        expected = None
+        self.assertEqual(expected,actual)
