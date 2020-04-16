@@ -111,8 +111,11 @@ class Statistics():
             return None
 
     def chebyshevInequality(self):
-        std = self.standardDeviation()
-        if(std < 1):
+        if(len(self.getList()) != 0):
+            std = self.standardDeviation()
+            if(std < 1):
+                return None
+            else:
+                return 1.0/std**2
+        else:
             return None
-        else: 
-            return 1.0/std**2
