@@ -229,3 +229,13 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.chebyshevInequality()
         expected = 0.5000000000000001
         self.assertEqual(expected,actual)
+
+    def testPlotDataReturnEmptyGraph(self):
+        emptyList =[]
+        stat = Statistics(emptyList)
+        stat.plotData()
+
+    def testPlotDataReturnGraph(self):
+        list = [1,2,3,4,5]
+        stat = Statistics(list)
+        stat.plotData()
