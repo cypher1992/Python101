@@ -222,3 +222,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.chebyshevInequality()
         expected = None
         self.assertEqual(expected,actual)
+
+    def testChebyshevInequalityreturnCI(self):
+        list = [1,2,3,4,5]
+        stat = Statistics(list)
+        actual = stat.chebyshevInequality()
+        expected = 0.5000000000000001
+        self.assertEqual(expected,actual)
