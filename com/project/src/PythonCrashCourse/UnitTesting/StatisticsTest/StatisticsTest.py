@@ -1,4 +1,5 @@
 import unittest
+import random
 # from path of file import class
 from com.project.src.PythonCrashCourse.DataScience.Statistics import Statistics
 
@@ -237,5 +238,12 @@ class StatisticsTest(unittest.TestCase):
 
     def testPlotDataReturnGraph(self):
         list = [1,2,3,4,5]
+        stat = Statistics(list)
+        stat.plotData()
+
+    def testPlotDataLargeDataSetReturnGraph(self):
+        list = []
+        for i in range(0,99):
+            list.append(random.randint(0,99))
         stat = Statistics(list)
         stat.plotData()
