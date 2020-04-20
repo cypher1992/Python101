@@ -247,3 +247,4 @@ class StatisticsTest(unittest.TestCase):
             list.append(random.randint(0,99))
         stat = Statistics(list)
         stat.plotData()
+    

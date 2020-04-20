@@ -17,6 +17,12 @@ class Statistics():
         plt.ylabel(yaxisLabel)
         plt.show()
 
+    def plotDataMean(self,yaxisLabel = "Y-Axis"):
+        plt.plot(self.getList())
+        plt.plot([self.arithmeticMean()])
+        plt.ylabel(yaxisLabel)
+        plt.show()
+
     def rangeList(self):
         if(len(self.getList()) >0):
             maxVal = max(self.listOfVals)
