@@ -248,7 +248,15 @@ class StatisticsTest(unittest.TestCase):
         stat = Statistics(list)
         stat.plotData()
 
-    def testPlotDataLargeDataSetReturnGraph(self):
+    def testPlotDataMeanEmptyDataSetReturnGraph(self):
         emptylist = []
         stat = Statistics(emptylist)
+        stat.plotDataMean()
+
+    #Test failed need to refactor no mean in data
+    def testPlotDataMeanLargeDataSetReturnGraph(self):
+        list = []
+        for i in range(0,99):
+            list.append(random.randint(0,99))
+        stat = Statistics(list)
         stat.plotDataMean()
