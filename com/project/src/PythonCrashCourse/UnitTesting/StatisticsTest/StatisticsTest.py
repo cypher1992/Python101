@@ -261,14 +261,21 @@ class StatisticsTest(unittest.TestCase):
         stat = Statistics(list)
         stat.plotDataMean()
 
-    def testZScoreEmptyListReturnGraph(self):
+    def testZScoreEmptyListReturnEmptyList(self):
         emptylist = []
         stat = Statistics(emptylist)
         actual = stat.zscore()
         expected = None
         self.assertEqual(expected,actual)
 
-    def testZScorelistReturnGraph(self):
+    def testZScoreOneValuelistReturnList(self):
+        list = [1]
+        stat = Statistics(list)
+        actual = stat.zscore()
+        expected = [0]
+        self.assertEqual(expected,actual)
+
+    def testZScorelistReturnList(self):
         list = [1,2,3,4,5]
         stat = Statistics(list)
         actual = stat.zscore()
