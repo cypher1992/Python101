@@ -267,3 +267,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.zscore()
         expected = None
         self.assertEqual(expected,actual)
+
+    def testZScorelistReturnGraph(self):
+        list = [1,2,3,4,5]
+        stat = Statistics(list)
+        actual = stat.zscore()
+        expected = [-1.414213562373095, -0.7071067811865475, 0.0, 0.7071067811865475, 1.414213562373095]
+        self.assertEqual(expected,actual)
