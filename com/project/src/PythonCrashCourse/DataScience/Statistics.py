@@ -134,12 +134,12 @@ class Statistics():
             return None
 
     def zscore(self):
-        list = []
+        zdict = {}
         if len(self.getList()) != 0 and len(self.getList()) != 1:
             for i in self.getList():
-                list.append((i - self.arithmeticMean()) / self.standardDeviation())
-            return list
+                zdict[i]= (i - self.arithmeticMean()) / self.standardDeviation()
+            return zdict
         elif len(self.getList()) == 1:
-            return [0]
+            return {self.getList()[0]:0}
         else:
             return None
