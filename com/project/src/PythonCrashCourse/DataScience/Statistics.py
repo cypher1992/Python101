@@ -1,6 +1,7 @@
-import pandas
 import math
 import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
 
 class Statistics():
     def __init__(self,listOfVals):
@@ -131,3 +132,9 @@ class Statistics():
                 return 1- (1.0/std**2)
         else:
             return None
+
+    def zscore(self):
+        list = []
+        for i in self.getList():
+            list.append((i - self.arithmeticMean()) / self.standardDeviation())
+        return list
