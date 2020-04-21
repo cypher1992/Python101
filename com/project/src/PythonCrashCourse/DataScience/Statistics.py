@@ -135,6 +135,9 @@ class Statistics():
 
     def zscore(self):
         list = []
-        for i in self.getList():
-            list.append((i - self.arithmeticMean()) / self.standardDeviation())
-        return list
+        if len(self.getList()) != 0:
+            for i in self.getList():
+                list.append((i - self.arithmeticMean()) / self.standardDeviation())
+            return list
+        else:
+            return None
