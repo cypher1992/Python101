@@ -260,3 +260,10 @@ class StatisticsTest(unittest.TestCase):
             list.append(random.randint(0,99))
         stat = Statistics(list)
         stat.plotDataMean()
+
+    def testZScoreEmptyListReturnGraph(self):
+        emptylist = []
+        stat = Statistics(emptylist)
+        actual = stat.zscore()
+        expected = None
+        self.assertEqual(expected,actual)
