@@ -19,8 +19,10 @@ class Statistics():
         plt.show()
 
     def plotDataMean(self,yaxisLabel = "Y-Axis"):
-        plt.plot(self.getList())
-        plt.plot([self.arithmeticMean()])
+        meanList = []
+        for i in range(0, len(self.getList())):
+            meanList.append(self.arithmeticMean())
+        plt.plot(self.getList(),self.getList(),'r--',self.getList(),meanList,'r--')
         plt.ylabel(yaxisLabel)
         plt.show()
 
