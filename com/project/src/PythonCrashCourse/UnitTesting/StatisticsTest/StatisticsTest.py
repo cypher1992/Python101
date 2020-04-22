@@ -253,7 +253,6 @@ class StatisticsTest(unittest.TestCase):
         stat = Statistics(emptylist)
         stat.plotDataMean()
 
-    
     def testPlotDataMeanLargeDataSetReturnGraph(self):
         list = []
         for i in range(0,99):
