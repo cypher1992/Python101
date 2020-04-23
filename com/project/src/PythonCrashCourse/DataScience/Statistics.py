@@ -148,17 +148,17 @@ class Statistics():
 
     def correlationCoefficient(self):
         length = len(self.getList())
-        if(length !=0 or length != 1):
+        if(length>1):
             xlist = []
-            for i in length:
+            for i in range(0,length):
                 xlist.append(i)
             defaultX = Statistics(xlist)
-            zscoreX = defaultX.zscore().values()
-            zscoreY = self.zscore().values()
+            zscoreX = list(defaultX.zscore().values())
+            zscoreY = list(self.zscore().values())
             sum = 0
             for i in range(0,len(zscoreX)):
                 sum+= zscoreX[i]*zscoreY[i]
-            return (1/length-1)*sum
+            return sum/(length-1)
         elif(length ==1):
             return 0
         else:

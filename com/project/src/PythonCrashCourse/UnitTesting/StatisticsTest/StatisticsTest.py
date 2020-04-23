@@ -281,16 +281,23 @@ class StatisticsTest(unittest.TestCase):
         expected = {1:-1.414213562373095, 2:-0.7071067811865475, 3:0.0, 4:0.7071067811865475, 5:1.414213562373095}
         self.assertEqual(expected,actual)
 
-    def correlationCoefficientReturnsNone(self):
+    def testcorrelationCoefficientReturnsNone(self):
         emptyList =[]
         stat = Statistics(emptyList)
         expected = None
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
 
-    def correlationCoefficientReturnsZero(self):
+    def testcorrelationCoefficientReturnsZero(self):
         list =[1]
         stat = Statistics(list)
         expected = 0
+        actual = stat.correlationCoefficient()
+        self.assertEqual(expected,actual)
+
+    def testcorrelationCoefficientReturnsRvalue(self):
+        list =[1,2,3,4,5]
+        stat = Statistics(list)
+        expected = 1.2499999999999998
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
