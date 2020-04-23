@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataScience/Statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataScience/Statistics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest/StatisticsTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/StatisticsTest/StatisticsTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest.testPlotDataMeanLargeDataSetReturnGraph">
+  <component name="RunManager" selected="Python tests.Unittests for StatisticsTest.StatisticsTest">
     <configuration name="Unittests for StatisticsTest.StatisticsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testPlotDataMeanLargeDataSetReturnGraph" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest" />
+        <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testPlotDataMeanLargeDataSetReturnGraph" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testZScorelistReturnList" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testZScoreOneValuelistReturnList" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest.testZScorelistReturnGraph" />
@@ -156,22 +156,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="388" key="GridCell.Tab.0.bottom" timestamp="1587547760711">
+    <state width="922" height="388" key="GridCell.Tab.0.bottom" timestamp="1587649393641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587547760711" />
-    <state width="922" height="388" key="GridCell.Tab.0.center" timestamp="1587547760710">
+    <state width="922" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587649393641" />
+    <state width="922" height="388" key="GridCell.Tab.0.center" timestamp="1587649393640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587547760710" />
-    <state width="922" height="388" key="GridCell.Tab.0.left" timestamp="1587547760710">
+    <state width="922" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587649393640" />
+    <state width="922" height="388" key="GridCell.Tab.0.left" timestamp="1587649393640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587547760710" />
-    <state width="922" height="388" key="GridCell.Tab.0.right" timestamp="1587547760710">
+    <state width="922" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587649393640" />
+    <state width="922" height="388" key="GridCell.Tab.0.right" timestamp="1587649393641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587547760710" />
+    <state width="922" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587649393641" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

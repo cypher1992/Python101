@@ -280,3 +280,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.zscore()
         expected = {1:-1.414213562373095, 2:-0.7071067811865475, 3:0.0, 4:0.7071067811865475, 5:1.414213562373095}
         self.assertEqual(expected,actual)
+
+    def correlationCoefficientReturnsNone(self):
+        emptyList =[]
+        stat = Statistics(emptyList)
+        expected = None
+        actual = stat.correlationCoefficient()
+        self.assertEqual(expected,actual)
