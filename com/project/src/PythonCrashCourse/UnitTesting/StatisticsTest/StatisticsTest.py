@@ -287,3 +287,10 @@ class StatisticsTest(unittest.TestCase):
         expected = None
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
+
+    def correlationCoefficientReturnsZero(self):
+        list =[1]
+        stat = Statistics(list)
+        expected = 0
+        actual = stat.correlationCoefficient()
+        self.assertEqual(expected,actual)
