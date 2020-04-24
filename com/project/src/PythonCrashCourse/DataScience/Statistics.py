@@ -150,7 +150,7 @@ class Statistics():
         length = len(self.getList())
         if(length>1):
             xlist = []
-            for i in range(0,length):
+            for i in range(1,length+1):
                 xlist.append(i)
             defaultX = Statistics(xlist)
             zscoreX = list(defaultX.zscore().values())
@@ -158,7 +158,7 @@ class Statistics():
             sum = 0
             for i in range(0,len(zscoreX)):
                 sum+= zscoreX[i]*zscoreY[i]
-            return sum/(length-1)
+            return sum/(length)
         elif(length ==1):
             return 0
         else:

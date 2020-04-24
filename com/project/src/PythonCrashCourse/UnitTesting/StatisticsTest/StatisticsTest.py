@@ -295,9 +295,10 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
 
+    # correlation needs to stay between -1 to 1
     def testcorrelationCoefficientReturnsRvalue(self):
         list =[1,2,3,4,5]
         stat = Statistics(list)
-        expected = 1.2499999999999998
+        expected = 0.9999999999999998
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
