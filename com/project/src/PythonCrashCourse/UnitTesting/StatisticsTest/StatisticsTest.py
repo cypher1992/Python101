@@ -310,18 +310,17 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
 
-    def testcorrelationCoefficientReturnsRvalue(self):
+    def testnegativeCorrelationCoefficientReturnsRvalue(self):
         list =[-1,-2,-3,-4,-5]
         stat = Statistics(list)
         expected = -0.9999999999999998
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
 
-    # need to work on same list of values
-    def testcorrelationCoefficientReturnsRvalue(self):
+    def testsameDataSetCorrelationCoefficientReturnsRvalue(self):
         list =[1,1,1,1,1]
         stat = Statistics(list)
-        expected = -0.9999999999999998
+        expected = 0
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
 
