@@ -328,6 +328,6 @@ class StatisticsTest(unittest.TestCase):
     def testsameDataSetCorrelationCoefficientReturnsRvalue(self):
         list =[1,2,1,2,1]
         stat = Statistics(list)
-        expected = 1
+        expected = 0
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
