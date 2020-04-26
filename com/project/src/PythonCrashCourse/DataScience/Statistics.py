@@ -158,10 +158,13 @@ class Statistics():
             defaultX = Statistics(xlist)
             if(self.zscore() != None):
                 zscoreX = list(defaultX.zscore().values())
-                zscoreY = list(self.zscore().values())
+                zscoreY = []
+                for value in self.getList():
+                    zscoreY.append(self.zscore().get(value))
+                #zscoreY = list(self.zscore().values())
                 sum = 0
-                print(len(zscoreX))
-                print(len(zscoreY))
+                print(zscoreX)
+                print(zscoreY)
                 for i in range(0,len(zscoreX)):
                     sum+= zscoreX[i]*zscoreY[i]
                 return sum/(length)
