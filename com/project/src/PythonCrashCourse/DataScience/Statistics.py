@@ -138,9 +138,12 @@ class Statistics():
     def zscore(self):
         zdict = {}
         if len(self.getList()) != 0 and len(self.getList()) != 1:
-            for i in self.getList():
-                zdict[i]= (i - self.arithmeticMean()) / self.standardDeviation()
-            return zdict
+            if(self.standardDeviation() != 0):
+                for i in self.getList():
+                    zdict[i]= (i - self.arithmeticMean()) / self.standardDeviation()
+                return zdict
+            else:
+                return None
         elif len(self.getList()) == 1:
             return {self.getList()[0]:0}
         else:
@@ -156,6 +159,8 @@ class Statistics():
             zscoreX = list(defaultX.zscore().values())
             zscoreY = list(self.zscore().values())
             sum = 0
+            print(len(zscoreX))
+            print(len(zscoreY))
             for i in range(0,len(zscoreX)):
                 sum+= zscoreX[i]*zscoreY[i]
             return sum/(length)
