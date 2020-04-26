@@ -281,6 +281,13 @@ class StatisticsTest(unittest.TestCase):
         expected = {1:-1.414213562373095, 2:-0.7071067811865475, 3:0.0, 4:0.7071067811865475, 5:1.414213562373095}
         self.assertEqual(expected,actual)
 
+    def testZScoreSameValuelistReturnList(self):
+        list = [1,1,1,1,1]
+        stat = Statistics(list)
+        actual = stat.zscore()
+        expected = None
+        self.assertEqual(expected,actual)
+
     def testcorrelationCoefficientReturnsNone(self):
         emptyList =[]
         stat = Statistics(emptyList)
