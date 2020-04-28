@@ -337,3 +337,10 @@ class StatisticsTest(unittest.TestCase):
         expected = 0.7698003589195009
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
+
+    def testLargeDataSetCorrelationCoefficientReturnsRvalue(self):
+        list =[1,2,1,2,5,2,4,6,7,9,0,2,3,4,5,7,6]
+        stat = Statistics(list)
+        expected = 0.4665694748158436
+        actual = stat.correlationCoefficient()
+        self.assertEqual(expected,actual)
