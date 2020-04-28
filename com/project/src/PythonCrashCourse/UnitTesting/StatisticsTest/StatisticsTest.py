@@ -324,10 +324,16 @@ class StatisticsTest(unittest.TestCase):
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)
 
-    # duplicate values of different values [1,2,1,2,1]
     def testsameDataSetCorrelationCoefficientReturnsRvalue(self):
         list =[1,2,1,2,1]
         stat = Statistics(list)
         expected = 0
+        actual = stat.correlationCoefficient()
+        self.assertEqual(expected,actual)
+
+    def testoneOffCorrelationCoefficientReturnsRvalue(self):
+        list =[1,2,1,2,5]
+        stat = Statistics(list)
+        expected = 0.7698003589195009
         actual = stat.correlationCoefficient()
         self.assertEqual(expected,actual)

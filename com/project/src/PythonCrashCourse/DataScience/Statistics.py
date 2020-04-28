@@ -163,8 +163,6 @@ class Statistics():
                     zscoreY.append(self.zscore().get(value))
                 #zscoreY = list(self.zscore().values())
                 sum = 0
-                print(zscoreX)
-                print(zscoreY)
                 for i in range(0,len(zscoreX)):
                     sum+= zscoreX[i]*zscoreY[i]
                 return sum/(length)
