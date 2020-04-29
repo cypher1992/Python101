@@ -5,3 +5,6 @@ import pandas as pd
 class NumpySciPy:
     def __init__(self):
         pass
+
+    def numpyArray(self,*array):
+        print(array)
