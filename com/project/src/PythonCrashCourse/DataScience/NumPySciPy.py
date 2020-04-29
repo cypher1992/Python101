@@ -8,3 +8,5 @@ class NumpySciPy:
 
     def numpyArray(self,*array):
         print(array)
+        for i in array:
+            print(i[0])
