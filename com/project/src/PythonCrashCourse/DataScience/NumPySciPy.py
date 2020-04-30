@@ -7,6 +7,5 @@ class NumpySciPy:
         pass
 
     def numpyArray(self,*array):
-        print(array)
-        for i in array:
-            print(i[0])
+        npArray =np.array(array[0])
+        return npArray
