@@ -19,6 +19,19 @@ class NumpySciPyTestClass(unittest.TestCase):
             isTrue = True
         self.assertTrue(isTrue)
 
+    def test_emptyArrayNumpyArray_returns_array(self):
+        npsp = NumpySciPy()
+        arrays = [1]
+        actual = npsp.numpyArray(arrays)
+        expected = np.array(arrays)
+        boolArray= actual == expected
+        isTrue =None
+        if False in boolArray:
+            isTrue = False
+        else:
+            isTrue = True
+        self.assertTrue(isTrue)
+
     def test_numpyArray_returns_array(self):
         npsp = NumpySciPy()
         arrays = [[1,2,3],[3,4,6]]

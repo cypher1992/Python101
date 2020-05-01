@@ -45,7 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass">
+  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.test_emptyArrayNumpyArray_returns_array">
     <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.test_emptyArrayNumpyArray_returns_array" />
+        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.test_numpyArray_returns_array" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.test_numpyArray_returns_unit" />
         <item itemvalue="Python tests.Unittests for StatisticsTest.StatisticsTest" />
@@ -155,22 +155,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1588209770399">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1588215171747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588209770399" />
-    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1588209770398">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588215171747" />
+    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1588215171746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588209770398" />
-    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1588209770398">
+    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588215171746" />
+    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1588215171745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588209770398" />
-    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1588209770398">
+    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588215171745" />
+    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1588215171747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588209770398" />
+    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588215171747" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,10 +195,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584932283224" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-3" timestamp="1588129976442">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-3" timestamp="1588300850414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1588129976442" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1588300850414" />
     <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1586738809338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
