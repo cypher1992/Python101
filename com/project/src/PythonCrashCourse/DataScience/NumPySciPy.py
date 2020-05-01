@@ -9,3 +9,8 @@ class NumpySciPy:
     def numpyArray(self,*array):
         npArray =np.array(array[0])
         return npArray
+
+    def numpySize(self,*array):
+        npArray =self.numpyArray(array)
+        size = np.size(npArray)
+        return size
