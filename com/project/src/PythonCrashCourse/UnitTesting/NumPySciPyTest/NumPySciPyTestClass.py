@@ -44,3 +44,10 @@ class NumpySciPyTestClass(unittest.TestCase):
         else:
             isTrue = True
         self.assertTrue(isTrue)
+
+    def testNumpySizeEmptyArray_returns_size0(self):
+        npsy = NumpySciPy()
+        emptyArray = []
+        actual = npsy.numpySize(emptyArray)
+        expected = 0
+        self.assertEqual(expected,actual)
