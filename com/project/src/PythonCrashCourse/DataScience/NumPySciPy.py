@@ -14,3 +14,7 @@ class NumpySciPy:
         npArray =self.numpyArray(array)
         size = np.size(npArray)
         return size
+
+    def numpyAverage(self,*array):
+        npArray = np.numpyArray(array)
+        return np.average(array)
