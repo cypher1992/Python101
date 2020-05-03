@@ -66,3 +66,4 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.numpySize(emptyArray)
         expected = 3
         self.assertEqual(expected, actual)
+

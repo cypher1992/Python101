@@ -16,5 +16,8 @@ class NumpySciPy:
         return size
 
     def numpyAverage(self,*array):
-        npArray = np.numpyArray(array)
-        return np.average(array)
+        try:
+            npArray = np.numpyArray(array)
+            return np.average(array)
+        except AttributeError:
+            return None
