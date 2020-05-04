@@ -67,9 +67,18 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = 3
         self.assertEqual(expected, actual)
 
-    def testNumpyAverage(self):
+#Need to test return nan
+    def testNumpyAverageEmptyArray(self):
         npsy = NumpySciPy()
         emptyArray = []
         actual = npsy.numpyAverage(emptyArray)
-        expected = None
+        expected = np.float64("NaN")
+        print(type(actual))
+        self.assertEquals(expected,actual)
+
+    def testNumpyAverageOneValueArray(self):
+        npsy = NumpySciPy()
+        emptyArray = [[1,2]]
+        actual = npsy.numpyAverage(emptyArray)
+        expected = 1.5
         self.assertEquals(expected,actual)
