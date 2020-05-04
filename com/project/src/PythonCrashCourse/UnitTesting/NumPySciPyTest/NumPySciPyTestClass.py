@@ -71,10 +71,8 @@ class NumpySciPyTestClass(unittest.TestCase):
     def testNumpyAverageEmptyArray(self):
         npsy = NumpySciPy()
         emptyArray = []
-        actual = npsy.numpyAverage(emptyArray)
-        expected = np.float64("NaN")
-        print(type(actual))
-        self.assertEquals(expected,actual)
+        isNaN = np.isnan(npsy.numpyAverage(emptyArray))
+        self.assertTrue(isNaN)
 
     def testNumpyAverageOneValueArray(self):
         npsy = NumpySciPy()
