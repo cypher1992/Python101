@@ -95,9 +95,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = 0.01
         self.assertEqual(expected,actual)
 
-    def testNumpyAverageOneValueArray(self):
+    def testNumpyAverageMixTypesValueArray(self):
         npsy = NumpySciPy()
         multiArray = [[0.01,1],[0.01,1]]
         actual = npsy.numpyAverage(multiArray)
         expected = 0.505
+        self.assertEqual(expected,actual)
+
+    def testNumpyAverageOneOffValueArray(self):
+        npsy = NumpySciPy()
+        multiArray = [[0.01,1],[1,4]]
+        actual = npsy.numpyAverage(multiArray)
+        expected = 1.5025
         self.assertEqual(expected,actual)
