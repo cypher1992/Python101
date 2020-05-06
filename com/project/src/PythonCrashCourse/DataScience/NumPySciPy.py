@@ -19,5 +19,5 @@ class NumpySciPy:
         npArray = self.numpyArray(array)
         return np.mean(array)
 
-    def scipyNPV(self,array,rate):
-        return round(sp.npv(rate,array),2)
+    def numpyNPV(self,array,rate):
+        return round(np.npv(rate,array),2)
