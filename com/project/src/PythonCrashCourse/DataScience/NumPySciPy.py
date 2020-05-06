@@ -18,3 +18,6 @@ class NumpySciPy:
     def numpyAverage(self,*array):
         npArray = self.numpyArray(array)
         return np.mean(array)
+
+    def scipyNPV(self,array,rate):
+        return round(sp.npv(rate,array),2)
