@@ -116,9 +116,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = 1605.77
         self.assertEqual(expected,actual)
 
-    def testNumpyNPVreturnsNPV(self):
+    def testOneValueArrayNumpyNPVreturnsNPV(self):
         npsy = NumpySciPy()
         array = [500]
         actual = npsy.numpyNPV(array,0.05)
         expected = 500.00
+        self.assertEqual(expected,actual)
+
+    def testNumpySTDreturnsNPV(self):
+        npsy = NumpySciPy()
+        array = [500,500,500]
+        actual = npsy.numpySTD(array)
+        expected = 0.00
         self.assertEqual(expected,actual)
