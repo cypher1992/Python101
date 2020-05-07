@@ -16,8 +16,12 @@ class NumpySciPy:
         return size
 
     def numpyAverage(self,*array):
-        npArray = self.numpyArray(array)
         return np.mean(array)
+
+    def numpySTD(self,*array):
+        npArray = self.numpyArray(array)
+        return np.std(npArray)
 
     def numpyNPV(self,array,rate):
         return round(np.npv(rate,array),2)
+
