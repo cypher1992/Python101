@@ -136,3 +136,10 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.numpySTD(array)
         expected = 0.00
         self.assertEqual(expected,actual)
+
+    def testNumpySTDMultiArrayreturnsSTD(self):
+        npsy = NumpySciPy()
+        array = [[500,200],[400,600]]
+        actual = npsy.numpySTD(array)
+        expected = 147.9019945774904
+        self.assertEqual(expected,actual)
