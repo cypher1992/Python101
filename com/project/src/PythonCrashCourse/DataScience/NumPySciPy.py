@@ -18,6 +18,9 @@ class NumpySciPy:
     def numpyAverage(self,*array):
         return np.mean(array)
 
+    def numpyCorrelation(self,*array):
+        return np.correlate(array)
+
     def numpySTD(self,*array):
         npArray = self.numpyArray(array)
         return np.std(npArray)
