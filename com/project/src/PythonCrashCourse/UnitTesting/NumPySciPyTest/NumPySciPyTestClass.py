@@ -144,9 +144,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = 147.9019945774904
         self.assertEqual(expected,actual)
 
-    def testNumpyCorrelation(self):
+    def testNumpyCorrelationEmptyArrayreturnsNone(self):
         npsy = NumpySciPy()
         array = []
+        actual = npsy.numpyCorrelation(array)
+        expected = None
+        self.assertEqual(expected,actual)
+
+    def testNumpyCorrelation(self):
+        npsy = NumpySciPy()
+        array = [[]]
         actual = npsy.numpyCorrelation(array)
         expected = None
         self.assertEqual(expected,actual)
