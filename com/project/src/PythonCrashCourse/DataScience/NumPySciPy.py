@@ -19,7 +19,11 @@ class NumpySciPy:
         return np.mean(array)
 
     def numpyCorrelation(self,*array):
-        return np.correlate(array)
+        for arr in array:
+            if(len(arr) == 2):
+                return np.correlate(arr)
+            else:
+                return None
 
     def numpySTD(self,*array):
         npArray = self.numpyArray(array)

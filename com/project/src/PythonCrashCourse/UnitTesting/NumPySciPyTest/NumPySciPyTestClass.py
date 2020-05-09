@@ -143,3 +143,10 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.numpySTD(array)
         expected = 147.9019945774904
         self.assertEqual(expected,actual)
+
+    def testNumpyCorrelation(self):
+        npsy = NumpySciPy()
+        array = []
+        actual = npsy.numpyCorrelation(array)
+        expected = None
+        self.assertEqual(expected,actual)
