@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataScience/NumPySciPy.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataScience/NumPySciPy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest/NumPySciPyTestClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest/NumPySciPyTestClass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,21 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelation">
+  <component name="RunManager" selected="Python tests.Unittests in NumPySciPyTestClass.py">
+    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelate&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,20 +72,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelation&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyNPVreturnsNPV" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testNumpyNPVreturnsNPV&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -102,7 +103,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpySTDreturnsNPV" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in NumPySciPyTestClass.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,17 +113,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testNumpySTDreturnsNPV&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest/NumPySciPyTestClass.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in NumPySciPyTestClass.py" />
+        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelate" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelation" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpySTDMultiArrayreturnsSTD" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpySTDOneValueArrayreturnsSTD" />
-        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpySTDreturnsNPV" />
-        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyNPVreturnsNPV" />
       </list>
     </recent_temporary>
   </component>
@@ -155,22 +156,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1588985115766">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1588985736914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588985115766" />
-    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1588985115766">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588985736914" />
+    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1588985736914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588985115766" />
-    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1588985115766">
+    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588985736914" />
+    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1588985736914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588985115766" />
-    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1588985115766">
+    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588985736914" />
+    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1588985736914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588985115766" />
+    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588985736914" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

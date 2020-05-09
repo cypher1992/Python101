@@ -18,10 +18,10 @@ class NumpySciPy:
     def numpyAverage(self,*array):
         return np.mean(array)
 
-    def numpyCorrelation(self,*array):
+    def numpyCorrelate(self,*array):
         for arr in array:
             if(len(arr) == 2):
-                return np.correlate(arr)
+                return np.correlate(arr[0],arr[1])
             else:
                 return None
 
