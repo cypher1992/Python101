@@ -166,4 +166,11 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = np.array([26])
         self.assertEqual(expected,actual)
 
-    
+    def testInitDataFrameReturnsDataFame(self):
+        stocksData ={
+            "Blackstone":[49.56,50.70,51.18,52.80,52.87],
+            "KKR": [24.24,24.60,26.04,26.90,26.66]
+        }
+        npsy = NumpySciPy()
+        actual = npsy.initDataFrame(stocksData)
+        expected = pd.DataFrame(stocksData)
