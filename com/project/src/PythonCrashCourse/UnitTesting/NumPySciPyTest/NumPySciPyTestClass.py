@@ -174,3 +174,11 @@ class NumpySciPyTestClass(unittest.TestCase):
         npsy = NumpySciPy()
         actual = npsy.initDataFrame(stocksData)
         expected = pd.DataFrame(stocksData)
+
+    def testEmptyDataInitDataFrameReturnsDataFame(self):
+        stocksData ={
+        }
+        npsy = NumpySciPy()
+        actual = npsy.initDataFrame(stocksData)
+        expected = pd.DataFrame(stocksData)
+        
