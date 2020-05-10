@@ -1,6 +1,7 @@
 import unittest
 import numpy as np
 import scipy as sp
+import pandas as pd
 from com.project.src.PythonCrashCourse.DataScience.NumPySciPy import NumpySciPy
 
 
@@ -165,3 +166,4 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = np.array([26])
         self.assertEqual(expected,actual)
 
+    
