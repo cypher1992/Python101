@@ -46,7 +46,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass">
+  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testInitDataFrameReturnsDataFame">
     <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testInitDataFrameReturnsDataFame" />
+        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testEmptyDataInitDataFrameReturnsDataFame" />
         <item itemvalue="Python tests.Unittests in NumPySciPyTestClass.py" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNumpyCorrelate" />
@@ -156,22 +156,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="279" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580701510483" />
-    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1589162840080">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1589163532296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589162840079" />
-    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1589162840079">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589163532296" />
+    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1589163532295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589162840079" />
-    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1589162840079">
+    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589163532295" />
+    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1589163532295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589162840079" />
-    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1589162840079">
+    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589163532295" />
+    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1589163532295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589162840079" />
+    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589163532295" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

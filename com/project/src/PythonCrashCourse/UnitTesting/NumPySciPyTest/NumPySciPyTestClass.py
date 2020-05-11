@@ -177,6 +177,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = pd.DataFrame(stocksData)
         print(expected)
 
+
     def testEmptyDataInitDataFrameReturnsDataFame(self):
         stocksData ={
         }
