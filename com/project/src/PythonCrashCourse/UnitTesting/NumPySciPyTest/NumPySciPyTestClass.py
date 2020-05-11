@@ -178,6 +178,18 @@ class NumpySciPyTestClass(unittest.TestCase):
         print(expected)
 
 
+    def testInitDataFrameReturnsDataFameWithDates(self):
+        stocksData ={
+            "Blackstone":[49.56,50.70,51.18,52.80,52.87],
+            "KKR": [24.24,24.60,26.04,26.90,26.66]
+        }
+        dates = ['5/4/20','5/5/20','5/6/20','5/8/20','5/9/20']
+        npsy = NumpySciPy()
+        actual = npsy.initDataFrame(stocksData,rows=dates)
+        print(actual)
+        expected = pd.DataFrame(stocksData,index=dates)
+        print(expected)
+
     def testEmptyDataInitDataFrameReturnsDataFame(self):
         stocksData ={
         }
