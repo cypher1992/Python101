@@ -32,6 +32,9 @@ class NumpySciPy:
     def numpyNPV(self,array,rate):
         return round(np.npv(rate,array),2)
 
-    def initDataFrame(self,data):
-        return pd.DataFrame(data)
+    def initDataFrame(self,data,index=None):
+        if(index != None):
+            return pd.DataFrame(data)
+        else:
+            return pd.DataFrame(data,index)
 
