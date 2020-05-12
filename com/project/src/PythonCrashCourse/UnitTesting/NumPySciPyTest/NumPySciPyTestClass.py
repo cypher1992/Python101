@@ -196,3 +196,11 @@ class NumpySciPyTestClass(unittest.TestCase):
         npsy = NumpySciPy()
         actual = npsy.initDataFrame(stocksData)
         expected = pd.DataFrame(stocksData)
+
+    def testEmptyheadDFReturnsHeadDataFame(self):
+        stocksData ={
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stocksData)
+        actual = npsy.headDF(df)
+        expected = pd.DataFrame(stocksData).head()
