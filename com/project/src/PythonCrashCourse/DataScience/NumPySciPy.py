@@ -35,3 +35,5 @@ class NumpySciPy:
     def initDataFrame(self,data,rows=None):
         return pd.DataFrame(data,index=rows)
 
+    def headDF(self,dataframe):
+        return dataframe.head()
