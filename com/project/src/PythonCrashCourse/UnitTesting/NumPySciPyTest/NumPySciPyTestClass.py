@@ -220,6 +220,14 @@ class NumpySciPyTestClass(unittest.TestCase):
         npsy = NumpySciPy()
         df = npsy.initDataFrame(stocksData,rows=dates)
         actual = npsy.headDF(df)
-        print(actual)
         expected = pd.DataFrame(stocksData,index=dates).head()
+
+    def testEmptyHeadDFReturnsHeadDataFame(self):
+        stocksData ={
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stocksData)
+        actual = npsy.tailDF(df)
+        expected = pd.DataFrame(stocksData).tail()
+        print(actual)
         print(expected)
