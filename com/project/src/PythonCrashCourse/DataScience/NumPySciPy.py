@@ -37,3 +37,9 @@ class NumpySciPy:
 
     def headDF(self,dataframe):
         return dataframe.head()
+
+    def tailDF(self,dataframe,numOfRows=None):
+        if numOfRows != None:
+            return dataframe.tail()
+        else:
+            return dataframe.tail(numOfRows)
