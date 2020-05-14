@@ -40,3 +40,6 @@ class NumpySciPy:
 
     def tailDF(self,dataframe,numOfRows=10):
         return dataframe.tail(numOfRows)
+
+    def infoDF(self,dataframe):
+        return dataframe.info()
