@@ -242,12 +242,12 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = pd.DataFrame(stocksData, index=dates).tail(2)
 
 
-    def testDefaulTailDFReturnsHeadDataFame(self):
+    def testDefaul10TailDFReturnsHeadDataFame(self):
         stocksData = {
-            "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87],
-            "KKR": [24.24, 24.60, 26.04, 26.90, 26.66]
+            "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87,24.24, 24.60, 26.04, 26.90, 26.66],
+            "KKR": [24.24, 24.60, 26.04, 26.90, 26.66,24.24, 24.60, 26.04, 26.90, 26.66]
         }
-        dates = ['5/4/20', '5/5/20', '5/6/20', '5/8/20', '5/9/20']
+        dates = ['5/4/20', '5/5/20', '5/6/20', '5/8/20', '5/9/20','5/4/20', '5/5/20', '5/6/20', '5/8/20', '5/9/20']
         npsy = NumpySciPy()
         df = npsy.initDataFrame(stocksData, rows=dates)
         actual = npsy.tailDF(df,)
