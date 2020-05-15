@@ -282,3 +282,15 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.appendDF(dataframe=df,appendDataFrame=df)
         actual = npsy.dropDuplicatesDF(df)
         expected = pd.DataFrame(stocksData).append(df).drop_duplicates()
+
+    def testdropDuplicateReturnsDataFame(self):
+        stockData = {
+            "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87, 24.24, 24.60, 49.56, 26.90, 26.66],
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        df = npsy.appendDF(dataframe=df,appendDataFrame=df)
+        actual = npsy.dropDuplicatesDF(df)
+        expected = pd.DataFrame(stockData).append(df).drop_duplicates()
+        print(actual)
+        print(expected)
