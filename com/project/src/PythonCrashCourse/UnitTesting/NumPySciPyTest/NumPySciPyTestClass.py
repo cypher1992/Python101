@@ -260,3 +260,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stocksData)
         actual = npsy.appendDF(dataframe=df,appendDataFrame=df)
         expected = pd.DataFrame(df).append(df)
+
+
+    def testappendDFReturnsEmptyDataFame(self):
+        stocksData = {
+            "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87, 24.24, 24.60, 26.04, 26.90, 26.66],
+            "KKR": [24.24, 24.60, 26.04, 26.90, 26.66, 24.24, 24.60, 26.04, 26.90, 26.66]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stocksData)
+        actual = npsy.appendDF(dataframe=df,appendDataFrame=df)
+        expected = pd.DataFrame(df).append(df)
+        print(actual)
+        print(expected)
