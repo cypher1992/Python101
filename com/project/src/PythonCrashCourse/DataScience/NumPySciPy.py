@@ -47,5 +47,5 @@ class NumpySciPy:
     def appendDF(self,dataframe,appendDataFrame):
         return dataframe.append(appendDataFrame)
 
-    def dropDF(self,dataframe):
+    def dropDuplicatesDF(self,dataframe):
         return dataframe.drop_duplicates()
