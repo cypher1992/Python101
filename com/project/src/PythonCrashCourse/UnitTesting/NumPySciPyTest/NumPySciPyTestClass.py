@@ -222,7 +222,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.headDF(df)
         expected = pd.DataFrame(stocksData,index=dates).head()
 
-    def testEmptyTailDFReturnsHeadDataFame(self):
+    def testEmptyTailDFReturnsTailDataFame(self):
         stocksData ={
         }
         npsy = NumpySciPy()
@@ -230,7 +230,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.tailDF(df)
         expected = pd.DataFrame(stocksData).tail()
 
-    def testTailDFReturnsHeadDataFame(self):
+    def testTailDFReturnsTailDataFame(self):
         stocksData = {
             "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87],
             "KKR": [24.24, 24.60, 26.04, 26.90, 26.66]
@@ -242,7 +242,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = pd.DataFrame(stocksData, index=dates).tail(2)
 
 
-    def testDefaul10TailDFReturnsHeadDataFame(self):
+    def testDefaul10TailDFReturnsTailDataFame(self):
         stocksData = {
             "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87,24.24, 24.60, 26.04, 26.90, 26.66],
             "KKR": [24.24, 24.60, 26.04, 26.90, 26.66,24.24, 24.60, 26.04, 26.90, 26.66]
@@ -252,5 +252,11 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stocksData, rows=dates)
         actual = npsy.tailDF(df,)
         expected = pd.DataFrame(stocksData, index=dates).tail(10)
-        print(actual)
-        print(expected)
+
+    def testappendDFReturnsEmptyDataFame(self):
+        stocksData = {
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stocksData)
+        actual = npsy.appendDF(dataframe=df,appendDataFrame=df)
+        expected = pd.DataFrame(df).append(df)
