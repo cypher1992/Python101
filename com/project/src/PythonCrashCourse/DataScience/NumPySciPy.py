@@ -43,3 +43,6 @@ class NumpySciPy:
 
     def infoDF(self,dataframe):
         return dataframe.info()
+
+    def appendDF(self,dataframe,appendDataFrame):
+        return dataframe.append(appendDataFrame)
