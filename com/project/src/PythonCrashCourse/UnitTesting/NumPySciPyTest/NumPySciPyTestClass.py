@@ -292,5 +292,3 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.appendDF(dataframe=df,appendDataFrame=df)
         actual = npsy.dropDuplicatesDF(df)
         expected = pd.DataFrame(stockData).append(df).drop_duplicates()
-        print(actual)
-        print(expected)

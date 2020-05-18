@@ -49,3 +49,6 @@ class NumpySciPy:
 
     def dropDuplicatesDF(self,dataframe):
         return dataframe.drop_duplicates()
+
+    def averageDF(self,dataframe):
+        return dataframe.mean()
