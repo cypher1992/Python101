@@ -292,3 +292,13 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.appendDF(dataframe=df,appendDataFrame=df)
         actual = npsy.dropDuplicatesDF(df)
         expected = pd.DataFrame(stockData).append(df).drop_duplicates()
+
+    def testaverageDFReturnsEmptySeriesMean(self):
+        stockData ={
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.averageDF(df)
+        expected = pd.DataFrame(stockData).mean()
+        print(actual)
+        print(expected)
