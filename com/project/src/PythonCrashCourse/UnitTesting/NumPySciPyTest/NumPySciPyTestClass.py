@@ -285,7 +285,7 @@ class NumpySciPyTestClass(unittest.TestCase):
 
     def testdropDuplicateReturnsDataFame(self):
         stockData = {
-            "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87, 24.24, 24.60, 49.56, 26.90, 26.66],
+            "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87, 24.24, 24.60, 49.56, 26.90, 26.66]
         }
         npsy = NumpySciPy()
         df = npsy.initDataFrame(stockData)
@@ -295,6 +295,15 @@ class NumpySciPyTestClass(unittest.TestCase):
 
     def testaverageDFReturnsEmptySeriesMean(self):
         stockData ={
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.averageDF(df)
+        expected = pd.DataFrame(stockData).mean()
+
+    def testaverageDFReturnsSeriesMean(self):
+        stockData ={
+            "Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87, 24.24, 24.60, 49.56, 26.90, 26.66]
         }
         npsy = NumpySciPy()
         df = npsy.initDataFrame(stockData)
