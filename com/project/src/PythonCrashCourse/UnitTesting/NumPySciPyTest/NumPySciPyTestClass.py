@@ -321,3 +321,13 @@ class NumpySciPyTestClass(unittest.TestCase):
         expected = pd.DataFrame(stockData).mean()
         print(actual)
         print(expected)
+
+    def testEmptyDataFrameCountReturnEmptySeries(self):
+        stockData = {
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.countDF(df)
+        expected = pd.DataFrame(stockData).count()
+        print(actual)
+        print(expected)
