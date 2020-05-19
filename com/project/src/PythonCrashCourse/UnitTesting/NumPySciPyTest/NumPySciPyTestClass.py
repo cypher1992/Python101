@@ -309,5 +309,15 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.averageDF(df)
         expected = pd.DataFrame(stockData).mean()
+
+    def testaverageMultiColumnDFReturnsSeriesMean(self):
+        stockData ={
+            "Blackstone":[49.56,50.70,51.18,52.80,52.87],
+            "KKR": [24.24,24.60,26.04,26.90,26.66]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.averageDF(df)
+        expected = pd.DataFrame(stockData).mean()
         print(actual)
         print(expected)

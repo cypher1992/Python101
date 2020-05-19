@@ -45,21 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testaverageDFReturnsSeriesMean">
-    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testDefaul10TailDFReturnsTailDataFame" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testDefaul10TailDFReturnsTailDataFame&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testaverageMultiColumnDFReturnsSeriesMean">
     <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testappendDFReturnsEmptyDataFame" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +88,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testaverageMultiColumnDFReturnsSeriesMean" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testaverageMultiColumnDFReturnsSeriesMean&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testdropDuplicateReturnsDataFame" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testaverageMultiColumnDFReturnsSeriesMean" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testaverageDFReturnsSeriesMean" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testaverageDFReturnsZeroMean" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testdropDuplicateReturnsDataFame" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testappendDFReturnsEmptyDataFame" />
-        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testDefaul10TailDFReturnsTailDataFame" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +151,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589244763710" />
-    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1589592286100">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1589765605029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589592286100" />
-    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1589592286100">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589765605029" />
+    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1589765605029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589592286100" />
-    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1589592286099">
+    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589765605029" />
+    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1589765605029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589592286099" />
-    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1589592286100">
+    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589765605029" />
+    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1589765605029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589592286100" />
+    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589765605029" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -183,10 +183,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587485566986" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1589764803571">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1589854286167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1589764803571" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1589854286167" />
     <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584932283224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
