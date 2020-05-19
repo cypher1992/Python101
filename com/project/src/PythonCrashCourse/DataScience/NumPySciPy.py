@@ -52,3 +52,6 @@ class NumpySciPy:
 
     def averageDF(self,dataframe):
         return dataframe.mean()
+
+    def valueCountDF(self,dataframe):
+        return dataframe.value_counts()
