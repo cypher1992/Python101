@@ -338,6 +338,12 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.countDF(df)
         expected = pd.DataFrame(stockData).count()
+
+    def testEmptyArrayInitSeriesreturnEmptySeries(self):
+        priceArray = []
+        npsy = NumpySciPy()
+        actual = npsy.initSeries(priceArray)
+        expected = pd.Index(priceArray)
         print(actual)
         print(expected)
 
