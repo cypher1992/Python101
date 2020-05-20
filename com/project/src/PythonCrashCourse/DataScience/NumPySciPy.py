@@ -35,6 +35,9 @@ class NumpySciPy:
     def initDataFrame(self,data,rows=None):
         return pd.DataFrame(data,index=rows)
 
+    def initSeries(self,array):
+        return pd.Index(array)
+
     def headDF(self,dataframe):
         return dataframe.head()
 
@@ -55,3 +58,4 @@ class NumpySciPy:
 
     def countDF(self,dataframe):
         return dataframe.count()
+
