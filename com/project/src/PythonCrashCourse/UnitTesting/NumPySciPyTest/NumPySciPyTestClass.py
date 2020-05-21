@@ -345,10 +345,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.initSeries(priceArray)
         expected = pd.Index(priceArray)
 
-    def testArrayInitSeriesreturnSeries(self):
-        priceArray = [49.56, 50.70, 51.18, 52.80, 52.87]
+    def testSingleValArrayInitSeriesreturnSerie(self):
+        priceArray = [49.56]
         npsy = NumpySciPy()
         actual = npsy.initSeries(priceArray)
         expected = pd.Index(priceArray)
         print(actual)
         print(expected)
+
+    def testArrayInitSeriesreturnSeries(self):
+        priceArray = [49.56, 50.70, 51.18, 52.80, 52.87]
+        npsy = NumpySciPy()
+        actual = npsy.initSeries(priceArray)
+        expected = pd.Index(priceArray)
