@@ -356,9 +356,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.initSeries(priceArray)
         expected = pd.Index(priceArray)
 
-    def test2DArrayInitSeriesreturnEmptySeries(self):
+    def test2DArrayInitSeriesreturnObjectSeries(self):
         priceArray = [[49.56, 50.70, 51.18, 52.80, 52.87],[24.24, 24.60, 26.04, 26.90, 26.66]]
         npsy = NumpySciPy()
         actual = npsy.initSeries(priceArray)
         expected = pd.Index(priceArray)
+
+    def testEmptyArrayvalueCountSeriesreturnEmptySeries(self):
+        priceArray = []
+        npsy = NumpySciPy()
+        series = npsy.initSeries(priceArray)
+        actual = npsy.valueCountSeries(series)
+        expected = pd.Index(priceArray).value_counts()
 
