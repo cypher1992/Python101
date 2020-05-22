@@ -60,5 +60,5 @@ class NumpySciPy:
         return dataframe.count()
     
     def valueCountSeries(self,series):
-        return series.value_count()
+        return series.value_counts()
 

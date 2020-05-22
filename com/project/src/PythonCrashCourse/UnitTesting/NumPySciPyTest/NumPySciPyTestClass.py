@@ -271,8 +271,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stocksData)
         actual = npsy.appendDF(dataframe=df,appendDataFrame=df)
         expected = pd.DataFrame(stocksData).append(df)
-        print(actual)
-        print(expected)
+
 
     def testdropDuplicateDFReturnsEmptyDataFame(self):
         stocksData = {
@@ -357,10 +356,9 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.initSeries(priceArray)
         expected = pd.Index(priceArray)
 
-    def test2DArrayInitSeriesreturnObjectSeries(self):
+    def test2DArrayInitSeriesreturnEmptySeries(self):
         priceArray = [[49.56, 50.70, 51.18, 52.80, 52.87],[24.24, 24.60, 26.04, 26.90, 26.66]]
         npsy = NumpySciPy()
         actual = npsy.initSeries(priceArray)
         expected = pd.Index(priceArray)
-        print(actual)
-        print(expected)
+
