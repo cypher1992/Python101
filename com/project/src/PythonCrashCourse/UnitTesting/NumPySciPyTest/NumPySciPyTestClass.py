@@ -369,3 +369,11 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.valueCountSeries(series)
         expected = pd.Index(priceArray).value_counts()
 
+    def testArrayvalueCountSeriesreturnEmptySeries(self):
+        priceArray = [52.80, 52.80, 51.18, 52.80,51.18,52.87]
+        npsy = NumpySciPy()
+        series = npsy.initSeries(priceArray)
+        actual = npsy.valueCountSeries(series)
+        expected = pd.Index(priceArray).value_counts()
+        print(actual)
+        print(expected)
