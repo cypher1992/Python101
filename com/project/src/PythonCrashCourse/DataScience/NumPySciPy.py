@@ -58,4 +58,7 @@ class NumpySciPy:
 
     def countDF(self,dataframe):
         return dataframe.count()
+    
+    def valueCountSeries(self,series):
+        return series.value_count()
 
