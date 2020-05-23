@@ -391,9 +391,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.countDF(df)
         expected = pd.DataFrame(stockData).corr()
 
+    def testSingleValDictDataFrameCorrReturnSerie(self):
+        stockData = {"Blackstone": [49.56]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.countDF(df)
+        expected = pd.DataFrame(stockData).corr()
 
     def testDictDataFrameCorrReturnSerie(self):
-        stockData = {"Blackstone": [49.56]
+        stockData = {"Blackstone": [49.56, 50.70, 51.18, 52.80, 52.87]
         }
         npsy = NumpySciPy()
         df = npsy.initDataFrame(stockData)
