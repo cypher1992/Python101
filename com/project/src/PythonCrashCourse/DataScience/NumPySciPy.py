@@ -62,3 +62,5 @@ class NumpySciPy:
     def valueCountSeries(self,series):
         return series.value_counts()
 
+    def corrDF(self,dataframe):
+        return dataframe.corr()
