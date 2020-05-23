@@ -382,3 +382,13 @@ class NumpySciPyTestClass(unittest.TestCase):
         series = npsy.initSeries(priceArray)
         actual = npsy.valueCountSeries(series)
         expected = pd.Index(priceArray).value_counts()
+
+    def testEmptyDataFrameCorrReturnEmptySeries(self):
+        stockData = {
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.countDF(df)
+        expected = pd.DataFrame(stockData).corr()
+        print(actual)
+        print(expected)
