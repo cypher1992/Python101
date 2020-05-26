@@ -66,4 +66,5 @@ class NumpySciPy:
         return dataframe.corr()
 
     def filterColumnDF(self, dataframe,columnFilter,filterValue):
-        return (dataframe[columnFilter] ==  filterValue)
+        print(dataframe)
+        return dataframe[dataframe[columnFilter] ==  filterValue]

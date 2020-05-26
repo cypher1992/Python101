@@ -415,5 +415,14 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.countDF(df)
         expected = pd.DataFrame(stockData).corr()
-        print(actual)
-        print(expected)
+
+    def testFilterColumnDF(self):
+        stockData = {
+            'Company': ["BlackStone","KKR","Chase","Bank Of America","Wells Fargo","Morgan Stanley"],
+            "Closing Price":[56.26,21.60,100.21,26.75,84.61,246.25],
+            "LocationHQ": ["New York City,NY","New York City,NY","New York City,NY","Charlotte, NC", "San Francisco, CA","New York City,NY"]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.filterColumnDF(df,"Company","BlackStone")
+
