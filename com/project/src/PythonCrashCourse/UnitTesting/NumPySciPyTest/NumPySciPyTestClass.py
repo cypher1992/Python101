@@ -436,4 +436,14 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.filterColumnDF(df,"LocationHQ","New York City,NY")
 
+    def testFilterColumnDFForClosingPrice5626(self):
+        stockData = {
+            'Company': ["BlackStone","KKR","Chase","Bank Of America","Wells Fargo","Morgan Stanley"],
+            "Closing Price":[56.26,21.60,100.21,56.26,84.61,246.25],
+            "LocationHQ": ["New York City,NY","New York City,NY","New York City,NY","Charlotte, NC", "San Francisco, CA","New York City,NY"]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.filterColumnDF(df,"Closing Price",56.26)
+
 
