@@ -459,3 +459,17 @@ class NumpySciPyTestClass(unittest.TestCase):
             actual = npsy.filterColumnDF(df, "Opening Price", 12.26)
         except(KeyError):
             print("Key Doesn't Exist")
+
+    def testNotFilterColumnDFForOpenPricePrice1226(self):
+        stockData = {
+            'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
+            "Closing Price": [56.26, 21.60, 100.21, 56.26, 84.61, 246.25],
+            "LocationHQ": ["New York City,NY", "New York City,NY", "New York City,NY", "Charlotte, NC",
+                           "San Francisco, CA", "New York City,NY"]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        try:
+            actual = npsy.notFilterColumnDF(df, "Opening Price", 12.26)
+        except(KeyError):
+            print("Key Doesn't Exist")
