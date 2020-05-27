@@ -67,3 +67,7 @@ class NumpySciPy:
 
     def filterColumnDF(self, dataframe,columnFilter,filterValue):
         return dataframe[dataframe[columnFilter] == filterValue]
+
+    def notFilterColumnDF(self, dataframe,columnFilter,filterValue):
+        return dataframe[dataframe[columnFilter] != filterValue]
+
