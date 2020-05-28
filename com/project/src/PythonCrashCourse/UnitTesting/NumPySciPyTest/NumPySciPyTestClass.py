@@ -483,5 +483,4 @@ class NumpySciPyTestClass(unittest.TestCase):
         npsy = NumpySciPy()
         df = npsy.initDataFrame(stockData)
         actual = npsy.notFilterColumnDF(df,"Company","BlackStone")
-        print(actual)
 
