@@ -74,5 +74,7 @@ class NumpySciPy:
     def filterColumnDFAdv(self,dataframe,columnFilter,filterValue,filterType="EQUALS"):
         if(filterType == "EQUALS"):
             return self.filterColumnDF(dataframe=dataframe,columnFilter=columnFilter,filterValue=filterValue)
+        elif(filterType == "NOT_EQUALS"):
+            return self.notFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
         else:
-            return self.notFilterColumnDF(dataframe=dataframe,columnFilter=columnFilter,filterValue=filterValue)
+            pass
