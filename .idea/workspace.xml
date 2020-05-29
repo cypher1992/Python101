@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="" />
+    <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest/NumPySciPyTestClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest/NumPySciPyTestClass.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +45,8 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNotFilterColumnDFForCompanyBlackstone">
-    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDF" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForCompanyBlackstone">
+    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForCompanyBlackstone" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,7 +56,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDF&quot;" />
+      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForCompanyBlackstone&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -115,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForCompanyBlackstone" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNotFilterColumnDFForCompanyBlackstone" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testNotFilterColumnDFForOpenPricePrice1226" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFForOpenPricePrice1226" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFForLocationHQNY" />
-        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDF" />
       </list>
     </recent_temporary>
   </component>
@@ -176,10 +179,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587485566986" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1590460300719">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1590717566197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1590460300719" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1590717566197" />
     <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584932283224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

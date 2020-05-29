@@ -484,3 +484,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.notFilterColumnDF(df,"Company","BlackStone")
 
+    def testFilterColumnDFAdvForCompanyBlackstone(self):
+        stockData = {
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        try:
+            actual = npsy.filterColumnDFAdv(df, "Company", "BlackStone")
+            print(actual)
+        except(KeyError):
+            print("Key Doesn't Exist")
+
+
+
