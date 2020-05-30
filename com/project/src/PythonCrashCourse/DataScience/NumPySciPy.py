@@ -71,6 +71,9 @@ class NumpySciPy:
     def notFilterColumnDF(self, dataframe,columnFilter,filterValue):
         return dataframe[dataframe[columnFilter] != filterValue]
 
+    def greaterThanFilterColumnDF(self, dataframe,columnFilter,filterValue):
+        return dataframe[dataframe[columnFilter] > filterValue]
+    
     def filterColumnDFAdv(self,dataframe,columnFilter,filterValue,filterType="EQUALS"):
         if(filterType == "EQUALS"):
             return self.filterColumnDF(dataframe=dataframe,columnFilter=columnFilter,filterValue=filterValue)
