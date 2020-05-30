@@ -529,4 +529,16 @@ class NumpySciPyTestClass(unittest.TestCase):
         actual = npsy.greaterThanFilterColumnDF(df, "Company", "BlackStone")
         print(actual)
 
+    def testGreaterThanEqualsColumnDFAdvForClosingPrice(self):
+        stockData = {
+            'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
+            "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
+            "LocationHQ": ["New York City,NY", "New York City,NY", "New York City,NY", "Charlotte, NC",
+                           "San Francisco, CA", "New York City,NY"]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.greaterThanFilterColumnDF(df, "Closing Price", 100.00)
+        print(actual)
+
 
