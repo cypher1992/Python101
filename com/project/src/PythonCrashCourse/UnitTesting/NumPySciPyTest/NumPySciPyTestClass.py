@@ -517,7 +517,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.filterColumnDFAdv(df, "Company", "BlackStone","NOT_EQUALS")
 
-    def testGreaterThanColumnDFAdvForCompanyBlackstone(self):
+    def testGreaterThanColumnDFForCompanyBlackstone(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
@@ -528,7 +528,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.greaterThanFilterColumnDF(df, "Company", "BlackStone")
 
-    def testGreaterThanColumnDFAdvForClosingPrice(self):
+    def testGreaterThanColumnDFForClosingPrice(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
@@ -539,7 +539,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.greaterThanFilterColumnDF(df, "Closing Price", 100.00)
 
-    def testGreaterThanEqualsColumnDFAdvForCompanyBlackstone(self):
+    def testGreaterThanEqualsColumnDFForCompanyBlackstone(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
@@ -550,7 +550,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.greaterThanEqualsFilterColumnDF(df, "Company", "BlackStone")
 
-    def testGreaterThanEqualsColumnDFAdvForClosingPrice(self):
+    def testGreaterThanEqualsColumnDFForClosingPrice(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
@@ -561,7 +561,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.greaterThanEqualsFilterColumnDF(df, "Closing Price", 100.00)
 
-    def testlessThanColumnDFAdvForCompanyBlackstone(self):
+    def testlessThanColumnDFForCompanyBlackstone(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
@@ -572,7 +572,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.lessThanFilterColumnDF(df, "Company", "BlackStone")
 
-    def testlessThanColumnDFAdvForClosingPrice(self):
+    def testlessThanColumnDFForClosingPrice(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
@@ -583,7 +583,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.lessThanFilterColumnDF(df, "Closing Price", 100.00)
 
-    def testLessThanEqualsColumnDFAdvForCompanyBlackstone(self):
+    def testLessThanEqualsColumnDFForCompanyBlackstone(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
@@ -594,7 +594,7 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.lessThanEqualsFilterColumnDF(df, "Company", "BlackStone")
 
-    def testLessThanEqualsColumnDFAdvForClosingPrice(self):
+    def testLessThanEqualsColumnDFForClosingPrice(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
             "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
