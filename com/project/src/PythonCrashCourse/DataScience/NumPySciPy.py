@@ -94,5 +94,7 @@ class NumpySciPy:
             return self.lessThanFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
         elif (filterType == "GREATER_THAN_EQUALS"):
             return self.greaterThanEqualsFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
+        elif (filterType == "LESS_THAN_EQUALS"):
+            return self.lessThanEqualsFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
         else:
-            pass
+            return None
