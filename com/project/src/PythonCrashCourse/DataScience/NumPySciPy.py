@@ -90,5 +90,7 @@ class NumpySciPy:
             return self.notFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
         elif (filterType == "GREATER_THAN"):
             return self.greaterThanFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
+        elif (filterType == "LESS_THAN"):
+            return self.lessThanFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
         else:
             pass
