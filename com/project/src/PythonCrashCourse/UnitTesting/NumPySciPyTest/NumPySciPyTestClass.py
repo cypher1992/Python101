@@ -506,18 +506,6 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.filterColumnDFAdv(df, "Company", "BlackStone")
 
-    def testFilterColumnDFAdvForNotEqualsCompanyBlackstone(self):
-        stockData = {
-            'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
-            "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
-            "LocationHQ": ["New York City,NY", "New York City,NY", "New York City,NY", "Charlotte, NC",
-                           "San Francisco, CA", "New York City,NY"]
-        }
-        npsy = NumpySciPy()
-        df = npsy.initDataFrame(stockData)
-        actual = npsy.filterColumnDFAdv(df, "Company", "BlackStone",filterType="NOT_EQUALS")
-        print(actual)
-
     def testFilterColumnDFAdvForClosingPrice(self):
         stockData = {
             'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
@@ -528,6 +516,40 @@ class NumpySciPyTestClass(unittest.TestCase):
         npsy = NumpySciPy()
         df = npsy.initDataFrame(stockData)
         actual = npsy.filterColumnDFAdv(df, "Closing Price", 100.21)
+
+    def testFilterColumnDFAdvForNotEqualsCompanyBlackstone(self):
+        stockData = {
+            'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
+            "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
+            "LocationHQ": ["New York City,NY", "New York City,NY", "New York City,NY", "Charlotte, NC",
+                           "San Francisco, CA", "New York City,NY"]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.filterColumnDFAdv(df, "Company", "BlackStone",filterType="NOT_EQUALS")
+
+    def testFilterColumnDFAdvForNotEqualsClosingPrice(self):
+        stockData = {
+            'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
+            "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
+            "LocationHQ": ["New York City,NY", "New York City,NY", "New York City,NY", "Charlotte, NC",
+                           "San Francisco, CA", "New York City,NY"]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.filterColumnDFAdv(df, "Closing Price", 100.21,filterType="NOT_EQUALS")
+        print(actual)
+
+    def testFilterColumnDFAdvForNotEqualsCompanyBlackstone(self):
+        stockData = {
+            'Company': ["BlackStone", "KKR", "Chase", "Bank Of America", "Wells Fargo", "Morgan Stanley"],
+            "Closing Price": [56.26, 21.60, 100.21, 26.75, 84.61, 246.25],
+            "LocationHQ": ["New York City,NY", "New York City,NY", "New York City,NY", "Charlotte, NC",
+                           "San Francisco, CA", "New York City,NY"]
+        }
+        npsy = NumpySciPy()
+        df = npsy.initDataFrame(stockData)
+        actual = npsy.filterColumnDFAdv(df, "Company", "BlackStone",filterType="GREATER_THAN")
 
     def testGreaterThanColumnDFForCompanyBlackstone(self):
         stockData = {

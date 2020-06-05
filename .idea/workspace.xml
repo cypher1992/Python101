@@ -45,7 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsCompanyBlackstone">
+  <component name="RunManager" selected="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsClosingPrice">
     <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForClosingPrice" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +60,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsClosingPrice" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsClosingPrice&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsCompanyBlackstone" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,20 +85,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsCompanyBlackstone&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testGreaterThanEqualsColumnDFAdvForCompanyBlackstone" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;NumPySciPyTestClass.NumpySciPyTestClass.testGreaterThanEqualsColumnDFAdvForCompanyBlackstone&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsClosingPrice" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForNotEqualsCompanyBlackstone" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testFilterColumnDFAdvForClosingPrice" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testLessThanEqualsColumnDFAdvForClosingPrice" />
         <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testlessThanColumnDFAdvForClosingPrice" />
-        <item itemvalue="Python tests.Unittests for NumPySciPyTestClass.NumpySciPyTestClass.testGreaterThanEqualsColumnDFAdvForCompanyBlackstone" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +151,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589244763710" />
-    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1591065272010">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom" timestamp="1591322929529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591065272010" />
-    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1591065272009">
+    <state width="922" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591322929529" />
+    <state width="922" height="208" key="GridCell.Tab.0.center" timestamp="1591322929528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591065272009" />
-    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1591065272009">
+    <state width="922" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591322929528" />
+    <state width="922" height="208" key="GridCell.Tab.0.left" timestamp="1591322929527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591065272009" />
-    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1591065272010">
+    <state width="922" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591322929527" />
+    <state width="922" height="208" key="GridCell.Tab.0.right" timestamp="1591322929528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591065272010" />
+    <state width="922" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591322929528" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,10 +179,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587485566986" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1591231391202">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1591322908161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1591231391202" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1591322908161" />
     <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584932283224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
