@@ -8,5 +8,6 @@ class Power:
     def isPlugged(self, battery):
         return battery[2]
 
-    
+    def getPercentOfBattery(self, battery):
+        return str(battery[0])
 
