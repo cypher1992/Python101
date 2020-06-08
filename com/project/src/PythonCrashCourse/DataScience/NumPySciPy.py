@@ -98,3 +98,4 @@ class NumpySciPy:
             return self.lessThanEqualsFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
         else:
             return None
+    
