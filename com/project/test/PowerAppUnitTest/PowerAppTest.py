@@ -1,9 +1,10 @@
 import unittest
-from com.project.src.Project.PowerApp import Power
+from com.project.src.Project.PowerApp.Power import Power
 class PowerAppTest(unittest.TestCase):
 
-    def test_something(self):
+    def test_InstanceOfPower(self):
         power = Power()
-
-        self.assertEqual(True, False)
+        isPowerClass = isinstance(power,Power)
+        print(isPowerClass)
+        self.assertTrue(isPowerClass)
 
