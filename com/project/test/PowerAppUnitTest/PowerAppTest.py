@@ -21,3 +21,10 @@ class PowerAppTest(unittest.TestCase):
         actual = power.isPlugged(battery)
         expected = psutil.sensors_battery()[2]
         self.assertEqual(expected,actual)
+
+    def test_getPercentOfBatteryReturnsFloat(self):
+        power = Power()
+        battery = power.getBattery()
+        actual = power.getPercentOfBattery(battery)
+        expected = psutil.sensors_battery()[0]
+        self.assertEqual(str(expected),str(actual))
