@@ -15,3 +15,9 @@ class PowerAppTest(unittest.TestCase):
         expected = psutil.sensors_battery()
         self.assertEqual(expected,actual)
 
+    def test_isPluggedReturnsBoolean(self):
+        power = Power()
+        battery = power.getBattery()
+        actual = power.isPlugged(battery)
+        expected = psutil.sensors_battery()[2]
+        self.assertEqual(expected,actual)
