@@ -98,4 +98,6 @@ class NumpySciPy:
             return self.lessThanEqualsFilterColumnDF(dataframe=dataframe, columnFilter=columnFilter, filterValue=filterValue)
         else:
             return None
-    
+
+    def filterColumnAndOR(self,dataframe,columnFilter,filterValues,filterType=0):
+        return dataframe[dataframe[columnFilter] == filterValues[0] | dataframe[columnFilter] == filterValues[1]]
