@@ -672,3 +672,5 @@ class NumpySciPyTestClass(unittest.TestCase):
         df = npsy.initDataFrame(stockData)
         actual = npsy.filterColumnAndOR(df, "LocationHQ",["New York City,NY", "Charlotte, NC"])
         print(actual)
+
+

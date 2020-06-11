@@ -100,4 +100,8 @@ class NumpySciPy:
             return None
 
     def filterColumnAndOR(self,dataframe,columnFilter,filterValues,filterType=0):
-        return dataframe[(dataframe[columnFilter] == filterValues[0]) | (dataframe[columnFilter] == filterValues[1])]
+        if filterType == 0:
+            return dataframe[(dataframe[columnFilter] == filterValues[0]) | (dataframe[columnFilter] == filterValues[1])]
+        else:
+            return dataframe[
+                (dataframe[columnFilter] == filterValues[0]) & (dataframe[columnFilter] == filterValues[1])]
