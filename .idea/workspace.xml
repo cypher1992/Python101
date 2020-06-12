@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataStructure/ListStructure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataStructure/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataStructure/ListStructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataStructure/ListStructure.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

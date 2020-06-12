@@ -1,4 +1,7 @@
 class List():
 
-    pass
+    def __init(self,list):
+        List = list
+        
+
 
