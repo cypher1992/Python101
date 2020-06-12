@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataStructure/ListStructure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/DataStructure/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest/NumPySciPyTestClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/NumPySciPyTest/NumPySciPyTestClass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -155,26 +156,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="247" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584232350153" />
-    <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589244763710">
+    <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591908484148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589244763710" />
-    <state width="922" height="194" key="GridCell.Tab.0.bottom" timestamp="1591839672236">
+    <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591908484148" />
+    <state width="1898" height="194" key="GridCell.Tab.0.bottom" timestamp="1591908520484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591839672236" />
-    <state width="922" height="194" key="GridCell.Tab.0.center" timestamp="1591839672236">
+    <state width="1898" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591908520484" />
+    <state width="1898" height="194" key="GridCell.Tab.0.center" timestamp="1591908520482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591839672236" />
-    <state width="922" height="194" key="GridCell.Tab.0.left" timestamp="1591839672236">
+    <state width="1898" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591908520482" />
+    <state width="1898" height="194" key="GridCell.Tab.0.left" timestamp="1591908520482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591839672236" />
-    <state width="922" height="194" key="GridCell.Tab.0.right" timestamp="1591839672236">
+    <state width="1898" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591908520482" />
+    <state width="1898" height="194" key="GridCell.Tab.0.right" timestamp="1591908520484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591839672236" />
+    <state width="1898" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591908520484" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1585363786627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
