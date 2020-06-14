@@ -10,6 +10,6 @@ class List():
         self.List = newList
 
     def appendToList(self,value):
-        return list.append(value)
+        return self.List.append(value)
 
 
