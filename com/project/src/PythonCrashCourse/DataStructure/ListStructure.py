@@ -1,6 +1,6 @@
 class List():
 
-    def __init(self,list):
+    def __init__(self,list):
         self.List = list
 
     def getList(self):
