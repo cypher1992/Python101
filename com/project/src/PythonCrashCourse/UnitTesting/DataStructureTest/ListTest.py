@@ -36,3 +36,14 @@ class ListTest(unittest.TestCase):
         actual = listObj.getList()
         expected = listChars
         self.assertEqual(expected,actual)
+
+    def test_removeValueNonExistantValuereturnsList(self):
+        list = ['C','B','A']
+        listObj = List(list = list)
+        listChars = ['C','B','A']
+        try:
+            listObj.removeValue('D')
+        except(ValueError):
+            actual = listObj.getList()
+            expected = listChars
+            self.assertEqual(expected,actual)
