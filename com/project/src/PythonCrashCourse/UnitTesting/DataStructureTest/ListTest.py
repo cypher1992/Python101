@@ -27,3 +27,12 @@ class ListTest(unittest.TestCase):
         actual = listObj.getList()
         expected = listChars
         self.assertEqual(expected,actual)
+
+    def test_removeValuereturnsList(self):
+        list = ['C','B','A']
+        listObj = List(list = list)
+        listChars = ['C','A']
+        listObj.removeValue('B')
+        actual = listObj.getList()
+        expected = listChars
+        self.assertEqual(expected,actual)
