@@ -12,4 +12,7 @@ class List():
     def appendToList(self,value):
         return self.List.append(value)
 
+    def removeValue(self,value):
+        return self.List.remove(value)
+
 
