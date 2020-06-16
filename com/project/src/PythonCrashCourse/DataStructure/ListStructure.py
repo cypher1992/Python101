@@ -15,4 +15,7 @@ class List():
     def removeValue(self,value):
         return self.List.remove(value)
 
+    def containValue(self,value):
+        return self.List.contains(value)
+
 
