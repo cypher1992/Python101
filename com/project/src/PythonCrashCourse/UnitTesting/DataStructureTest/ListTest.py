@@ -47,3 +47,10 @@ class ListTest(unittest.TestCase):
             actual = listObj.getList()
             expected = listChars
             self.assertEqual(expected,actual)
+
+    def test_containValuereturnsBoolean(self):
+        emptylist = []
+        listObj = List(list = emptylist)
+        actual = listObj.containValue('C')
+        expected = False
+        self.assertEqual(expected,actual)

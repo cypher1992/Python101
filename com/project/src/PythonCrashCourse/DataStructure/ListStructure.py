@@ -17,8 +17,8 @@ class List():
 
     def containValue(self,value):
         if value in self.List:
-            True
+            return True
         else:
-            False
+            return False
 
 
