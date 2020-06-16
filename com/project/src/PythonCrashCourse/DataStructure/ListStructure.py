@@ -16,6 +16,9 @@ class List():
         return self.List.remove(value)
 
     def containValue(self,value):
-        return self.List.contains(value)
+        if value in self.List:
+            True
+        else:
+            False
 
 
