@@ -22,9 +22,9 @@ class List():
             return False
 
     def sliceList(self,startIndex,endIndex):
-        if(startIndex > len(self.List) || endIndex > len(self.List)):
+        if(startIndex > len(self.List) | endIndex > len(self.List)):
             return None
         else:
-            self.List[startIndex:endIndex]
+            return self.List[startIndex:endIndex]
 
 
