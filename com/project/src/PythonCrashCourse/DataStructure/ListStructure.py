@@ -25,6 +25,6 @@ class List():
         if(startIndex > len(self.List) | endIndex > len(self.List)):
             return None
         else:
-            return self.List[startIndex:endIndex]
+            return self.List[startIndex:endIndex+1]
 
 

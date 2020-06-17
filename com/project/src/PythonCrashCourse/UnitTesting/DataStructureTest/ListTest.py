@@ -54,3 +54,10 @@ class ListTest(unittest.TestCase):
         actual = listObj.containValue('C')
         expected = False
         self.assertEqual(expected,actual)
+
+    def test_sliceListreturnsList(self):
+        list = ['C','B','A']
+        listObj = List(list = list)
+        actual = listObj.sliceList(0,1)
+        expected = ['C','B']
+        self.assertEqual(expected,actual)
