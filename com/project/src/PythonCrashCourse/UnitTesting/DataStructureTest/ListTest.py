@@ -61,3 +61,10 @@ class ListTest(unittest.TestCase):
         actual = listObj.sliceList(0,1)
         expected = ['C','B']
         self.assertEqual(expected,actual)
+
+    def test_sliceListreturnsendOfList(self):
+        list = ['C','B','A']
+        listObj = List(list = list)
+        actual = listObj.sliceList(1,2)
+        expected = ['B','A']
+        self.assertEqual(expected,actual)
