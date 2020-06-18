@@ -66,5 +66,12 @@ class ListTest(unittest.TestCase):
         list = ['C','B','A']
         listObj = List(list = list)
         actual = listObj.sliceList(2,3)
-        expected = None
+        expected = ['A']
         self.assertEqual(expected,actual)
+
+    def test_sliceListreturnLowerBoundList(self):
+        list = ['C', 'B', 'A']
+        listObj = List(list=list)
+        actual = listObj.sliceList(-1,0)
+        expected = []
+        self.assertEqual(expected, actual)
