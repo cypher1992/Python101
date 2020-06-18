@@ -62,9 +62,9 @@ class ListTest(unittest.TestCase):
         expected = ['C','B']
         self.assertEqual(expected,actual)
 
-    def test_sliceListreturnsendOfList(self):
+    def test_sliceListreturnUpperBoundList(self):
         list = ['C','B','A']
         listObj = List(list = list)
-        actual = listObj.sliceList(1,2)
-        expected = ['B','A']
+        actual = listObj.sliceList(2,3)
+        expected = None
         self.assertEqual(expected,actual)
