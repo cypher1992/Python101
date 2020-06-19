@@ -12,6 +12,10 @@ class List():
     def appendToList(self,value):
         return self.List.append(value)
 
+    def updateToList(self,oldValue, newValue):
+        self.List.remove(oldValue)
+        return self.List.append(newValue)
+
     def removeValue(self,value):
         return self.List.remove(value)
 
