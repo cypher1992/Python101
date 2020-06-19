@@ -75,3 +75,10 @@ class ListTest(unittest.TestCase):
         actual = listObj.sliceList(-1,0)
         expected = []
         self.assertEqual(expected, actual)
+
+    def test_sliceListreturnNone(self):
+        list = ['C', 'B', 'A']
+        listObj = List(list=list)
+        actual = listObj.sliceList(999,1000)
+        expected = None
+        self.assertEqual(expected, actual)
