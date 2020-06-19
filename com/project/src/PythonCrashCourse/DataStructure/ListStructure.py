@@ -14,7 +14,8 @@ class List():
 
     def updateToList(self,oldValue, newValue):
         self.List.remove(oldValue)
-        return self.List.append(newValue)
+        self.List.append(newValue)
+        return self.List
 
     def removeValue(self,value):
         return self.List.remove(value)

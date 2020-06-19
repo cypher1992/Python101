@@ -82,3 +82,10 @@ class ListTest(unittest.TestCase):
         actual = listObj.sliceList(999,1000)
         expected = None
         self.assertEqual(expected, actual)
+
+    def test_updateToList52returnListReplaced5TO2(self):
+        list = [4,3,7,5,6,2,2,1]
+        listObj = List(list=list)
+        actual = listObj.updateToList(5,2)
+        expected = [4,3,7,6,2,2,1,2]
+        self.assertEqual(expected, actual)
