@@ -18,4 +18,9 @@ class GatherData():
             list.append(i)
         return
 
-    
+    def getDataSource4(self):
+        list = []
+        for i in 8:
+            if (i % 4 == 0):
+                list.append(i)
+        return list
