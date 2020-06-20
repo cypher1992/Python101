@@ -12,4 +12,10 @@ class GatherData():
             list.append(i)
         return list
 
+    def getDataSource3(self):
+        list = []
+        for i in range(10000000, 20000000, 2500):
+            list.append(i)
+        return
+
     
