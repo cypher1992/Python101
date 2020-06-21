@@ -19,3 +19,10 @@ class MyTestCase(unittest.TestCase):
             expected.append(i)
         self.assertEqual(actual, expected)
 
+    def test_gatherdata3_returns_list(self):
+        gd = GatherData()
+        actual = gd.getDataSource3()
+        expected = []
+        for i in range(10000000, 20000000, 2500):
+            expected.append(i)
+        self.assertEqual(actual, expected)
