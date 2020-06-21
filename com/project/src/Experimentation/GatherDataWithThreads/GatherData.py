@@ -2,7 +2,7 @@ class GatherData():
 
     def getDataSource1(self):
         list = []
-        for i in 1000000:
+        for i in range(1000000):
             list.append(i)
         return list
 
@@ -16,7 +16,7 @@ class GatherData():
         list = []
         for i in range(10000000, 20000000, 2500):
             list.append(i)
-        return
+        return list
 
     def getDataSource4(self):
         list = []
