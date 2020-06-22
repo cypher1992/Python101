@@ -27,4 +27,11 @@ class MyTestCase(unittest.TestCase):
             expected.append(i)
         self.assertEqual(actual, expected)
 
-    
+    def test_gatherdata4_returns_list(self):
+        gd = GatherData()
+        actual = gd.getDataSource4()
+        expected = []
+        for i in range(8):
+            if (i % 4 == 0):
+                expected.append(i)
+        self.assertEqual(actual, expected)
