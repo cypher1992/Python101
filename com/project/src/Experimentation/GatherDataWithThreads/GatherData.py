@@ -20,7 +20,7 @@ class GatherData():
 
     def getDataSource4(self):
         list = []
-        for i in 8:
+        for i in range(8):
             if (i % 4 == 0):
                 list.append(i)
         return list
