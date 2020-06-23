@@ -1,4 +1,6 @@
 import threading
 class ThreadingData():
 
-    pass
+    def createThread(self,function=None):
+        return threading.Thread(target=function)
+         
