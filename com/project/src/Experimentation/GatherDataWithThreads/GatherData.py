@@ -1,26 +1,31 @@
+import time
 class GatherData():
 
     def getDataSource1(self):
-        list = []
+        listNum = []
         for i in range(1000000):
-            list.append(i)
-        return list
+            listNum.append(i)
+        time.sleep(2)
+        print(len(listNum))
+        return listNum
 
     def getDataSource2(self):
-        list = []
+        listNum = []
         for i in range(100, 1000, 2):
-            list.append(i)
-        return list
+            listNum.append(i)
+        return listNum
 
     def getDataSource3(self):
-        list = []
+        listNum = []
         for i in range(10000000, 20000000, 2500):
-            list.append(i)
-        return list
+            listNum.append(i)
+        time.sleep(1)
+        print(len(listNum))
+        return listNum
 
     def getDataSource4(self):
-        list = []
+        listNum = []
         for i in range(8):
             if (i % 4 == 0):
-                list.append(i)
-        return list
+                listNum.append(i)
+        return listNum

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest/ThreadingDataTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest/ThreadingData/ThreadData.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest/ThreadingData/ThreadData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/Experimentation/GatherDataWithThreads/GatherData.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/Experimentation/GatherDataWithThreads/GatherData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest/GatherDataTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest/GatherDataTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest/ThreadingData/ThreadData.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/Experimentation/GatherDataWithThreads/ThreadingData/ThreadData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest/ThreadingData/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/Experimentation/GatherDataWithThreads/ThreadingData/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -35,102 +40,95 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\UnitTesting\IOTest" />
-      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections\TupleCollection" />
-      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
-      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\FinPy\resource" />
-      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonStuc\DataStructure\ListStructure" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\UnitTesting\GatherDataTest" />
+      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\Experimentation\GatherDataWithThreads" />
+      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\UnitTesting\IOTest" />
+      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections\TupleCollection" />
+      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for GatherDataTest.MyTestCase.test_gatherdata4_returns_list">
-    <configuration name="GatherData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/Experimentation/GatherDataWithThreads" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/project/src/Experimentation/GatherDataWithThreads/GatherData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for GatherDataTest.MyTestCase.test_gatherdata1_returns_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for ThreadingDataTest.MyTestCase.test_duractionOfThreadsIsLessThan3Sec">
+    <configuration name="Unittests for ThreadingDataTest.MyTestCase.test_duractionOfThreadsIsLessThan3Sec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;GatherDataTest.MyTestCase.test_gatherdata1_returns_list&quot;" />
+      <option name="_new_target" value="&quot;ThreadingDataTest.MyTestCase.test_duractionOfThreadsIsLessThan3Sec&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for GatherDataTest.MyTestCase.test_gatherdata2_returns_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for ThreadingDataTest.MyTestCase.test_durationOfThreadIsAtleast3Sec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;GatherDataTest.MyTestCase.test_gatherdata2_returns_list&quot;" />
+      <option name="_new_target" value="&quot;ThreadingDataTest.MyTestCase.test_durationOfThreadIsAtleast3Sec&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for GatherDataTest.MyTestCase.test_gatherdata3_returns_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for ThreadingDataTest.MyTestCase.test_something" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;GatherDataTest.MyTestCase.test_gatherdata3_returns_list&quot;" />
+      <option name="_new_target" value="&quot;ThreadingDataTest.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for GatherDataTest.MyTestCase.test_gatherdata4_returns_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for ThreadingDataTest.MyTestCase.test_something2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/GatherDataTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;GatherDataTest.MyTestCase.test_gatherdata4_returns_list&quot;" />
+      <option name="_new_target" value="&quot;ThreadingDataTest.MyTestCase.test_something2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in ThreadingDataTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest/ThreadingDataTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for GatherDataTest.MyTestCase.test_gatherdata4_returns_list" />
-        <item itemvalue="Python tests.Unittests for GatherDataTest.MyTestCase.test_gatherdata3_returns_list" />
-        <item itemvalue="Python tests.Unittests for GatherDataTest.MyTestCase.test_gatherdata2_returns_list" />
-        <item itemvalue="Python tests.Unittests for GatherDataTest.MyTestCase.test_gatherdata1_returns_list" />
-        <item itemvalue="Python.GatherData" />
+        <item itemvalue="Python tests.Unittests for ThreadingDataTest.MyTestCase.test_duractionOfThreadsIsLessThan3Sec" />
+        <item itemvalue="Python tests.Unittests for ThreadingDataTest.MyTestCase.test_durationOfThreadIsAtleast3Sec" />
+        <item itemvalue="Python tests.Unittests for ThreadingDataTest.MyTestCase.test_something" />
+        <item itemvalue="Python tests.Unittests for ThreadingDataTest.MyTestCase.test_something2" />
+        <item itemvalue="Python tests.Unittests in ThreadingDataTest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -155,30 +153,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="189" y="119" key="#Unittests_in_DataStructureTest/0.0.1920.1040@0.0.1920.1040" timestamp="1592103387858" />
-    <state x="247" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584232350153">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="247" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584232350153" />
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591908484148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591908484148" />
-    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1592792342130">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1592962676036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592792342130" />
-    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1592792342130">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592962676036" />
+    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1592962676036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592792342130" />
-    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1592792342129">
+    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592962676036" />
+    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1592962676035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592792342129" />
-    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1592792342130">
+    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592962676035" />
+    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1592962676036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592792342130" />
+    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592962676036" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587485566986" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1592792162687">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1592948670951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1592792162687" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1592948670951" />
     <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584932283224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
