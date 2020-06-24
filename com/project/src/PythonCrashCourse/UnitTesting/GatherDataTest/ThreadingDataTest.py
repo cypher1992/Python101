@@ -5,4 +5,11 @@ from com.project.src.Experimentation.GatherDataWithThreads.ThreadingData.ThreadD
 
 class ThreadingDataTest(unittest.TestCase):
 
-    pass
+
+    def test_durationOfThreadIsAtleast3Sec(self):
+        start = time.perf_counter()
+        gd = GatherData()
+        gd.getDataSource1()
+        gd.getDataSource3()
+        finish = time.perf_counter()
+        self.assertTrue(finish-start>3)
