@@ -5,7 +5,7 @@ class GatherData():
         listNum = []
         for i in range(1000000):
             listNum.append(i)
-        time.sleep(2)
+        time.sleep(1)
         print(len(listNum))
         return listNum
 
@@ -19,7 +19,7 @@ class GatherData():
         listNum = []
         for i in range(10000000, 20000000, 2500):
             listNum.append(i)
-        time.sleep(1)
+        time.sleep(2)
         print(len(listNum))
         return listNum
 
