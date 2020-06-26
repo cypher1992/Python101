@@ -44,7 +44,7 @@ class ThreadingDataTest(unittest.TestCase):
         print(que.qsize())
         self.assertTrue(finish - start < 2)
 
-    def test_durationOfMainThreadIsAtleast3Sec(self):
+    def test_durationOfMainThreadIsAtleast4Sec(self):
         start = time.perf_counter()
         gd = GatherData()
         gd.getDataSource1()
@@ -53,6 +53,6 @@ class ThreadingDataTest(unittest.TestCase):
         gd.getDataSource4()
         finish = time.perf_counter()
         print(finish-start)
-        self.assertTrue(finish-start>3)
+        self.assertTrue(finish-start>4)
 
 
