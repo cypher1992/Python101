@@ -55,4 +55,39 @@ class ThreadingDataTest(unittest.TestCase):
         print(finish-start)
         self.assertTrue(finish-start>4)
 
+    def test_implementDurationOfThreadsIsLessThan2Sec(self):
+        que = queue.Queue()
+        start = time.perf_counter()
+        gd = GatherData()
+        t1 = threading.Thread(target = que.put(gd.getDataSource1))
+        t2 = threading.Thread(target = que.put(gd.getDataSource2))
+        t3 = threading.Thread(target=que.put(gd.getDataSource3))
+        t4 = threading.Thread(target=que.put(gd.getDataSource4))
+        threadList = [t1,t2,t3,t4]
+        for thread in threadList:
+            thread.start()
+        for thread in threadList:
+            thread.join()
+        finish = time.perf_counter()
+        #print(que.get()()) need to use extra pair of parenthesis to return value
+        self.assertTrue(finish - start < 2)
+
+    def test_(self):
+        que = queue.Queue()
+        gd = GatherData()
+        t1 = threading.Thread(target = que.put(gd.getDataSource1))
+        t2 = threading.Thread(target = que.put(gd.getDataSource2))
+        t3 = threading.Thread(target=que.put(gd.getDataSource3))
+        t4 = threading.Thread(target=que.put(gd.getDataSource4))
+        threadList = [t1,t2,t3,t4]
+        for thread in threadList:
+            thread.start()
+        for thread in threadList:
+            thread.join()
+        actual = que.get()()
+        expected = []
+        for i in range(1000000):
+            expected.append(i)
+        self.assertEqual(expected,actual)
+
 
