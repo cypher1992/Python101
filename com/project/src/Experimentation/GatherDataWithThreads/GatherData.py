@@ -6,7 +6,6 @@ class GatherData():
         for i in range(1000000):
             listNum.append(i)
         time.sleep(1)
-        print(len(listNum))
         return listNum
 
     def getDataSource2(self):
@@ -20,7 +19,6 @@ class GatherData():
         for i in range(10000000, 20000000, 2500):
             listNum.append(i)
         time.sleep(2)
-        print(len(listNum))
         return listNum
 
     def getDataSource4(self):

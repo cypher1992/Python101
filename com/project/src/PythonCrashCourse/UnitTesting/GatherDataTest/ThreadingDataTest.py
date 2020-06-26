@@ -13,7 +13,7 @@ class ThreadingDataTest(unittest.TestCase):
         finish = time.perf_counter()
         self.assertTrue(finish-start>3)
 
-    def test_duractionOfThreadsIsLessThan3Sec(self):
+    def test_durationOfThreadsIsLessThan3Sec(self):
         start = time.perf_counter()
         gd = GatherData()
         td = ThreadingData()
@@ -30,7 +30,7 @@ class ThreadingDataTest(unittest.TestCase):
         finish = time.perf_counter()
         self.assertTrue(finish-start < 3)
 
-    def test_implementDuractionOfThreadsIsLessThan2Sec(self):
+    def test_implementDurationOfThreadsIsLessThan2Sec(self):
         que = queue.Queue()
         start = time.perf_counter()
         gd = GatherData()
@@ -43,5 +43,16 @@ class ThreadingDataTest(unittest.TestCase):
         finish = time.perf_counter()
         print(que.qsize())
         self.assertTrue(finish - start < 2)
+
+    def test_durationOfMainThreadIsAtleast3Sec(self):
+        start = time.perf_counter()
+        gd = GatherData()
+        gd.getDataSource1()
+        gd.getDataSource2()
+        gd.getDataSource3()
+        gd.getDataSource4()
+        finish = time.perf_counter()
+        print(finish-start)
+        self.assertTrue(finish-start>3)
 
 
