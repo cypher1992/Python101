@@ -109,4 +109,23 @@ class ThreadingDataTest(unittest.TestCase):
             expected.append(i)
         self.assertEqual(expected,actual)
 
+    def test_threadQueStoreListreturnsThirdIndex(self):
+        que = queue.Queue()
+        gd = GatherData()
+        t1 = threading.Thread(target = que.put(gd.getDataSource1))
+        t2 = threading.Thread(target = que.put(gd.getDataSource2))
+        t3 = threading.Thread(target=que.put(gd.getDataSource3))
+        t4 = threading.Thread(target=que.put(gd.getDataSource4))
+        threadList = [t1,t2,t3,t4]
+        for thread in threadList:
+            thread.start()
+        for thread in threadList:
+            thread.join()
+        que.get()()
+        que.get()()
+        actual = que.get()()
+        expected = []
+        for i in range(10000000, 20000000, 2500):
+            expected.append(i)
+        self.assertEqual(expected,actual)
 
