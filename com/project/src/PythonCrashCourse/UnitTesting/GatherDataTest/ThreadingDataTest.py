@@ -72,7 +72,7 @@ class ThreadingDataTest(unittest.TestCase):
         #print(que.get()()) need to use extra pair of parenthesis to return value
         self.assertTrue(finish - start < 2)
 
-    def test_(self):
+    def test_threadQueStoreListreturnsFirstIndex(self):
         que = queue.Queue()
         gd = GatherData()
         t1 = threading.Thread(target = que.put(gd.getDataSource1))
