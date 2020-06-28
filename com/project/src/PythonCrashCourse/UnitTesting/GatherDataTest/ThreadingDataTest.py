@@ -170,3 +170,19 @@ class ThreadingDataTest(unittest.TestCase):
             if (i % 4 == 0):
                 expected.append(i)
         self.assertEqual(expected,actual)
+
+    # Not working issue with timing executing as a stream datastructure
+    def test_threadDataDurationOfThreadsIsLessThan2Sec(self):
+        que = queue.Queue()
+        gd = GatherData()
+        td = ThreadingData()
+        start = time.perf_counter()
+        t1 = td.createThread(function=que.put(gd.getDataSource1))
+        t2 = td.createThread(function=que.put(gd.getDataSource2))
+        td.startThread(t1)
+        td.startThread(t2)
+        td.joinThread(t1)
+        td.joinThread(t2)
+        finish = time.perf_counter()
+        print(que.get()())
+        self.assertTrue(finish-start < 2)
