@@ -202,3 +202,18 @@ class ThreadingDataTest(unittest.TestCase):
         finish = time.perf_counter()
         print(dictThread.get("thread1")())
         self.assertTrue(finish-start < 2)
+
+    def test_threadDataDictionaryGetThread2DurationOfThreadsIsLessThan2Sec(self):
+        dictThread = {}
+        gd = GatherData()
+        td = ThreadingData()
+        start = time.perf_counter()
+        t1 = td.createThread(function=dictThread.update({"thread1":gd.getDataSource1}))
+        t2 = td.createThread(function=dictThread.update({"thread2":gd.getDataSource2}))
+        td.startThread(t1)
+        td.startThread(t2)
+        td.joinThread(t1)
+        td.joinThread(t2)
+        finish = time.perf_counter()
+        print(dictThread.get("thread2")())
+        self.assertTrue(finish-start < 2)
