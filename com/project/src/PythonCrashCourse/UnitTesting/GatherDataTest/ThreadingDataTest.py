@@ -186,7 +186,23 @@ class ThreadingDataTest(unittest.TestCase):
         finish = time.perf_counter()
         print(finish-start)
         print(que.get()())
-        self.assertTrue(finish-start < 1)
+        self.assertTrue(finish-start < 2)
+
+    def test_threadDataGetThread2DurationOfThreadsIsLessThan2Sec(self):
+        que = queue.Queue()
+        gd = GatherData()
+        td = ThreadingData()
+        start = time.perf_counter()
+        t1 = td.createThread(function=que.put(gd.getDataSource1))
+        t2 = td.createThread(function=que.put(gd.getDataSource2))
+        td.startThread(t1)
+        td.startThread(t2)
+        td.joinThread(t1)
+        td.joinThread(t2)
+        finish = time.perf_counter()
+        que.get()()
+        print(que.get()())
+        self.assertTrue(finish-start < 2)
 
     def test_threadDataDictionaryDurationOfThreadsIsLessThan2Sec(self):
         dictThread = {}
