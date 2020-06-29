@@ -69,6 +69,7 @@ class ThreadingDataTest(unittest.TestCase):
         for thread in threadList:
             thread.join()
         finish = time.perf_counter()
+        print(finish-start)
         #print(que.get()()) need to use extra pair of parenthesis to return value
         self.assertTrue(finish - start < 2)
 
@@ -171,7 +172,6 @@ class ThreadingDataTest(unittest.TestCase):
                 expected.append(i)
         self.assertEqual(expected,actual)
 
-    # Not working issue with timing executing as a stream datastructure
     def test_threadDataDurationOfThreadsIsLessThan2Sec(self):
         que = queue.Queue()
         gd = GatherData()
@@ -184,5 +184,21 @@ class ThreadingDataTest(unittest.TestCase):
         td.joinThread(t1)
         td.joinThread(t2)
         finish = time.perf_counter()
+        print(finish-start)
         print(que.get()())
+        self.assertTrue(finish-start < 1)
+
+    def test_threadDataDictionaryDurationOfThreadsIsLessThan2Sec(self):
+        dictThread = {}
+        gd = GatherData()
+        td = ThreadingData()
+        start = time.perf_counter()
+        t1 = td.createThread(function=dictThread.update({"thread1":gd.getDataSource1}))
+        t2 = td.createThread(function=dictThread.update({"thread2":gd.getDataSource2}))
+        td.startThread(t1)
+        td.startThread(t2)
+        td.joinThread(t1)
+        td.joinThread(t2)
+        finish = time.perf_counter()
+        print(dictThread.get("thread1")())
         self.assertTrue(finish-start < 2)
