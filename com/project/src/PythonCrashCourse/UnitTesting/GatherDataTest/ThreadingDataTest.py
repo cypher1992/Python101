@@ -188,7 +188,7 @@ class ThreadingDataTest(unittest.TestCase):
         print(que.get()())
         self.assertTrue(finish-start < 2)
 
-    def test_threadDataGetThread2DurationOfThreadsIsLessThan2Sec(self):
+    def test_threadDataQueGetThread2DurationOfThreadsIsLessThan2Sec(self):
         que = queue.Queue()
         gd = GatherData()
         td = ThreadingData()
@@ -232,4 +232,26 @@ class ThreadingDataTest(unittest.TestCase):
         td.joinThread(t2)
         finish = time.perf_counter()
         print(dictThread.get("thread2")())
+        self.assertTrue(finish-start < 2)
+
+
+    def test_threadDataDictionaryGetThread4DurationIsLessThan2Sec(self):
+        dictThread = {}
+        gd = GatherData()
+        td = ThreadingData()
+        start = time.perf_counter()
+        t1 = td.createThread(function=dictThread.update({"thread1":gd.getDataSource1}))
+        t2 = td.createThread(function=dictThread.update({"thread2":gd.getDataSource2}))
+        t3 = td.createThread(function=dictThread.update({"thread3": gd.getDataSource3}))
+        t4 = td.createThread(function=dictThread.update({"thread4": gd.getDataSource4}))
+        threadList = [t1,t2,t3,t4]
+
+        for thread in threadList:
+            td.startThread(thread)
+
+        for thread in threadList:
+            td.joinThread(thread)
+
+        finish = time.perf_counter()
+        print(dictThread.get("thread4")())
         self.assertTrue(finish-start < 2)
