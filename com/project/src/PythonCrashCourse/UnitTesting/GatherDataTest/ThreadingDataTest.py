@@ -255,3 +255,20 @@ class ThreadingDataTest(unittest.TestCase):
         finish = time.perf_counter()
         print(dictThread.get("thread4")())
         self.assertTrue(finish-start < 2)
+
+    def test_MainThreadDictionaryGetThread4DurationIsMoreThan5Sec(self):
+        dictThread = {}
+        gd = GatherData()
+        dictThread.update({})
+        start = time.perf_counter()
+        dictThread.update({"datasrc1": gd.getDataSource1})
+        dictThread.update({"datasrc2": gd.getDataSource2})
+        dictThread.update({"datasrc3": gd.getDataSource3})
+        dictThread.update({"datasrc4": gd.getDataSource4})
+
+        for i in range(1,5):
+            string = "datasrc" + str(i)
+            print(dictThread.get(string)())
+
+        finish = time.perf_counter()
+        self.assertTrue(finish - start > 4)
