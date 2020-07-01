@@ -272,3 +272,21 @@ class ThreadingDataTest(unittest.TestCase):
 
         finish = time.perf_counter()
         self.assertTrue(finish - start > 4)
+
+    def test_MainThreadDictionaryGetThreads4DurationIsMoreThan3Sec(self):
+        dictThread = {}
+        gd = GatherData()
+        td = ThreadingData()
+        start = time.perf_counter()
+        t1 = td.createThread(function=dictThread.update({"thread1": gd.getDataSource1}))
+        t2 = td.createThread(function=dictThread.update({"thread2": gd.getDataSource5}),arguments=[2])
+        threadList = [t1,t2]
+        for thread in threadList:
+            td.startThread(thread)
+        for thread in threadList:
+            td.joinThread(thread)
+
+        finish = time.perf_counter()
+
+        self.assertTrue(finish-start<3)
+
