@@ -29,3 +29,10 @@ class GatherData():
                 listNum.append(i)
         time.sleep(1)
         return listNum
+
+    def getDataSource5(self, sleepSec):
+        listNum = []
+        for i in range(100, 1000, 2):
+            listNum.append(i)
+        time.sleep(sleepSec)
+        return listNum
