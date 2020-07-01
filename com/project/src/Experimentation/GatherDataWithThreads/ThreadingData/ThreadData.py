@@ -1,8 +1,8 @@
 import threading
 class ThreadingData():
 
-    def createThread(self,function=None):
-        return threading.Thread(target=function)
+    def createThread(self,function=None, arguments = None):
+        return threading.Thread(target=function, args = arguments)
 
     def startThread(self, thread=None):
         thread.start()
