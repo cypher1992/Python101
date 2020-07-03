@@ -6,4 +6,6 @@ class RegexModX():
 
     def getString(self):
         return self.string
-    
+
+    def setString(self,string):
+        self.string = string
