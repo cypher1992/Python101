@@ -273,7 +273,7 @@ class ThreadingDataTest(unittest.TestCase):
         finish = time.perf_counter()
         self.assertTrue(finish - start > 4)
 
-    def test_MainThreadDictionaryGetThreads4DurationIsMoreThan3Sec(self):
+    def test_ThreadDictionaryGetThreads15DurationIsMoreThan3Sec(self):
         dictThread = {}
         gd = GatherData()
         td = ThreadingData()
