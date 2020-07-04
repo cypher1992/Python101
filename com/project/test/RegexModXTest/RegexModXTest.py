@@ -14,3 +14,11 @@ class RegExModCase(unittest.TestCase):
         actual = regex.getString()
         expected = string
         self.assertEqual(actual,expected)
+
+    def test_setString(self):
+        string = "HW"
+        regex = Regex(string)
+        expected = "HellowWorld"
+        regex.setString(expected)
+        actual = regex.getString()
+        self.assertEqual(actual,expected)
