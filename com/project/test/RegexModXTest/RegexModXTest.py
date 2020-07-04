@@ -3,7 +3,14 @@ from com.project.src.PythonCrashCourse.RegexPack.RegexModX import Regex
 
 class RegExModCase(unittest.TestCase):
 
-    def test_isInstanceOfRegexModX(self):
+    def test_isInstanceOfRegexModXisTrue(self):
         string = "HW"
         regex = Regex(string)
         self.assertTrue(isinstance(regex,Regex))
+
+    def test_getString(self):
+        string = "HW"
+        regex = Regex(string)
+        actual = regex.getString()
+        expected = string
+        self.assertEqual(actual,expected)
