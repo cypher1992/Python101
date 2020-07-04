@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegExMod/RegexModX.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegExMod/RegexModX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegExMod/RegexModX.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegexPack/RegexModX.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegExMod/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegexPack/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -45,7 +48,21 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for ThreadingDataTest.ThreadingDataTest.test_ThreadDictionaryGetThreads15DurationIsMoreThan3Sec">
+  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_isInstanceOfRegexModX">
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_isInstanceOfRegexModX" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_isInstanceOfRegexModX&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for ThreadingDataTest.ThreadingDataTest.test_MainThreadDictionaryGetThread4DurationIsLessThan2Sec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,41 +105,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for ThreadingDataTest.ThreadingDataTest.test_threadDataDictionaryGetThread4DurationIsLessThan2Sec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in RegexModXTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ThreadingDataTest.ThreadingDataTest.test_threadDataDictionaryGetThread4DurationIsLessThan2Sec&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for ThreadingDataTest.ThreadingDataTest.test_threadDataDictionaryGetThread4DurationOfThreadsIsLessThan2Sec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/PythonCrashCourse/UnitTesting/GatherDataTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ThreadingDataTest.ThreadingDataTest.test_threadDataDictionaryGetThread4DurationOfThreadsIsLessThan2Sec&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_isInstanceOfRegexModX" />
+        <item itemvalue="Python tests.Unittests in RegexModXTest.py" />
         <item itemvalue="Python tests.Unittests for ThreadingDataTest.ThreadingDataTest.test_ThreadDictionaryGetThreads15DurationIsMoreThan3Sec" />
         <item itemvalue="Python tests.Unittests for ThreadingDataTest.ThreadingDataTest.test_MainThreadDictionaryGetThreads4DurationIsMoreThan3Sec" />
         <item itemvalue="Python tests.Unittests for ThreadingDataTest.ThreadingDataTest.test_MainThreadDictionaryGetThread4DurationIsLessThan2Sec" />
-        <item itemvalue="Python tests.Unittests for ThreadingDataTest.ThreadingDataTest.test_threadDataDictionaryGetThread4DurationIsLessThan2Sec" />
-        <item itemvalue="Python tests.Unittests for ThreadingDataTest.ThreadingDataTest.test_threadDataDictionaryGetThread4DurationOfThreadsIsLessThan2Sec" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +154,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591908484148" />
-    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1593563280569">
+    <state width="920" height="190" key="GridCell.Tab.0.bottom" timestamp="1593822468495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593563280569" />
-    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1593563280569">
+    <state width="920" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593822468495" />
+    <state width="920" height="190" key="GridCell.Tab.0.center" timestamp="1593822468494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593563280569" />
-    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1593563280569">
+    <state width="920" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593822468494" />
+    <state width="920" height="190" key="GridCell.Tab.0.left" timestamp="1593822468494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593563280569" />
-    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1593563280569">
+    <state width="920" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593822468494" />
+    <state width="920" height="190" key="GridCell.Tab.0.right" timestamp="1593822468494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593563280569" />
+    <state width="920" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593822468494" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,14 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="156" y="460" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587485566986" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1593136606243">
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1" timestamp="1593821764596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1593136606243" />
-    <state x="960" y="0" width="960" height="1040" key="dock-window-2" timestamp="1584932283224">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="960" y="0" width="960" height="1040" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1584932283224" />
+    <state x="960" y="0" width="960" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1593821764596" />
     <state x="960" y="0" width="960" height="553" key="dock-window-3" timestamp="1589251433523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
