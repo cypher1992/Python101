@@ -18,14 +18,21 @@ class RegExModCase(unittest.TestCase):
     def test_setString(self):
         string = "HW"
         regex = Regex(string)
-        expected = "HellowWorld"
+        expected = "HelloWorld"
         regex.setString(expected)
         actual = regex.getString()
         self.assertEqual(actual,expected)
 
     def test_findLettersreturnsTrue(self):
-        string = "HellowWorld"
+        string = "HelloWorld"
         reg = Regex(string)
         actual = reg.findLetters()
         expected = True
         self.assertEqual(actual,expected)
+
+    def test_emptyStringfindLettersreturnsFalse(self):
+        string = ""
+        reg = Regex(string)
+        actual = reg.findLetters()
+        expected = False
+        self.assertEquals(actual,expected)
