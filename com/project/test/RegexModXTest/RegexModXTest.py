@@ -22,3 +22,10 @@ class RegExModCase(unittest.TestCase):
         regex.setString(expected)
         actual = regex.getString()
         self.assertEqual(actual,expected)
+
+    def test_findLettersreturnsTrue(self):
+        string = "HellowWorld"
+        reg = Regex(string)
+        actual = reg.findLetters()
+        expected = True
+        self.assertEqual(actual,expected)

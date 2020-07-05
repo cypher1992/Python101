@@ -10,9 +10,9 @@ class Regex():
     def setString(self,string):
         self.string = string
 
-    def findDigits(self):
-        pattern = "[a-ZA-Z]"
+    def findLetters(self):
+        pattern = "[a-zA-Z]"
         if(re.search(pattern,self.getString())):
-            True
+            return True
         else:
-            False
+            return False
