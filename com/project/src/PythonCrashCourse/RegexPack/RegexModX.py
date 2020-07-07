@@ -10,8 +10,7 @@ class Regex():
     def setString(self,string):
         self.string = string
 
-    def findLetters(self):
-        pattern = "[a-zA-Z]"
+    def findLetters(self,pattern="[a-zA-Z]"):
         if(re.search(pattern,self.getString())):
             return True
         else:
