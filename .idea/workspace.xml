@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegexPack/RegexModX.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegexPack/RegexModX.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in RegexModXTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_findLettersreturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,8 +113,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_findLettersreturnsTrue&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -123,7 +122,7 @@
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_NumericWithAlphaStringfindLettersreturnsFalse" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_NumericStringfindLettersreturnsFalse" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_emptyStringfindLettersreturnsFalse" />
-        <item itemvalue="Python tests.Unittests in RegexModXTest.py" />
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findLettersreturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase" />
       </list>
     </recent_temporary>
@@ -153,22 +152,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591908484148" />
-    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1594082427073">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1594084478357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594082427073" />
-    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1594082427073">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594084478357" />
+    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1594084478357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594082427073" />
-    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1594082427072">
+    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594084478357" />
+    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1594084478356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594082427072" />
-    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1594082427073">
+    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594084478356" />
+    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1594084478357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594082427073" />
+    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594084478357" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

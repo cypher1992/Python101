@@ -45,9 +45,9 @@ class RegExModCase(unittest.TestCase):
         self.assertEqual(actual,expected)
 
     def test_NumericWithAlphaStringfindLettersreturnsFalse(self):
-        string = "123ABc"
+        string = "123ABC"
         reg = Regex(string)
-        actual = reg.findLetters()
+        actual = reg.findLetters(pattern = "^[a-zA-Z]+$")
         expected = False
         self.assertEqual(actual,expected)
 
