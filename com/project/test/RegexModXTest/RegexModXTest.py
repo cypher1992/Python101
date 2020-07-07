@@ -35,4 +35,12 @@ class RegExModCase(unittest.TestCase):
         reg = Regex(string)
         actual = reg.findLetters()
         expected = False
-        self.assertEquals(actual,expected)
+        self.assertEqual(actual,expected)
+
+    def test_NumericStringfindLettersreturnsFalse(self):
+        string = "1231414"
+        reg = Regex(string)
+        actual = reg.findLetters()
+        expected = False
+        self.assertEqual(actual,expected)
+
