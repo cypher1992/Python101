@@ -17,4 +17,7 @@ class Regex():
             return False
 
     def isPatternOf(self,pattern = "[a-zA-Z]"):
-        pass
+        if (re.search(pattern, self.getString())):
+            return True
+        else:
+            return False
