@@ -23,32 +23,38 @@ class RegExModCase(unittest.TestCase):
         actual = regex.getString()
         self.assertEqual(actual,expected)
 
-    def test_findLettersreturnsTrue(self):
+    def test_isAllLettersreturnsTrue(self):
         string = "HelloWorld"
         reg = Regex(string)
-        actual = reg.findLetters()
+        actual = reg.isAllLetters()
         expected = True
         self.assertEqual(actual,expected)
 
-    def test_emptyStringfindLettersreturnsFalse(self):
+    def test_emptyStringisAllLettersreturnsFalse(self):
         string = ""
         reg = Regex(string)
-        actual = reg.findLetters()
+        actual = reg.isAllLetters()
         expected = False
         self.assertEqual(actual,expected)
 
-    def test_NumericStringfindLettersreturnsFalse(self):
+    def test_NumericStringisAllLettersreturnsFalse(self):
         string = "1231414"
         reg = Regex(string)
-        actual = reg.findLetters()
+        actual = reg.isAllLetters()
         expected = False
         self.assertEqual(actual,expected)
 
-    def test_NumericWithAlphaStringfindLettersreturnsFalse(self):
+    def test_NumericWithAlphaStringisAllLettersreturnsFalse(self):
         string = "123ABC"
         reg = Regex(string)
-        actual = reg.findLetters(pattern = "^[a-zA-Z]+$")
+        actual = reg.isAllLetters(pattern = "^[a-zA-Z]+$")
         expected = False
         self.assertEqual(actual,expected)
 
+    def test_NumericStringisAllLettersreturnsFalse(self):
+        string = "123"
+        reg = Regex(string)
+        actual = reg.isAllLetters(pattern = "^[0-9]+$")
+        expected = True
+        self.assertEqual(actual,expected)
 
