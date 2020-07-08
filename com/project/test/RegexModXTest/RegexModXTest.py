@@ -58,3 +58,9 @@ class RegExModCase(unittest.TestCase):
         expected = True
         self.assertEqual(actual,expected)
 
+    def test_isPatternOfreturnsTrue(self):
+        string = "HelloWorld"
+        reg = Regex(string)
+        actual = reg.isPatternOf()
+        expected = True
+        self.assertEqual(actual,expected)
