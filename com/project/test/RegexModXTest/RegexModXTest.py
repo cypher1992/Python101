@@ -64,3 +64,11 @@ class RegExModCase(unittest.TestCase):
         actual = reg.isPatternOf()
         expected = True
         self.assertEqual(actual,expected)
+
+    def test_isPatternOfOnlyLetterOfreturnsTrue(self):
+        string = "HelloWorld"
+        pattern = "^[a-zA-Z]+$"
+        reg = Regex(string)
+        actual = reg.isPatternOf(pattern=pattern)
+        expected = True
+        self.assertEqual(actual, expected)
