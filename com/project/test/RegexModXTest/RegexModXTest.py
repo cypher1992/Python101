@@ -80,3 +80,11 @@ class RegExModCase(unittest.TestCase):
         actual = reg.isPatternOf(pattern=pattern)
         expected = True
         self.assertEqual(actual, expected)
+
+    def test_isPatternOfOnlyDigitsOfreturnsTrue(self):
+        string = "917-293-9535"
+        pattern = '^\d\d\d-\d\d\d-\d\d\d\d$'
+        reg = Regex(string)
+        actual = reg.isPatternOf(pattern=pattern)
+        expected = True
+        self.assertEqual(actual, expected)
