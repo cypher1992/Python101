@@ -72,3 +72,11 @@ class RegExModCase(unittest.TestCase):
         actual = reg.isPatternOf(pattern=pattern)
         expected = True
         self.assertEqual(actual, expected)
+
+    def test_isPatternOfOnlyDigitsOfreturnsTrue(self):
+        string = "123"
+        pattern = "^[0-9]+$"
+        reg = Regex(string)
+        actual = reg.isPatternOf(pattern=pattern)
+        expected = True
+        self.assertEqual(actual, expected)
