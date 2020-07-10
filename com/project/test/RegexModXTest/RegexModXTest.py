@@ -97,4 +97,4 @@ class RegExModCase(unittest.TestCase):
         actual = reg.matchPatterns(pattern=pattern)
         patternX = re.compile(pattern)
         expected = patternX.finditer(string)
-        self.assertEqual(str(actual),str(expected))
+        self.assertEqual(actual,expected)

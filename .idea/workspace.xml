@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegexPack/RegexModX.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/PythonCrashCourse/RegexPack/RegexModX.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,21 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_isPatternOfOnlyDigitsOfreturnsTrue">
-    <configuration name="Unittests for RegexModXTest.RegExModCase.test_NumericStringisAllLettersreturnsFalse" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_NumericStringisAllLettersreturnsFalse&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_matchPatternsDigitreturnsTrue">
     <configuration name="Unittests for RegexModXTest.RegExModCase.test_isPatternOfOnlyDigitsOfreturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,6 +88,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_matchPatternsDigitreturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_matchPatternsDigitreturnsTrue&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in RegexModXTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_matchPatternsDigitreturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_isPatternOfOnlyDigitsOfreturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_isPatternOnlyLetterOfreturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_isPatternOfreturnsTrue" />
         <item itemvalue="Python tests.Unittests in RegexModXTest.py" />
-        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_NumericStringisAllLettersreturnsFalse" />
       </list>
     </recent_temporary>
   </component>
