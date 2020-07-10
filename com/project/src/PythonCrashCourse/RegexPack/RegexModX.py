@@ -22,7 +22,7 @@ class Regex():
         else:
             return False
 
-    def setupReCompile(self,pattern=r'abc'):
+    def matchPatterns(self,pattern=r'abc'):
             patternX = re.compile(pattern)
             matches = patternX.finditer(self.getString())
             return matches

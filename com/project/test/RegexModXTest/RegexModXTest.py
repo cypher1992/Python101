@@ -1,3 +1,4 @@
+import re
 import unittest
 from com.project.src.PythonCrashCourse.RegexPack.RegexModX import Regex
 
@@ -88,3 +89,12 @@ class RegExModCase(unittest.TestCase):
         actual = reg.isPatternOf(pattern=pattern)
         expected = True
         self.assertEqual(actual, expected)
+
+    def test_matchPatternsDigitreturnsTrue(self):
+        string = "917-293-9535"
+        pattern = r'\d'
+        reg = Regex(string)
+        actual = reg.matchPatterns(pattern=pattern)
+        patternX = re.compile(pattern)
+        expected = patternX.finditer(string)
+        self.assertEqual(str(actual),str(expected))
