@@ -91,11 +91,11 @@ class RegExModCase(unittest.TestCase):
         self.assertEqual(actual, expected)
 
 # not working!!!!
-    def test_matchPatternsDigitreturnsTrue(self):
-        string = "917-293-9535"
-        pattern = r'\d'
+    def test_matchPatternsAlphabetreturnsTrue(self):
+        string = "abcAbcABCNYCBCAabc"
         reg = Regex(string)
-        actual = reg.matchPatterns(pattern=pattern)
-        patternX = re.compile(pattern)
+        actual = reg.matchPatterns()
+        print(actual)
+        patternX = re.compile(r'abc')
         expected = patternX.finditer(string)
         self.assertEqual(actual,expected)
