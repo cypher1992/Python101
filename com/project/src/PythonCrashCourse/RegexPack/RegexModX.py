@@ -24,5 +24,8 @@ class Regex():
 
     def matchPatterns(self,pattern=r'abc'):
             patternX = re.compile(pattern)
-            matches = patternX.finditer(self.getString())
-            return matches
+            listMatch = []
+            for match in patternX.finditer(self.getString()):
+                listMatch.append(match.start())
+                listMatch.append(match.group())
+            return listMatch

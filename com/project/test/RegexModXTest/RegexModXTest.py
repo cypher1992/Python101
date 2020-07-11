@@ -90,6 +90,7 @@ class RegExModCase(unittest.TestCase):
         expected = True
         self.assertEqual(actual, expected)
 
+# not working!!!!
     def test_matchPatternsDigitreturnsTrue(self):
         string = "917-293-9535"
         pattern = r'\d'
