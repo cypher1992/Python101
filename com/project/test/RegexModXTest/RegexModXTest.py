@@ -90,12 +90,16 @@ class RegExModCase(unittest.TestCase):
         expected = True
         self.assertEqual(actual, expected)
 
-# not working!!!!
     def test_matchPatternsAlphabetreturnsTrue(self):
         string = "abcAbcABCNYCBCAabc"
         reg = Regex(string)
         actual = reg.matchPatterns()
         print(actual)
         patternX = re.compile(r'abc')
-        expected = patternX.finditer(string)
+        expected = []
+        for match in patternX.finditer(string):
+            #match.start() = starting position of pattern
+            expected.append(match.start())
+            #match.group() = returns result of the first instance of match
+            expected.append(match.group())
         self.assertEqual(actual,expected)
