@@ -103,6 +103,17 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         self.assertEqual(actual,expected)
 
+    def test_matchPatternsTelephoneReturnsTrue(self):
+        string = "1-917-293-9174"
+        reg = Regex(string)
+        actual = reg.matchPatterns(pattern=r"917")
+        patternX = re.compile(r'917')
+        expected = []
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        self.assertEqual(actual,expected)
+
     def test_pureMatchPatternsAlphabetreturns2(self):
         string = "abcAbcABCNYCBCAabc"
         reg = Regex(string)
