@@ -29,3 +29,10 @@ class Regex():
                 listMatch.append(match.start())
                 listMatch.append(match.group())
             return listMatch
+
+    def pureMatchPatterns(self,pattern=r'abc'):
+            patternX = re.compile(pattern)
+            listMatch = []
+            for match in patternX.finditer(self.getString()):
+                listMatch.append(match.group())
+            return listMatch
