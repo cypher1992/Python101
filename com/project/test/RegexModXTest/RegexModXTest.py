@@ -94,7 +94,6 @@ class RegExModCase(unittest.TestCase):
         string = "abcAbcABCNYCBCAabc"
         reg = Regex(string)
         actual = reg.matchPatterns()
-        print(actual)
         patternX = re.compile(r'abc')
         expected = []
         for match in patternX.finditer(string):
@@ -103,3 +102,11 @@ class RegExModCase(unittest.TestCase):
             #match.group() = returns result of the first instance of match
             expected.append(match.group())
         self.assertEqual(actual,expected)
+
+    def test_pureMatchPatternsAlphabetreturns2(self):
+        string = "abcAbcABCNYCBCAabc"
+        reg = Regex(string)
+        actual = reg.pureMatchPatterns()
+        patternX = re.compile(r'abc')
+        expected = 2
+        self.assertEqual(len(actual), expected)
