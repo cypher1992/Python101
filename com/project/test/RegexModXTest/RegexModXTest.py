@@ -168,3 +168,15 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.start())
             expected.append(match.group())
         self.assertEqual(actual,expected)
+
+    def test_findPatternOfSpacematchPatternsTelephoneReturnsTrue(self):
+        string = " 7-917-293-191 "
+        reg = Regex(string)
+        actual = reg.matchPatterns(pattern=r"\s")
+        patternX = re.compile(r'\s')
+        expected = []
+        #Using \s searches for all where there is a white space
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        self.assertEqual(actual,expected)
