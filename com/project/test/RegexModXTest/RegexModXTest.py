@@ -169,6 +169,18 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         self.assertEqual(actual,expected)
 
+    def test_findPatternOfNotADigitmatchPatternsTelephoneReturnsTrue(self):
+        string = "7-917-293-191"
+        reg = Regex(string)
+        actual = reg.matchPatterns(pattern=r"\D")
+        patternX = re.compile(r'\D')
+        expected = []
+        #Using \d searches for all characters that is between 0 - 9
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        self.assertEqual(actual,expected)
+
     def test_findPatternOfSpacematchPatternsTelephoneReturnsTrue(self):
         string = " 7-917-293-191 "
         reg = Regex(string)
