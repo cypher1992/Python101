@@ -132,7 +132,18 @@ class RegExModCase(unittest.TestCase):
         actual = reg.matchPatterns(pattern=r"917")
         patternX = re.compile(r'917')
         expected = []
-        print(len(actual))
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        self.assertEqual(actual,expected)
+
+    def test_BlockStringEntermatchPatternReturnsPositionAndInstanceOfMatch(self):
+        string = """7-917-293-1191
+        917"""
+        reg = Regex(string)
+        actual = reg.matchPatterns(pattern=r"917")
+        patternX = re.compile(r'917')
+        expected = []
         for match in patternX.finditer(string):
             expected.append(match.start())
             expected.append(match.group())
@@ -145,3 +156,15 @@ class RegExModCase(unittest.TestCase):
         patternX = re.compile(r'abc')
         expected = 2
         self.assertEqual(len(actual), expected)
+
+    def test_findPatternOfDigitmatchPatternsTelephoneReturnsTrue(self):
+        string = "7-917-293-191"
+        reg = Regex(string)
+        actual = reg.matchPatterns(pattern=r"\d")
+        patternX = re.compile(r'\d')
+        expected = []
+        #Using \d searches for all characters that is between 0 - 9
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        self.assertEqual(actual,expected)
