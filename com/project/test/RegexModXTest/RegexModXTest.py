@@ -175,7 +175,8 @@ class RegExModCase(unittest.TestCase):
         actual = reg.matchPatterns(pattern=r"\D")
         patternX = re.compile(r'\D')
         expected = []
-        #Using \d searches for all characters that is between 0 - 9
+        print(actual)
+        #Using \D searches for all characters that is not between 0 - 9
         for match in patternX.finditer(string):
             expected.append(match.start())
             expected.append(match.group())
