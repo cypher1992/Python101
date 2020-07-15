@@ -182,14 +182,28 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         self.assertEqual(actual,expected)
 
-    def test_findPatternOfSpacematchPatternsTelephoneReturnsTrue(self):
-        string = " 7-917-293-191 "
+    def test_findPatternOfDotmatchPatternsWebsiteReturnsTrue(self):
+        string = "www.amandaplease.com"
         reg = Regex(string)
-        actual = reg.matchPatterns(pattern=r"\s")
-        patternX = re.compile(r'\s')
+        actual = reg.matchPatterns(pattern=r"\.")
+        patternX = re.compile(r'\.')
         expected = []
-        #Using \s searches for all where there is a white space
+        #Backslash for metacharacters are need due to regex . ^ $ * + ? { } [ ] \ | ( )
         for match in patternX.finditer(string):
             expected.append(match.start())
             expected.append(match.group())
+        self.assertEqual(actual,expected)
+
+    def test_findPatternOfDotExpressionmatchPatternsWebsiteReturnsTrue(self):
+        string = "www.amandaplease.com"
+        reg = Regex(string)
+        regexExpression = r"."
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # . return all characters that are not a new line
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
         self.assertEqual(actual,expected)
