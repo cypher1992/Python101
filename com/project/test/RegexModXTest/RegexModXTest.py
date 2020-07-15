@@ -207,3 +207,17 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual,expected)
+
+    def test_findPatternOfwordExpressionmatchPatternsWebsiteReturnsTrue(self):
+        string = "www.amandaplease.com"
+        reg = Regex(string)
+        regexExpression = r"\w"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # \w returns a-z A-Z 0-9 _
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual,expected)
