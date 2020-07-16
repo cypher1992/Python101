@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/test/RegexModXTest/RegexModXTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfWhiteSpaceExpressionMatchPatternsWebsite">
+  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWhiteSpaceExpressionMatchPatternsString">
     <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfDotmatchPatternsWebsiteReturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,7 +60,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotADigitmatchPatternsTelephoneReturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWhiteSpaceExpressionMatchPatternsString" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +70,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_findPatternOfNotADigitmatchPatternsTelephoneReturnsTrue&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_findPatternOfNotWhiteSpaceExpressionMatchPatternsString&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWhiteSpaceExpressionMatchPatternsString" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfWhiteSpaceExpressionMatchPatternsWebsite" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWordExpressionMatchPatternsWebsiteReturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfwordExpressionmatchPatternsWebsiteReturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfDotmatchPatternsWebsiteReturnsTrue" />
-        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotADigitmatchPatternsTelephoneReturnsTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -152,22 +151,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591908484148" />
-    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1594846719923">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1594860709249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594846719923" />
-    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1594846719922">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594860709249" />
+    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1594860709248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594846719922" />
-    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1594846719922">
+    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594860709248" />
+    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1594860709248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594846719922" />
-    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1594846719922">
+    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594860709248" />
+    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1594860709249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594846719922" />
+    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594860709249" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
