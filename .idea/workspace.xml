@@ -46,7 +46,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWordExpressionMatchPatternsWebsiteReturnsTrue">
+  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfWhiteSpaceExpressionMatchPatternsWebsite">
     <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfDotmatchPatternsWebsiteReturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +89,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfSpacematchPatternsTelephoneReturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfWhiteSpaceExpressionMatchPatternsWebsite" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,7 +99,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_findPatternOfSpacematchPatternsTelephoneReturnsTrue&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_findPatternOfWhiteSpaceExpressionMatchPatternsWebsite&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfWhiteSpaceExpressionMatchPatternsWebsite" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWordExpressionMatchPatternsWebsiteReturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfwordExpressionmatchPatternsWebsiteReturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfDotmatchPatternsWebsiteReturnsTrue" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotADigitmatchPatternsTelephoneReturnsTrue" />
-        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfSpacematchPatternsTelephoneReturnsTrue" />
       </list>
     </recent_temporary>
   </component>
