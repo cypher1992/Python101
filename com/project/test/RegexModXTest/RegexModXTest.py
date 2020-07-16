@@ -221,3 +221,17 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual,expected)
+
+    def test_findPatternOfNotWordExpressionMatchPatternsWebsite(self):
+        string = "www.amandaplease.com"
+        reg = Regex(string)
+        regexExpression = r"\W"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # \W  returns not a-z A-Z 0-9 _ there should only return .
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual,expected)
