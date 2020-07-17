@@ -283,3 +283,19 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_findPatternOfNotBoundaryExpressionMatchPatternsString(self):
+        string = """I said I like it like that
+
+        """
+        reg = Regex(string)
+        regexExpression = r"\Bsaid\B"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # \B - return outside boundaries between words
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
