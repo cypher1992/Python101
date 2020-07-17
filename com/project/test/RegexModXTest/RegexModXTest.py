@@ -268,7 +268,7 @@ class RegExModCase(unittest.TestCase):
         print(actual)
         self.assertEqual(actual, expected)
 
-    def test_findPatternOfNotWhiteSpaceExpressionMatchPatternsString(self):
+    def test_findPatternOfBoundaryExpressionMatchPatternsString(self):
         string = """I said I like it like that
 
         """
