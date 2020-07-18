@@ -317,3 +317,19 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_findPatternOfStartofStringMatchPatternsString(self):
+        string = """I said I like it like that
+
+        """
+        reg = Regex(string)
+        regexExpression = r"^I"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # ^ start of a string
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
