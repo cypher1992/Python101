@@ -45,7 +45,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotBoundaryExpressionMatchPatternsHA">
+  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfWordBoundaryExpressionMatchPatternsHA">
     <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotBoundaryExpressionMatchPatternsHA" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +102,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfwordExpressionmatchPatternsWebsiteReturnsTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_findPatternOfWordBoundaryExpressionMatchPatternsHA" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,17 +112,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_findPatternOfwordExpressionmatchPatternsWebsiteReturnsTrue&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_findPatternOfWordBoundaryExpressionMatchPatternsHA&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfWordBoundaryExpressionMatchPatternsHA" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotBoundaryExpressionMatchPatternsHA" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWhiteSpaceExpressionMatchPatternsString" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfWhiteSpaceExpressionMatchPatternsWebsite" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfNotWordExpressionMatchPatternsWebsiteReturnsTrue" />
-        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_findPatternOfwordExpressionmatchPatternsWebsiteReturnsTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +151,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591908484148" />
-    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1595039013174">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1595039037517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595039013174" />
-    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1595039013174">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595039037517" />
+    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1595039037517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595039013174" />
-    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1595039013173">
+    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595039037517" />
+    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1595039037516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595039013173" />
-    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1595039013174">
+    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595039037516" />
+    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1595039037517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595039013174" />
+    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595039037517" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
