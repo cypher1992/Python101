@@ -334,7 +334,7 @@ class RegExModCase(unittest.TestCase):
         print(actual)
         self.assertEqual(actual, expected)
 
-    def test_matchPatternsStartOfSaidReturnsNothing:(self):
+    def test_matchPatternsStartOfSaidReturnsNothing(self):
         string = """I said I like it like that
 
         """
@@ -344,6 +344,20 @@ class RegExModCase(unittest.TestCase):
         patternX = re.compile(regexExpression)
         expected = []
         # ^ start of a string
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
+
+    def test_matchPatternsThatAtEndReturnsNothing(self):
+        string = """I said I like it like that"""
+        reg = Regex(string)
+        regexExpression = r"that$"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # $ end of a string
         for match in patternX.finditer(string):
             expected.append(match.start())
             expected.append(match.group())
