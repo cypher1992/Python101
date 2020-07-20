@@ -408,7 +408,7 @@ class RegExModCase(unittest.TestCase):
         print(actual)
         self.assertEqual(actual, expected)
 
-    def test_matchPatternstelephoneEndReturnsAllInstance(self):
+    def test_PeriodIsNotTheBestOptmatchPatternstelephoneEndReturnsAllInstance(self):
         string = """
         917-293-9422
         514*264*8577
@@ -423,6 +423,27 @@ class RegExModCase(unittest.TestCase):
         # /d - for digits
         # . all instance of word
         # period is not the best instance because it returns also alphaNumeric instance
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
+
+    def test_SetSelectormatchPatternstelephoneEndReturnsAllInstance(self):
+        string = """
+        917-293-9422
+        514*264*8577
+        516a524a7485
+        516452487485
+        """
+        reg = Regex(string)
+        regexExpression = r"\d\d\d[-*]\d\d\d[-*]\d\d\d\d"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # /d - for digits
+        # . all instance of word
+        # [-*] set selector looking for only instances of - and * in that one char
         for match in patternX.finditer(string):
             expected.append(match.start())
             expected.append(match.group())
