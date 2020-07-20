@@ -407,3 +407,24 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_matchPatternstelephoneEndReturnsAllInstance(self):
+        string = """
+        917-293-9422
+        514*264*8577
+        516a524a7485
+        516452487485
+        """
+        reg = Regex(string)
+        regexExpression = r"\d\d\d.\d\d\d.\d\d\d\d"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # /d - for digits
+        # . all instance of word
+        # period is not the best instance because it returns also alphaNumeric instance
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
