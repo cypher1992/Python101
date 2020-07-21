@@ -450,16 +450,17 @@ class RegExModCase(unittest.TestCase):
         print(actual)
         self.assertEqual(actual, expected)
 
-    def test_matchPatterns917telephoneEndReturnsAllInstance(self):
+    def test_matchPatterns917347telephoneEndReturnsAllInstance(self):
         string = """
            917-293-9422
            514*264*8577
            516a524a7485
            516452487485
+           347*854*9417
            917-124-1173
            """
         reg = Regex(string)
-        regexExpression = r"[9][1][7][-*]\d\d\d[-*]\d\d\d\d"
+        regexExpression = r"[93][14][7][-*]\d\d\d[-*]\d\d\d\d"
         actual = reg.matchPatterns(pattern=regexExpression)
         patternX = re.compile(regexExpression)
         expected = []
