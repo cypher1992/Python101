@@ -513,3 +513,18 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_quantifierMatchPatternsReturnsTelephoneString(self):
+        string = """917-293-9422
+        514*264*8577"""
+        reg = Regex(string)
+        regexExpression = r"\d{3}[-*]\d{3}[-*]\d{4}"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # /d - for digits {number} - exact number of matching patter
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
