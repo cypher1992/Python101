@@ -492,3 +492,24 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+
+
+    def test_matchPatternsNegateFNameReturnsNotFanny(self):
+        string = """
+           Raymond Mustafa
+           Ryan Lion
+           Khan Jr
+           Nizmo
+           Fanny
+           """
+        reg = Regex(string)
+        regexExpression = r"[^F][a-z][a-z][a-z][a-z]"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # ^  negate what you are not looking for in this case F
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
