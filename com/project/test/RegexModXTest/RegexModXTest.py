@@ -528,3 +528,24 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_MatchPatternsReturnsPrefixNamesString(self):
+        string = """Mr Roy roger
+        Mr. John Wayne
+        mr Ray Yaz
+        mr. Niz Hanif
+        Ms Mary Jane Watson
+        Ms Fanny Reguieg
+        Ms Vanessa Ragubar"""
+        reg = Regex(string)
+        regexExpression = r"[mM]r\.?"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        # ? option value for the period if it is there or not return match
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
+
