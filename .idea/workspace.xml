@@ -46,7 +46,21 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnPrefixNames">
+  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnEmails">
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnEmails" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_MatchPatternsReturnEmails&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnFemaleNames" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,27 +117,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for RegexModXTest.RegExModCase.test_quantifierMatchPatternsReturnsTelephoneString" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_quantifierMatchPatternsReturnsTelephoneString&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnEmails" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnPrefixNames" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnFemaleNames" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnMaleNamesString" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnsPrefixNamesString" />
-        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_quantifierMatchPatternsReturnsTelephoneString" />
       </list>
     </recent_temporary>
   </component>
@@ -152,22 +152,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="160" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591908484148" />
-    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1595466041334">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1595554468503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595466041334" />
-    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1595466041334">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595554468503" />
+    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1595554468503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595466041334" />
-    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1595466041334">
+    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595554468503" />
+    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1595554468503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595466041334" />
-    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1595466041334">
+    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595554468503" />
+    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1595554468503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595466041334" />
+    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595554468503" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

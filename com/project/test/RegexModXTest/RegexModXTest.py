@@ -618,3 +618,22 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+    
+    def test_MatchPatternsReturnEmails(self):
+        string = """
+        raymond.yassin@nomura.com
+        raymond-yassin@amanda-please.net
+        fanny_reguieg@aol.gov
+        raymond-yassin01@amanda-please.net"""
+        reg = Regex(string)
+        regexExpression = r"[a-zA-Z0-9.\-_]+@[\w-]+\.(com|gov|net)+"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        #() group conditions together for matches that are option to match
+        #[] sets of characters to look for
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
