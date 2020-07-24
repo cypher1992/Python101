@@ -637,3 +637,28 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group())
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_MatchPatternsReturnURLs(self):
+        string = """
+        http://www.cartoonnetwork.com
+        http://www.nick.com
+        https://www.SocGen.net
+        https://www.youtube.gov
+        https://www.youtube.uk
+        https://youtube.uk
+        http://www.amandaplease.com
+        http://www.amanda-please.com
+        https://www.Ilovenum123.com"""
+        reg = Regex(string)
+        regexExpression = r"https?://(w{3}\.)?[a-zA-Z0-9/-]+\.[a-zA-Z]+"
+        actual = reg.matchPatterns(pattern=regexExpression)
+        patternX = re.compile(regexExpression)
+        expected = []
+        #() group conditions together for matches that are option to match
+        #[] sets of characters to look for
+        #? match only if it exist or not for that char
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
