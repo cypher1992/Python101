@@ -650,7 +650,7 @@ class RegExModCase(unittest.TestCase):
         http://www.amanda-please.com
         https://www.Ilovenum123.com"""
         reg = Regex(string)
-        regexExpression = r"https?://(w{3}\.)?[a-zA-Z0-9/-]+\.[a-zA-Z]+"
+        regexExpression = r"https?://(w{3}\.)?([a-zA-Z0-9/-]+)(\.[a-zA-Z]+)"
         actual = reg.matchPatterns(pattern=regexExpression)
         patternX = re.compile(regexExpression)
         expected = []
