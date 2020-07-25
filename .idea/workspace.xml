@@ -46,7 +46,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnURLs">
+  <component name="RunManager" selected="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnSubDomainName">
     <configuration name="RegexModX" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,20 +82,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnFemaleNames" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_MatchPatternsReturnFemaleNames&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnPrefixNames" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,6 +93,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_MatchPatternsReturnPrefixNames&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnSubDomainName" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/test/RegexModXTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;RegexModXTest.RegExModCase.test_MatchPatternsReturnSubDomainName&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnSubDomainName" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnURLs" />
         <item itemvalue="Python.RegexModX" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnEmails" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnPrefixNames" />
-        <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnFemaleNames" />
       </list>
     </recent_temporary>
   </component>
