@@ -40,6 +40,16 @@ class Regex():
                     break
             return listMatch
 
+    def subGroupPatterns(self,pattern,string,indexs=[]):
+        if len(indexs) == 0:
+            return
+        else:
+            char = '\\'
+            for index in indexs:
+                char = char + str(index)
+                regexPattern = r'' + char
+            return pattern.sub(regexPattern,string)
+
     def pureMatchPatterns(self,pattern=r'abc'):
             patternX = re.compile(pattern)
             listMatch = []
