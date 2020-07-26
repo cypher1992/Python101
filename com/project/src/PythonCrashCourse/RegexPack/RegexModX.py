@@ -1,4 +1,4 @@
-import re
+from re import search,sub,compile
 class Regex():
 
     def __init__(self,string):
@@ -11,19 +11,19 @@ class Regex():
         self.string = string
 
     def isAllLetters(self,pattern="^[a-zA-Z]+$"):
-        if(re.search(pattern,self.getString())):
+        if(search(pattern,self.getString())):
             return True
         else:
             return False
 
     def isPatternOf(self,pattern = "[a-zA-Z]"):
-        if (re.search(pattern, self.getString())):
+        if (search(pattern, self.getString())):
             return True
         else:
             return False
 
     def matchPatterns(self,pattern=r'abc'):
-            patternX = re.compile(pattern)
+            patternX = compile(pattern)
             listMatch = []
             for match in patternX.finditer(self.getString()):
                 listMatch.append(match.start())
@@ -31,7 +31,7 @@ class Regex():
             return listMatch
 
     def matchPatternsGroups(self,pattern=r'abc',index = 0):
-            patternX = re.compile(pattern)
+            patternX = compile(pattern)
             listMatch = []
             for match in patternX.finditer(self.getString()):
                 try:
@@ -48,10 +48,10 @@ class Regex():
             for index in indexs:
                 char = char + str(index)
                 regexPattern = r'' + char
-            return pattern.sub(regexPattern,string)
+            return sub(pattern,regexPattern,string)
 
     def pureMatchPatterns(self,pattern=r'abc'):
-            patternX = re.compile(pattern)
+            patternX = compile(pattern)
             listMatch = []
             for match in patternX.finditer(self.getString()):
                 listMatch.append(match.group())

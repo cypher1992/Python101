@@ -734,3 +734,21 @@ class RegExModCase(unittest.TestCase):
             expected.append(match.group(3))
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_SubGroupPatternsReturnTopDomainName(self):
+        string = """
+        http://www.cartoonnetwork.com
+        http://www.nick.com
+        https://www.SocGen.net
+        https://www.youtube.gov
+        https://www.youtube.uk
+        https://youtube.uk
+        http://www.amandaplease.com
+        http://www.amanda-please.com
+        https://www.Ilovenum123.com"""
+        reg = Regex(string)
+        regexExpression = r"https?://(w{3}\.)?([a-zA-Z0-9/-]+)(\.[a-zA-Z]+)"
+        actual = reg.subGroupPatterns(pattern=regexExpression,string=string,indexs=[0])
+        expected = re.sub(regexExpression,r'\0', string)
+        print(actual)
+        self.assertEqual(actual, expected)
