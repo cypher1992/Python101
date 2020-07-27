@@ -1,4 +1,4 @@
-from re import search,sub,compile
+from re import search,sub,compile,findall
 class Regex():
 
     def __init__(self,string):
@@ -52,7 +52,7 @@ class Regex():
 
     def matchPatternsFindAll(self,pattern=r'abc'):
             patternX = compile(pattern)
-            matches = patternX.findAll(self.getString())
+            matches = patternX.findall(self.getString())
             return matches
 
     def pureMatchPatterns(self,pattern=r'abc'):
