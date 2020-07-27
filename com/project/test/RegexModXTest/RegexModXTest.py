@@ -753,7 +753,7 @@ class RegExModCase(unittest.TestCase):
         print(actual)
         self.assertEqual(actual, expected)
 
-    def test_SubGroupPatternsReturnTopDomainName(self):
+    def test_matchPatternsFindAllReturnListOfMatchStrings(self):
         string = """
         http://www.cartoonnetwork.com
         http://www.nick.com
@@ -766,6 +766,22 @@ class RegExModCase(unittest.TestCase):
         https://www.Ilovenum123.com"""
         reg = Regex(string)
         regexExpression = r"https?://(w{3}\.)?([a-zA-Z0-9/-]+)(\.[a-zA-Z]+)"
+        actual = reg.matchPatternsFindAll(pattern=regexExpression)
+        pattern = re.compile(regexExpression)
+        expected = pattern.findall(string)
+        print(actual)
+        self.assertEqual(actual, expected)
+
+    def test_matchPatternsFindAllReturnListOfPrefixName(self):
+        string = """Mr Roy roger
+        Mr. John Wayne
+        mr Ray Yaz
+        mr. Niz Hanif
+        Ms Rebecca Wong
+        Ms Fanny Reguieg
+        Ms Vanessa Ragubar"""
+        reg = Regex(string)
+        regexExpression = r"([mM][r|s|rs]\.?)(\s[A-Z]\w*)\s\w*"
         actual = reg.matchPatternsFindAll(pattern=regexExpression)
         pattern = re.compile(regexExpression)
         expected = pattern.findall(string)
