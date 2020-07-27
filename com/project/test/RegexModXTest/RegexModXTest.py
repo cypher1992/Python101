@@ -748,7 +748,7 @@ class RegExModCase(unittest.TestCase):
         https://www.Ilovenum123.com"""
         reg = Regex(string)
         regexExpression = r"https?://(w{3}\.)?([a-zA-Z0-9/-]+)(\.[a-zA-Z]+)"
-        actual = reg.subGroupPatterns(pattern=regexExpression,string=string,indexs=[0])
-        expected = re.sub(regexExpression,r'\0', string)
+        actual = reg.subGroupPatterns(pattern=regexExpression,string=string,indices=[1])
+        expected = re.sub(regexExpression,r'\1', string)
         print(actual)
         self.assertEqual(actual, expected)

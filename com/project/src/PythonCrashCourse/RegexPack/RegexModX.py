@@ -40,15 +40,20 @@ class Regex():
                     break
             return listMatch
 
-    def subGroupPatterns(self,pattern,string,indexs=[]):
-        if len(indexs) == 0:
+    def subGroupPatterns(self,pattern,string,indices=[]):
+        if len(indices) == 0:
             return
         else:
             char = '\\'
-            for index in indexs:
+            for index in indices:
                 char = char + str(index)
                 regexPattern = r'' + char
             return sub(pattern,regexPattern,string)
+
+    def matchPatternsFindAll(self,pattern=r'abc'):
+            patternX = compile(pattern)
+            matches = patternX.findAll(self.getString())
+            return matches
 
     def pureMatchPatterns(self,pattern=r'abc'):
             patternX = compile(pattern)
