@@ -787,3 +787,19 @@ class RegExModCase(unittest.TestCase):
         expected = pattern.findall(string)
         print(actual)
         self.assertEqual(actual, expected)
+
+    def test_matchPatternsFindAllReturnListOfPrefixLastName(self):
+        string = """Mr Roy roger
+        Mr. John Wayne
+        mr Ray Yaz
+        mr. Niz Hanif
+        Ms Rebecca Wong
+        Ms Fanny Reguieg
+        Ms Vanessa Ragubar"""
+        reg = Regex(string)
+        regexExpression = r"([mM][r|s|rs]\.?)\s[A-Z]\w*(\s\w*)"
+        actual = reg.matchPatternsFindAll(pattern=regexExpression)
+        pattern = re.compile(regexExpression)
+        expected = pattern.findall(string)
+        print(actual)
+        self.assertEqual(actual, expected)
