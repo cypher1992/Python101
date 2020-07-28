@@ -772,7 +772,7 @@ class RegExModCase(unittest.TestCase):
         print(actual)
         self.assertEqual(actual, expected)
 
-    def test_matchPatternsFindAllReturnListOfPrefixName(self):
+    def test_matchPatternsFindAllReturnListOfPrefixFirstName(self):
         string = """Mr Roy roger
         Mr. John Wayne
         mr Ray Yaz
