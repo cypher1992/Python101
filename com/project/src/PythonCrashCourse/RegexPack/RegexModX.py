@@ -22,8 +22,11 @@ class Regex():
         else:
             return False
 
-    def matchPatterns(self,pattern=r'abc'):
-            patternX = compile(pattern)
+    def matchPatterns(self,pattern=r'abc', flag = None):
+            if flag != None:
+                patternX = compile(pattern,flags=flag)
+            else:
+                patternX = compile(pattern)
             listMatch = []
             for match in patternX.finditer(self.getString()):
                 listMatch.append(match.start())
