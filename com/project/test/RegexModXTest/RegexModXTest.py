@@ -849,4 +849,27 @@ class RegExModCase(unittest.TestCase):
         print(actual)
         self.assertEqual(actual, expected)
 
+    def test_MatchPatternsReturnNoIgnoreCaseURLsSocieteGeneralLowerrCaseURLs(self):
+        string = """
+        http://www.cartoonnetwork.com
+        http://www.nick.com
+        https://www.SocGen.net
+        https://www.socgen.net
+        https://www.youtube.gov
+        https://www.youtube.uk
+        https://youtube.uk
+        http://www.amandaplease.com
+        http://www.amanda-please.com
+        https://www.Ilovenum123.com"""
+        reg = Regex(string)
+        regexExpression = r"https?://(w{3}\.)?([socgen]+)(\.[a-zA-Z]+)"
+        actual = reg.matchPatterns(pattern=regexExpression,flag= None)
+        patternX = re.compile(regexExpression)
+        expected = []
+        for match in patternX.finditer(string):
+            expected.append(match.start())
+            expected.append(match.group())
+        print(actual)
+        self.assertEqual(actual, expected)
+
 
