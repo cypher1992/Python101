@@ -8,7 +8,7 @@ def index():
 
 @app.route('/anotherpage')
 def anotherPage():
-    return render_template('templateanotherpage.html')
+    return render_template('anotherpage.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
