@@ -8,7 +8,7 @@ def index():
 
 @app.route('/anotherpage')
 def anotherPage():
-    return render_template('Python101\\com\\project\\src\\FlaskApp\\templateanotherpage.html')
+    return render_template('templateanotherpage.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

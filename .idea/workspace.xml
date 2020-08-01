@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eace9de-d50a-4817-9ebd-ad9a3e80c0a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FlaskApp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskApp/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlaskApp/templates/anotherpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/project/src/FlaskApp/template/anotherpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/project/src/FlaskApp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/FlaskApp/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/project/src/FlaskApp/template/anotherpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/com/project/src/FlaskApp/templates/anotherpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnNoIgnoreCaseURLsSocieteGeneralLowerrCaseURLs" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnURLsSocieteGeneralLowerrCaseURLs" />
         <item itemvalue="Python tests.Unittests for RegexModXTest.RegExModCase.test_MatchPatternsReturnURLs" />
@@ -177,22 +174,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="259" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596071309532" />
-    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1596248592156">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom" timestamp="1596248874549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596248592156" />
-    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1596248592155">
+    <state width="922" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596248874549" />
+    <state width="922" height="190" key="GridCell.Tab.0.center" timestamp="1596248874548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596248592155" />
-    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1596248592155">
+    <state width="922" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596248874548" />
+    <state width="922" height="190" key="GridCell.Tab.0.left" timestamp="1596248874548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596248592155" />
-    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1596248592155">
+    <state width="922" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596248874548" />
+    <state width="922" height="190" key="GridCell.Tab.0.right" timestamp="1596248874549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596248592155" />
+    <state width="922" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596248874549" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
