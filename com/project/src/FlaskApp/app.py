@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return '<h1>Hello!</h1>'
 
-@app.route('/AnotherPage')
+@app.route('/anotherpage')
 def anotherPage():
-    return render_template('anotherPage.html')
+    return render_template('Python101\\com\\project\\src\\FlaskApp\\templateanotherpage.html')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
