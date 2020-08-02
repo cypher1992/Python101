@@ -10,10 +10,13 @@ def index():
 def anotherPage():
     return render_template('anotherpage.html')
 
-
 @app.route('/profile/<name>')
 def profile(name):
     return 'This profile belows to %s' %name
+
+@app.route('/profileID/<int:id>')
+def profileID(id):
+    return 'This profile ID is %d' %id
 
 if __name__ == "__main__":
     app.run(debug=True)
