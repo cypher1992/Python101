@@ -18,5 +18,9 @@ def profile(name):
 def profileID(id):
     return 'This profile ID is %d' %id
 
+@app.route('/profile/admin')
+def admin():
+    return '<h1>admin page</h1>'
+
 if __name__ == "__main__":
     app.run(debug=True)
