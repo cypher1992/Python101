@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 
 app = Flask(__name__)
 
@@ -21,6 +21,14 @@ def profileID(id):
 @app.route('/profile/admin')
 def admin():
     return '<h1>admin page</h1>'
+
+@app.route('profile/<user>')
+def determine_User(user):
+    if(user == 'admin'):
+        return redirect(url_for('admin'))
+    else:
+        return redirect(url_for('profile',name=user))
+
 
 if __name__ == "__main__":
     app.run(debug=True)
