@@ -22,7 +22,7 @@ def profileID(id):
 def admin():
     return '<h1>admin page</h1>'
 
-@app.route('profile/<user>')
+@app.route('/profile/<user>')
 def determine_User(user):
     if(user == 'admin'):
         return redirect(url_for('admin'))
