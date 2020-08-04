@@ -29,5 +29,9 @@ def determine_User(user):
     else:
         return redirect(url_for('profile',name=user))
 
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
