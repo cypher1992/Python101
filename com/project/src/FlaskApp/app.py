@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, request
 
 app = Flask(__name__)
 
@@ -29,9 +29,15 @@ def determine_User(user):
     else:
         return redirect(url_for('profile',name=user))
 
-@app.route('/login')
+@app.route('/login',methods=['POST','GET'])
 def login():
-    return render_template('login.html')
-
+    if request.method == 'POST':
+        username = request.form['usrn']
+        password = request.form['password']
+        return redirect(url_for('determine_User',name=username))
+    else:
+        username = request.args.get('usrn')
+        password = request.args.get('password')
+        return redirect(url_for('determine_User', name=username))
 if __name__ == "__main__":
     app.run(debug=True)
