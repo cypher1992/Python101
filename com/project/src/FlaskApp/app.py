@@ -39,5 +39,10 @@ def login():
         username = request.args.get('usrn')
         password = request.args.get('password')
         return redirect(url_for('determine_User', name=username))
+
+@app.route('/login')
+def loginPage():
+    return render_template('login.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
