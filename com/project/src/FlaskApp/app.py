@@ -29,17 +29,16 @@ def determine_User(user):
     else:
         return redirect(url_for('profile',name=user))
 
-
 @app.route('/login',methods=['POST','GET'])
 def login():
     if request.method == 'POST':
         username = request.form['usrn']
         password = request.form['password']
-        return redirect(url_for('determine_User',name=username))
+        return redirect(url_for('determine_User',user=username))
     else:
         username = request.args.get('usrn')
         password = request.args.get('password')
-        return redirect(url_for('determine_User', name=username))
+        return redirect(url_for('determine_User', user=username))
 
 @app.route('/loginpage')
 def loginPage():
