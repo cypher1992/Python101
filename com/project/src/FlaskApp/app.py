@@ -44,7 +44,7 @@ def login():
 def loginPage():
     return render_template('loginpage.html')
 
-@app.route('/welcomepage')
+@app.route('/welcomepage/<username>')
 def welcomePage(username):
     if (username == "admin" or username == "Admin"):
         return render_template('welcomepage.html',name = "BIGBOSSADMIN")
