@@ -51,5 +51,9 @@ def welcomePage(username):
     else:
         return render_template('welcomepage.html',name = username)
 
+@app.route('/alertpage')
+def alertpage():
+    return render_template('alertpage.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
