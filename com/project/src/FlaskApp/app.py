@@ -59,5 +59,9 @@ def alertpage():
 def studentpage():
     return render_template('student.html')
 
+@app.route('/results')
+def resultpage():
+    return render_template('student.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
