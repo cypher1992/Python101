@@ -64,5 +64,9 @@ def resultpage():
     results = request.form
     return render_template('resultstudent.html',result =results)
 
+@app.route('/ticker')
+def tickerpage():
+    return render_template('tickerrequest.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
