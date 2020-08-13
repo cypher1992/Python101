@@ -68,5 +68,11 @@ def resultpage():
 def tickerpage():
     return render_template('tickerrequest.html')
 
+@app.route('/tickerrequest',methods =['POST','PUT'])
+def resultpage():
+    results = request.form
+    return render_template('tickerrequest.html',result =results)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
