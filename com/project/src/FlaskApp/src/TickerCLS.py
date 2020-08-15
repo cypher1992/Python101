@@ -14,4 +14,6 @@ class ListTicker:
 
     def getTickersPermitted(self):
         return self.tickersPermitted
-    
+
+    def getTickersNotPermitted(self):
+        return self.tickersNotPermitted
