@@ -1,5 +1,6 @@
 class ListTicker:
 
+
     def __init__(self,tickersPermitted=None,tickersNotPermitted=None):
 
         if(tickersPermitted != None and tickersNotPermitted != None):
@@ -10,3 +11,7 @@ class ListTicker:
         else:
             self.tickersPermitted = tickersPermitted
 
+
+    def getTickersPermitted(self):
+        return self.tickersPermitted
+    
