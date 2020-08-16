@@ -20,3 +20,6 @@ class ListTicker:
 
     def setTickersPermitted(self, newTickersPermitted):
         self.tickersPermitted = newTickersPermitted
+
+    def setTickersPermitted(self, newTickersPermitted):
+        self.tickersPermitted = newTickersPermitted
