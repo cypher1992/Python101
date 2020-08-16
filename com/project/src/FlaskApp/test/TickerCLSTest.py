@@ -3,4 +3,9 @@ from com.project.src.FlaskApp.src.TickerCLS import ListTicker
 
 class ListTickerTest(unittest.TestCase):
 
-    pass
+    def test_getTickersPermittedExpectedEmptyList(self):
+        stringList = []
+        lt = ListTicker(tickersPermitted=stringList)
+        actual = lt.getTickersPermitted()
+        expected = []
+        self.assertEqual(actual,expected)
