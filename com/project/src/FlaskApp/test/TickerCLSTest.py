@@ -9,3 +9,10 @@ class ListTickerTest(unittest.TestCase):
         actual = lt.getTickersPermitted()
         expected = []
         self.assertEqual(actual,expected)
+
+    def test_getTickersNotPermittedExpectedEmptyList(self):
+        stringList = []
+        lt = ListTicker(tickersNotPermitted=stringList)
+        actual = lt.getTickersNotPermitted()
+        expected = []
+        self.assertEqual(actual,expected)
