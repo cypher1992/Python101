@@ -48,7 +48,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedList">
+  <component name="RunManager" selected="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersPermittedExpectedList">
     <configuration name="Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedEmptyList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersPermittedExpectedList" />
+        <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedEmptyList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersPermittedExpectedEmptyList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersPermitted" />

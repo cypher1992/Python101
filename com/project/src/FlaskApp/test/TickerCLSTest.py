@@ -17,6 +17,13 @@ class ListTickerTest(unittest.TestCase):
         expected = ['JPM']
         self.assertEqual(actual,expected)
 
+    def test_getTickersPermittedExpectedList(self):
+        stringList = ['JPM','BAC']
+        lt = ListTicker(tickersPermitted=stringList)
+        actual = lt.getTickersPermitted()
+        expected = ['JPM','BAC']
+        self.assertEqual(actual,expected)
+
     def test_getTickersNotPermittedExpectedEmptyList(self):
         stringList = []
         lt = ListTicker(tickersNotPermitted=stringList)
