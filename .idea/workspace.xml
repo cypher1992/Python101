@@ -48,21 +48,7 @@
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_setTickersPermittedExceptedEmptyList">
-    <configuration name="Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedEmptyList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/FlaskApp/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedEmptyList&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_setTickersNotPermittedExceptedList">
     <configuration name="Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +74,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;TickerCLSTest.ListTickerTest.test_getTickersPermittedExpectedList&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TickerCLSTest.ListTickerTest.test_setTickersNotPermittedExceptedList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/project/src/FlaskApp/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TickerCLSTest.ListTickerTest.test_setTickersNotPermittedExceptedList&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_setTickersNotPermittedExceptedList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_setTickersPermittedExceptedEmptyList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_setTickersPermittedExceptedList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersPermittedExpectedList" />
         <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedList" />
-        <item itemvalue="Python tests.Unittests for TickerCLSTest.ListTickerTest.test_getTickersNotPermittedExpectedEmptyList" />
       </list>
     </recent_temporary>
   </component>
