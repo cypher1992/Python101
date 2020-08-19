@@ -54,3 +54,10 @@ class ListTickerTest(unittest.TestCase):
         expected = []
         self.assertEqual(actual,expected)
 
+    def test_setTickersNotPermittedExpectedList(self):
+        stringList = []
+        lt = ListTicker(tickersNotPermitted=stringList)
+        lt.setTickersNotPermitted(['IRAN'])
+        actual = lt.getTickersNotPermitted()
+        expected = ['IRAN']
+        self.assertEqual(actual,expected)
