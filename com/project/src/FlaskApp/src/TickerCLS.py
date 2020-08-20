@@ -24,7 +24,7 @@ class ListTicker:
     def setTickersNotPermitted(self, newTickersNotPermitted):
         self.tickersNotPermitted = newTickersNotPermitted
 
-    def isValidTicker(self,ticker):
+    def isNotValidTicker(self,ticker):
         if ticker in self.getTickersNotPermitted():
             return True
         else:
