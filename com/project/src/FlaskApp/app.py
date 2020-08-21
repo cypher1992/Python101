@@ -1,4 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, request
+from com.project.src.FlaskApp.src.TickerCLS import ListTicker
 
 app = Flask(__name__)
 
@@ -70,6 +71,9 @@ def tickerpage():
 
 @app.route('/result',methods =['POST','PUT'])
 def tickerrequestpage():
+    permitted_Tickers = ['BX', 'JPM', 'WFC', 'GS', 'SG']
+    notPermitted_Tickers = ['IRAN', 'BB', 'COKE', 'JB']
+    lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
     results = request.form
     print(results)
     return render_template('tickerpage.html',result =results)
