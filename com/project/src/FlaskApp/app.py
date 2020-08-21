@@ -75,7 +75,10 @@ def tickerrequestpage():
     notPermitted_Tickers = ['IRAN', 'BB', 'COKE', 'JB']
     lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
     results = request.form
-    print(results)
+    for ticker in results:
+         isNotValid = lt.isNotValidTicker(ticker)
+         if(isNotValid):
+             print(isNotValid)
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
