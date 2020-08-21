@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, request
 from com.project.src.FlaskApp.src.TickerCLS import ListTicker
+import logging
 
 app = Flask(__name__)
 
@@ -79,7 +80,10 @@ def tickerrequestpage():
          isNotValid = lt.isNotValidTicker(ticker)
          if(isNotValid):
              print(isNotValid)
+         else:
+            print(isNotValid)
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG)
     app.run(debug=True)
