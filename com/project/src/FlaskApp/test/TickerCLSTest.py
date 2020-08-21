@@ -84,3 +84,10 @@ class ListTickerTest(unittest.TestCase):
         lt = ListTicker(tickersNotPermitted=notPermitted)
         actual = lt.isNotValidTicker(ticker)
         self.assertTrue(actual)
+
+    def test_isNotValidTickerReturnsFalse(self):
+        notPermitted = ['Iran']
+        ticker = 'BX'
+        lt = ListTicker(tickersNotPermitted=notPermitted)
+        actual = lt.isNotValidTicker(ticker)
+        self.assertFalse(actual)
