@@ -76,12 +76,13 @@ def tickerrequestpage():
     notPermitted_Tickers = ['IRAN', 'BB', 'COKE', 'JB']
     lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
     results = request.form
+    logging.getLogger().setLevel(logging.INFO)
     for ticker in results:
          isNotValid = lt.isNotValidTicker(ticker)
          if(isNotValid):
-             print(isNotValid)
+            logging.info(isNotValid)
          else:
-            print(isNotValid)
+            logging.info(isNotValid)
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
