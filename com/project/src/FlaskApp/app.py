@@ -80,7 +80,7 @@ def tickerrequestpage():
     for ticker in results:
          isNotValid = lt.isNotValidTicker(ticker)
          if(isNotValid):
-            logging.info(isNotValid)
+            app.logger.info(isNotValid)
          else:
             logging.info(isNotValid)
     return render_template('tickerpage.html',result =results)
