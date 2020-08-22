@@ -1,8 +1,10 @@
 from flask import Flask, render_template, redirect, url_for, request
 from com.project.src.FlaskApp.src.TickerCLS import ListTicker
-import logging
+from logging import WARNING,FileHandler
 
 app = Flask(__name__)
+file_handler = FileHandler('errorlog.txt')
+file_handler.setLevel(WARNING)
 
 @app.route('/')
 def index():
@@ -76,7 +78,6 @@ def tickerrequestpage():
     notPermitted_Tickers = ['IRAN', 'BB', 'COKE', 'JB']
     lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
     results = request.form
-    logging.getLogger().setLevel(logging.INFO)
     for ticker in results:
          isNotValid = lt.isNotValidTicker(ticker)
          if(isNotValid):
@@ -86,5 +87,4 @@ def tickerrequestpage():
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
     app.run(debug=True)
