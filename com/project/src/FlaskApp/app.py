@@ -8,6 +8,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 @app.route('/')
 def index():
+    app.logger.info(str(dir(logging)))
     return '<h1>Hello!</h1>'
 
 @app.route('/anotherpage')
