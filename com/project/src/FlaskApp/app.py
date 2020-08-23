@@ -1,13 +1,8 @@
 from flask import Flask, render_template, redirect, url_for, request
 from com.project.src.FlaskApp.src.TickerCLS import ListTicker
-from logging import INFO,FileHandler,WARNING,DEBUG,basicConfig,debug
+import logging
 
 app = Flask(__name__)
-basicConfig(level=DEBUG)
-#file_handler = FileHandler('errorlog.txt')
-#file_handler.setLevel(INFO)
-
-#app.logger.addHandler(file_handler)
 
 @app.route('/')
 def index():

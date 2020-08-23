@@ -33,20 +33,21 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/project/src/FlaskApp" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\FlaskApp" />
+      <recent name="C:\Users\Zero\PycharmProjects\Python101" />
+      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com" />
       <recent name="C:\Users\Zero\PycharmProjects\Python101" />
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\UnitTesting\GatherDataTest" />
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\Experimentation\GatherDataWithThreads" />
       <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\UnitTesting\IOTest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zero\PycharmProjects\Python101" />
-      <recent name="C:\Users\Zero\PycharmProjects\Python101\com\project\src\PythonCrashCourse\IOPuts\Resource" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
@@ -173,22 +174,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="259" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596071309532" />
-    <state width="922" height="272" key="GridCell.Tab.0.bottom" timestamp="1598143870121">
+    <state width="922" height="272" key="GridCell.Tab.0.bottom" timestamp="1598144128646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598143870121" />
-    <state width="922" height="272" key="GridCell.Tab.0.center" timestamp="1598143870121">
+    <state width="922" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598144128646" />
+    <state width="922" height="272" key="GridCell.Tab.0.center" timestamp="1598144128646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598143870121" />
-    <state width="922" height="272" key="GridCell.Tab.0.left" timestamp="1598143870120">
+    <state width="922" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598144128646" />
+    <state width="922" height="272" key="GridCell.Tab.0.left" timestamp="1598144128646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598143870120" />
-    <state width="922" height="272" key="GridCell.Tab.0.right" timestamp="1598143870121">
+    <state width="922" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598144128646" />
+    <state width="922" height="272" key="GridCell.Tab.0.right" timestamp="1598144128646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="922" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598143870121" />
+    <state width="922" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598144128646" />
     <state x="1247" y="229" key="RollbackChangesDialog" timestamp="1592792065750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
