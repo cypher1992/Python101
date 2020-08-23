@@ -4,6 +4,8 @@ import logging
 
 app = Flask(__name__)
 
+logging.basicConfig(filename='debug.log',level=logging.DEBUG)
+
 @app.route('/')
 def index():
     return '<h1>Hello!</h1>'
@@ -79,9 +81,9 @@ def tickerrequestpage():
     for ticker in results:
          isNotValid = lt.isNotValidTicker(ticker)
          if(isNotValid):
-            debug(isNotValid)
+            logging.debug(str(isNotValid))
          else:
-            debug(isNotValid)
+            logging.debug(str(isNotValid))
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
