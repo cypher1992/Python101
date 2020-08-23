@@ -1,25 +1,10 @@
 from flask import Flask, render_template, redirect, url_for, request
 from com.project.src.FlaskApp.src.TickerCLS import ListTicker
-from logging.config import dictConfig
-dictConfig({
-    'version': 1,
-    'formatters': {'default': {
-        'format': '[%(asctime)s] %(levelname)s in %(module)s: %(message)s',
-    }},
-    'handlers': {'wsgi': {
-        'class': 'logging.StreamHandler',
-        'stream': 'ext://flask.logging.wsgi_errors_stream',
-        'formatter': 'default'
-    }},
-    'root': {
-        'level': 'DEBUG',
-        'handlers': ['wsgi']
-    }
-})
+import logging
 
 app = Flask(__name__)
-
-#logging.basicConfig(filename='debug.log',level=logging.DEBUG)
+#filename='debug.log'
+logging.basicConfig(level=logging.DEBUG)
 
 @app.route('/')
 def index():
@@ -102,4 +87,5 @@ def tickerrequestpage():
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    #app.run(debug=True) - inorder for logger to work need to turn off debug
+    app.run()
