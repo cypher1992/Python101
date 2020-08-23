@@ -17,3 +17,5 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 125-180-081
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [22/Aug/2020 21:04:13] "[37mPOST /result HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zero\\PycharmProjects\\Python101\\com\\project\\src\\FlaskApp\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
