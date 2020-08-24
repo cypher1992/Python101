@@ -75,16 +75,8 @@ def tickerpage():
 
 @app.route('/result',methods =['POST','PUT'])
 def tickerrequestpage():
-    permitted_Tickers = ['BX', 'JPM', 'WFC', 'GS', 'SG']
-    notPermitted_Tickers = ['IRAN', 'BB', 'COKE', 'JB']
-    lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
+    app.logger.debug("TEST")
     results = request.form
-    for ticker in results:
-         isNotValid = lt.isNotValidTicker(ticker)
-         if(isNotValid):
-            app.logger.debug(str(isNotValid))
-         else:
-            app.logger.debug(str(isNotValid))
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
