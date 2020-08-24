@@ -66,6 +66,7 @@ def studentpage():
 
 @app.route('/result',methods =['POST','PUT'])
 def resultpage():
+    app.logger.info(str(dir(logging)))
     results = request.form
     return render_template('resultstudent.html',result =results)
 
@@ -73,9 +74,8 @@ def resultpage():
 def tickerpage():
     return render_template('tickerrequest.html')
 
-@app.route('/result',methods =['POST','PUT'])
+@app.route('/resultTicker',methods =['POST','PUT'])
 def tickerrequestpage():
-    app.logger.debug("TEST")
     results = request.form
     return render_template('tickerpage.html',result =results)
 
