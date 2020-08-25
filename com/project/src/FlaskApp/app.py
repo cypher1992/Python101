@@ -80,7 +80,7 @@ def tickerrequestpage():
     notPermitted_Tickers = ['IRAN', 'BB', 'COKE', 'JB']
     lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
     #results = request.form
-    results = request.args.getlist('stock[]')
+    results = request.args.getlist()
     app.logger.info(results)
     for ticker in results:
          app.logger.debug(ticker)
