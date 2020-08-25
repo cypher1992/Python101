@@ -66,7 +66,6 @@ def studentpage():
 
 @app.route('/result',methods =['POST','PUT'])
 def resultpage():
-    app.logger.info(str(dir(logging)))
     results = request.form
     return render_template('resultstudent.html',result =results)
 
@@ -76,7 +75,18 @@ def tickerpage():
 
 @app.route('/resultTicker',methods =['POST','PUT'])
 def tickerrequestpage():
+    app.logger.debug("TESt")
+    permitted_Tickers = ['BX', 'JPM', 'WFC', 'GS', 'SG']
+    notPermitted_Tickers = ['IRAN', 'BB', 'COKE', 'JB']
+    lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
     results = request.form
+    app.logger.info(results)
+    for ticker in results:
+         isNotValid = lt.isNotValidTicker(ticker)
+         if(isNotValid):
+            app.logger.debug(str(isNotValid))
+         else:
+            app.logger.debug(str(isNotValid))
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
