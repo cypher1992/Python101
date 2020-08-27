@@ -81,7 +81,7 @@ def tickerrequestpage():
     lt = ListTicker(tickersPermitted=permitted_Tickers, tickersNotPermitted=notPermitted_Tickers)
     results = request.form.to_dict()
     dictOfValues = request.form.to_dict()
-    listOfValues = dictOfValues.values()
+    listOfValues = dictOfValues.keys()
     app.logger.info(listOfValues)
     for ticker in listOfValues:
          app.logger.debug(ticker)
@@ -90,6 +90,7 @@ def tickerrequestpage():
             app.logger.debug(str(isNotValid))
          else:
             app.logger.debug(str(isNotValid))
+            del results[ticker]
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
