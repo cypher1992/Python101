@@ -89,6 +89,7 @@ def tickerrequestpage():
          if(isNotValid):
             app.logger.debug(str(isNotValid))
             del results[ticker]
+            app.logger.warn("REMOVING TICKER " + ticker + "WITH VALUE " +)
          else:
             app.logger.debug(str(isNotValid))
     return render_template('tickerpage.html',result =results)
