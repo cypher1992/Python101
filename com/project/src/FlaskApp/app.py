@@ -85,12 +85,12 @@ def tickerrequestpage():
     app.logger.info(listOfValues)
     for ticker in listOfValues:
          app.logger.debug(ticker)
-         isNotValid = lt.isNotValidTicker(ticker)
+         isNotValid = lt.isNotValidTicker(results[ticker])
          if(isNotValid):
             app.logger.debug(str(isNotValid))
+            del results[ticker]
          else:
             app.logger.debug(str(isNotValid))
-            del results[ticker]
     return render_template('tickerpage.html',result =results)
 
 if __name__ == "__main__":
