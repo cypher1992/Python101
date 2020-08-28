@@ -73,6 +73,10 @@ def resultpage():
 def tickerpage():
     return render_template('tickerrequest.html')
 
+@app.route('/loginpagecookie')
+def loginpagecookie():
+    return render_template('loginpagecookie.html')
+
 @app.route('/resultTicker',methods =['POST','PUT'])
 def tickerrequestpage():
     app.logger.debug("TESt")
