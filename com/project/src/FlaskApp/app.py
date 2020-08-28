@@ -88,11 +88,13 @@ def tickerrequestpage():
          isNotValid = lt.isNotValidTicker(results[ticker])
          if(isNotValid):
             app.logger.debug(str(isNotValid))
+            app.logger.warn("REMOVING TICKER " + ticker + "WITH VALUE " + results[ticker])
             del results[ticker]
-            app.logger.warn("REMOVING TICKER " + ticker + "WITH VALUE " +)
          else:
             app.logger.debug(str(isNotValid))
     return render_template('tickerpage.html',result =results)
+
+
 
 if __name__ == "__main__":
     #app.run(debug=True) - inorder for logger to work need to turn off debug
