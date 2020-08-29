@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, redirect, url_for, request, make_response
 from com.project.src.FlaskApp.src.TickerCLS import ListTicker
 import logging
 
@@ -73,10 +73,6 @@ def resultpage():
 def tickerpage():
     return render_template('tickerrequest.html')
 
-@app.route('/loginpagecookie')
-def loginpagecookie():
-    return render_template('loginpagecookie.html')
-
 @app.route('/resultTicker',methods =['POST','PUT'])
 def tickerrequestpage():
     app.logger.debug("TESt")
@@ -98,7 +94,18 @@ def tickerrequestpage():
             app.logger.debug(str(isNotValid))
     return render_template('tickerpage.html',result =results)
 
+@app.route('/loginpagecookie')
+def loginpagecookie():
+    return render_template('loginpagecookie.html')
 
+@app.route('/setcookie',method=['POST','GET'])
+def setcookie():
+    if request.method == 'POST':
+        user = request.form['nm']
+        pw = request.form['pw']
+        
+        resp = make_response(render_template('readcookie.html'))
+        resp.set_cookie('userID',user)
 
 if __name__ == "__main__":
     #app.run(debug=True) - inorder for logger to work need to turn off debug
