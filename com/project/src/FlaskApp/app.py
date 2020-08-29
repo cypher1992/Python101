@@ -103,9 +103,12 @@ def setcookie():
     if request.method == 'POST':
         user = request.form['nm']
         pw = request.form['pw']
+        admin = 'admin'
+        password = 'password'
+        if(user == admin and password == pw ):
+            resp = make_response(render_template('readcookie.html'))
+            resp.set_cookie('userID',user)
         
-        resp = make_response(render_template('readcookie.html'))
-        resp.set_cookie('userID',user)
 
 if __name__ == "__main__":
     #app.run(debug=True) - inorder for logger to work need to turn off debug
