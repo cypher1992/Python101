@@ -108,6 +108,9 @@ def setcookie():
         if(user == admin and password == pw ):
             resp = make_response(render_template('readcookie.html'))
             resp.set_cookie('userID',user)
+            return resp
+        else:
+            return None
 
 @app.route('/getcookie',methods=['POST','GET'])
 def getcookie():
