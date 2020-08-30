@@ -109,7 +109,7 @@ def setcookie():
             resp = make_response(render_template('readcookie.html'))
             resp.set_cookie('userID',user)
 
-@app.route('/getcookie',method=['POST','GET'])
+@app.route('/getcookie',methods=['POST','GET'])
 def getcookie():
     name = request.cookies.get("userID")
     return '<h1>Hello + name + </h1>'
