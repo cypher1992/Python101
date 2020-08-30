@@ -98,7 +98,7 @@ def tickerrequestpage():
 def loginpagecookie():
     return render_template('loginpagecookie.html')
 
-@app.route('/setcookie',method=['POST','GET'])
+@app.route('/setcookie',methods=['POST','GET'])
 def setcookie():
     if request.method == 'POST':
         user = request.form['nm']
@@ -113,7 +113,6 @@ def setcookie():
 def getcookie():
     name = request.cookies.get("userID")
     return '<h1>Hello + name + </h1>'
-
 
 if __name__ == "__main__":
     #app.run(debug=True) - inorder for logger to work need to turn off debug
