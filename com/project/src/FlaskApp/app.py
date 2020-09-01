@@ -115,7 +115,7 @@ def setcookie():
 @app.route('/getcookie',methods=['POST','GET'])
 def getcookie():
     name = request.cookies.get("userID")
-    return '<h1>Hello + name + </h1>'
+    return '<h1>Hello ' + name + '</h1>'
 
 if __name__ == "__main__":
     #app.run(debug=True) - inorder for logger to work need to turn off debug
